@@ -50,8 +50,29 @@ check('Node edit page keeps the chrome and sits right of the sidebar', edit.chro
 await p.goto(`${BASE}/`, { waitUntil: 'domcontentloaded' });
 check('Front page shows the chrome for the admin', !!(await p.$('#wp-admin-sidebar')) && !!(await p.$('#wp-admin-bar')));
 
-// Mobile.
-const m = await (await b.newContext({ viewport: { width: 768, height: 1024 } })).newPage();
+// Site-name link: to the site while in the admin, to the dashboard while on the site.
+await p.goto(`${BASE}/wp-admin`, { waitUntil: 'domcontentloaded' });
+const adminHref = await p.$eval('.wp-admin-bar__item--site > a', (a) => a.getAttribute('href'));
+await p.goto(`${BASE}/`, { waitUntil: 'domcontentloaded' });
+const frontHref = await p.$eval('.wp-admin-bar__item--site > a', (a) => a.getAttribute('href'));
+check('Site-name link goes to the site from the admin and to the dashboard from the site', !/wp-admin/.test(adminHref) && /wp-admin$/.test(frontHref), `${adminHref} | ${frontHref}`);
+
+// Login lands on the dashboard.
+const fresh = await (await b.newContext({ viewport: { width: 1440, height: 900 } })).newPage();
+await fresh.goto(`${BASE}/user/login`); await fresh.fill('#edit-name', 'admin'); await fresh.fill('#edit-pass', 'admin'); await fresh.click('#edit-submit'); await fresh.waitForLoadState('domcontentloaded');
+check('Login lands on /wp-admin', /\/wp-admin$/.test(fresh.url()), fresh.url());
+
+// WordPress breakpoints: icons only between 783 and 960px.
+const narrow = await (await b.newContext({ viewport: { width: 900, height: 900 } })).newPage();
+await narrow.goto(`${BASE}/user/login`); await narrow.fill('#edit-name', 'admin'); await narrow.fill('#edit-pass', 'admin'); await narrow.click('#edit-submit'); await narrow.waitForLoadState('domcontentloaded');
+await narrow.goto(`${BASE}/wp-admin`, { waitUntil: 'domcontentloaded' });
+const n = await narrow.evaluate(() => { const sb = document.querySelector('#wp-admin-sidebar'); const lbl = document.querySelector('.wp-admin-menu__item--posts .wp-admin-menu__label'); return { width: Math.round(sb.getBoundingClientRect().width), labelW: Math.round(lbl.getBoundingClientRect().width), pad: parseInt(getComputedStyle(document.body).paddingLeft, 10) }; });
+await narrow.hover('.wp-admin-menu__item--posts > a'); await narrow.waitForTimeout(200);
+const nf = await narrow.evaluate(() => { const ul = document.querySelector('.wp-admin-menu__item--posts .wp-admin-submenu'); return { display: getComputedStyle(ul).display, left: Math.round(ul.getBoundingClientRect().left) }; });
+check('900px: icon-only 36px sidebar, labels hidden, flyout on hover', n.width === 36 && n.labelW <= 1 && n.pad === 36 && nf.display !== 'none' && nf.left >= 36, JSON.stringify({ ...n, ...nf }));
+
+// Mobile (below 783px).
+const m = await (await b.newContext({ viewport: { width: 700, height: 1024 } })).newPage();
 await m.goto(`${BASE}/user/login`); await m.fill('#edit-name', 'admin'); await m.fill('#edit-pass', 'admin'); await m.click('#edit-submit'); await m.waitForLoadState('domcontentloaded');
 await m.goto(`${BASE}/wp-admin`, { waitUntil: 'domcontentloaded' });
 const hiddenBefore = await m.evaluate(() => getComputedStyle(document.querySelector('#wp-admin-sidebar')).display === 'none');

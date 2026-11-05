@@ -130,6 +130,22 @@ function wp_admin_init() {
 }
 
 /**
+ * Implements hook_user_login().
+ *
+ * WordPress lands on the dashboard after login; so do users of the
+ * WordPress-style admin, unless the request names another destination.
+ */
+function wp_admin_user_login(&$edit, $account) {
+  if (!user_access('access wp admin', $account)) {
+    return;
+  }
+  // Core's Dashboard module sets admin/dashboard before this runs; replace it.
+  if (empty($_GET['destination']) || $_GET['destination'] === 'admin/dashboard') {
+    $_GET['destination'] = 'wp-admin';
+  }
+}
+
+/**
  * Whether the current user sees the WordPress-style admin chrome.
  */
 function wp_admin_active() {

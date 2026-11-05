@@ -652,6 +652,30 @@
             "empty_zero": 0,
             "link_to_node": 1
           },
+          "type": {
+            "id": "type",
+            "table": "node",
+            "field": "type",
+            "relationship": "none",
+            "group_type": "group",
+            "ui_name": "",
+            "label": "Type",
+            "exclude": 0,
+            "element_type": "",
+            "element_class": "",
+            "element_label_type": "",
+            "element_label_class": "",
+            "element_label_colon": 0,
+            "element_wrapper_type": "",
+            "element_wrapper_class": "",
+            "element_default_classes": 1,
+            "empty": "",
+            "hide_empty": 0,
+            "empty_zero": 0,
+            "hide_alter_empty": 1,
+            "link_to_node": 0,
+            "machine_name": 0
+          },
           "name": {
             "id": "name",
             "table": "users",
@@ -927,6 +951,7 @@
           "columns": {
             "bulk_form": "bulk_form",
             "title": "title",
+            "type": "type",
             "name": "name",
             "field_category": "field_category",
             "field_tags": "field_tags",
@@ -947,6 +972,14 @@
               "responsive": ""
             },
             "title": {
+              "sortable": 1,
+              "default_sort_order": "asc",
+              "align": "",
+              "separator": "",
+              "empty_column": 0,
+              "responsive": ""
+            },
+            "type": {
               "sortable": 1,
               "default_sort_order": "asc",
               "align": "",
@@ -1082,7 +1115,9 @@
             "ui_name": "",
             "operator": "in",
             "value": {
-              "post": "post"
+              "post": "post",
+              "animal": "animal",
+              "habitat": "habitat"
             },
             "group": "1",
             "exposed": false

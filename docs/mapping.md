@@ -42,7 +42,7 @@ Backdrop has no recipes, so everything is the `wp_admin` module:
 | WordPress menu | Backdrop target | Kind |
 |---|---|---|
 | Dashboard | `/wp-admin` dashboard | adapted |
-| Posts | `/wp-admin/posts` (View: type post) | view |
+| Posts | `/wp-admin/posts` (View: posts, animals and habitats together, with a Type column) | view |
 | Media | `admin/content/files` (Manage files) | direct |
 | Pages | `/wp-admin/pages` (View: type page) | view |
 | *(custom type)* Animals | `/wp-admin/animals` | view |
@@ -64,7 +64,7 @@ module page/form built on Backdrop pieces · **explained** = module page describ
 | 1 | Dashboard → Home | `/wp-admin`: Welcome, Site Health Status (requirements), At a Glance, Activity, Quick Draft (unpublished post), Backdrop Events and News | adapted |
 | 2 | Dashboard → Updates | `admin/reports/updates` | direct |
 | 3 | Site Health → Info | `admin/reports/status` (Status report) | direct |
-| 4 | Posts → All Posts | `/wp-admin/posts` | view |
+| 4 | Posts → All Posts | `/wp-admin/posts`: posts, animals and habitats with a Type column (animals and habitats also have their own menus) | view |
 | 5 | Posts → Add Post | `node/add/post` | direct |
 | 6 | Posts → Categories | `/wp-admin/posts/categories` (new `category` vocabulary; add form beside the term table) | adapted |
 | 7 | Posts → Tags | `/wp-admin/posts/tags` (`tags` vocabulary) | adapted |
@@ -110,8 +110,8 @@ module page/form built on Backdrop pieces · **explained** = module page describ
 
 | WordPress | Backdrop, with the module |
 |---|---|
-| Dark left menu, 160px, blue current item, children inline, separators after Dashboard and Comments | `#wp-admin-sidebar` from `hook_preprocess_page()` with `css/wp-admin-chrome.css`; current item by internal path or alias; flyouts on hover for other items; mobile burger |
-| Black admin bar: logo menu, site name, Comments count, + New, Howdy | `#wp-admin-bar`: "B" logo menu (About Backdrop, Backdrop Administration, Documentation, Support), site name → front (Visit Site, Dashboard, Themes, Layouts, Menus), Comments in moderation, + New (Post, Media, Page, Animal, Habitat, User), Howdy (Edit Profile, View Profile, Log Out) |
+| Dark left menu, 160px, blue current item, children inline, separators after Dashboard and Comments; icons only below 960px, hidden below 783px | `#wp-admin-sidebar` from `hook_preprocess_page()` with `css/wp-admin-chrome.css`; current item by internal path or alias; flyouts on hover for other items; WordPress's breakpoints (160px above 960px, 36px icon-only 783–960px, burger below 783px) |
+| Black admin bar: logo menu, site name (to the site from the admin, to the dashboard from the site), Comments count, + New, Howdy; login lands on the dashboard | `#wp-admin-bar` (`hook_user_login()` sends wp-admin users to `/wp-admin`): "B" logo menu (About Backdrop, Backdrop Administration, Documentation, Support), site name → front (Visit Site, Dashboard, Themes, Layouts, Menus), Comments in moderation, + New (Post, Media, Page, Animal, Habitat, User), Howdy (Edit Profile, View Profile, Log Out) |
 | Backdrop's own admin bar | Suppressed for `access wp admin` users via `admin_bar_suppress()`; other users keep it |
 | Dashboard welcome panel with Dismiss | "Welcome to bd-admin!", a `<details>` element |
 | Content area | Stays Seven |

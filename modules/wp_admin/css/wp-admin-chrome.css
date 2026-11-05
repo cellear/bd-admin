@@ -18,8 +18,12 @@
 
 /* Make room for the chrome. */
 html.wp-admin-chrome body { padding-top: var(--wp-bar-height); }
-@media (min-width: 1024px) {
+/* WordPress breakpoints: full menu above 960px, icons only 783-960px, hidden below 783px. */
+@media (min-width: 961px) {
   html.wp-admin-chrome body { padding-left: var(--wp-sidebar-width); }
+}
+@media (min-width: 783px) and (max-width: 960px) {
+  html.wp-admin-chrome body { padding-left: 36px; }
 }
 html.wp-admin-chrome { scroll-padding-top: var(--wp-bar-height); }
 /* Backdrop's own admin bar is suppressed for these users; hide any leftover. */
@@ -127,7 +131,7 @@ html.wp-admin-chrome #admin-bar { display: none !important; }
 .wp-admin-submenu a:focus { color: var(--wp-color-link-hover); }
 .wp-admin-submenu__item--current a { color: #fff; font-weight: 600; }
 .wp-admin-menu__item--current > .wp-admin-submenu { display: block; }
-@media (min-width: 1024px) {
+@media (min-width: 783px) {
   .wp-admin-menu__item { position: relative; }
   .wp-admin-menu__item--has-children:not(.wp-admin-menu__item--current):hover > .wp-admin-submenu,
   .wp-admin-menu__item--has-children:not(.wp-admin-menu__item--current):focus-within > .wp-admin-submenu {
@@ -136,8 +140,21 @@ html.wp-admin-chrome #admin-bar { display: none !important; }
   }
 }
 
-/* ---------- Mobile: sidebar hidden behind the burger ---------- */
-@media (max-width: 1023px) {
+/* ---------- Narrow: icons only, flyouts for everything (WordPress 783-960px) ---------- */
+@media (min-width: 783px) and (max-width: 960px) {
+  .wp-admin-sidebar { width: 36px; padding: 8px 0; overflow: visible; }
+  .wp-admin-menu__label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  .wp-admin-menu__link { justify-content: center; padding: 7px 0; }
+  .wp-admin-menu__item--current > .wp-admin-submenu { display: none; }
+  .wp-admin-menu__item--has-children:hover > .wp-admin-submenu,
+  .wp-admin-menu__item--has-children:focus-within > .wp-admin-submenu {
+    display: block; position: absolute; top: 0; left: 100%; z-index: 1; min-width: 160px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+  }
+}
+
+/* ---------- Mobile: sidebar hidden behind the burger (WordPress below 783px) ---------- */
+@media (max-width: 782px) {
   .wp-admin-sidebar { display: none; width: 80vw; max-width: 320px; box-shadow: 4px 0 12px rgba(0, 0, 0, .4); }
   html.wp-admin-sidebar-open .wp-admin-sidebar { display: block; }
   .wp-admin-bar__burger { display: inline-block; }

@@ -41,6 +41,16 @@ class WpAdminMenuTestCase extends BackdropWebTestCase {
   }
 
   /**
+   * Logging in lands on the dashboard, like WordPress.
+   */
+  function testLoginLandsOnDashboard() {
+    $this->backdropLogout();
+    $this->backdropPost('user/login', array('name' => $this->admin->name, 'pass' => $this->admin->pass_raw), t('Log in'));
+    $this->assertUrl('wp-admin', array(), 'Login redirected to the dashboard.');
+    $this->assertText('Welcome to bd-admin!', 'The dashboard is shown after login.');
+  }
+
+  /**
    * Walks every link in the wp-admin menu.
    */
   function testEveryMenuLinkLoads() {

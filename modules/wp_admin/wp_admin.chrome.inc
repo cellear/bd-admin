@@ -100,12 +100,15 @@ function wp_admin_top_bar_data() {
     array('title' => t('Support'), 'href' => 'https://forum.backdropcms.org/'),
     array('title' => t('Backdrop CMS'), 'href' => 'https://backdropcms.org/'),
   );
+  // WordPress: in the admin the site name goes to the site; on the site it
+  // goes to the dashboard.
+  $in_admin = path_is_admin(current_path());
   $site = array(
     'name' => $site_name,
-    'href' => url('<front>'),
+    'href' => url($in_admin ? '<front>' : 'wp-admin'),
     'links' => array(
-      array('title' => t('Visit Site'), 'href' => url('<front>')),
-      array('title' => t('Dashboard'), 'href' => url('wp-admin')),
+      $in_admin ? array('title' => t('Visit Site'), 'href' => url('<front>')) : array('title' => t('Dashboard'), 'href' => url('wp-admin')),
+      $in_admin ? array('title' => t('Dashboard'), 'href' => url('wp-admin')) : array('title' => t('Visit Site'), 'href' => url('<front>')),
       array('title' => t('Themes'), 'href' => url('admin/appearance')),
       array('title' => t('Layouts'), 'href' => url('admin/structure/layouts')),
       array('title' => t('Menus'), 'href' => url('admin/structure/menu')),
