@@ -1,0 +1,1842 @@
+{
+  "base": "http://127.0.0.1:8080",
+  "capturedAt": "2026-11-05T06:32:43.148Z",
+  "menu": [
+    {
+      "label": "Dashboard",
+      "href": "index.php",
+      "id": "menu-dashboard",
+      "subs": [
+        {
+          "label": "Home",
+          "href": "index.php"
+        },
+        {
+          "label": "Updates",
+          "href": "update-core.php"
+        }
+      ]
+    },
+    {
+      "label": "Posts",
+      "href": "edit.php",
+      "id": "menu-posts",
+      "subs": [
+        {
+          "label": "All Posts",
+          "href": "edit.php"
+        },
+        {
+          "label": "Add Post",
+          "href": "post-new.php"
+        },
+        {
+          "label": "Categories",
+          "href": "edit-tags.php?taxonomy=category"
+        },
+        {
+          "label": "Tags",
+          "href": "edit-tags.php?taxonomy=post_tag"
+        }
+      ]
+    },
+    {
+      "label": "Media",
+      "href": "upload.php",
+      "id": "menu-media",
+      "subs": [
+        {
+          "label": "Library",
+          "href": "upload.php"
+        },
+        {
+          "label": "Add Media File",
+          "href": "media-new.php"
+        }
+      ]
+    },
+    {
+      "label": "Pages",
+      "href": "edit.php?post_type=page",
+      "id": "menu-pages",
+      "subs": [
+        {
+          "label": "All Pages",
+          "href": "edit.php?post_type=page"
+        },
+        {
+          "label": "Add Page",
+          "href": "post-new.php?post_type=page"
+        }
+      ]
+    },
+    {
+      "label": "Comments",
+      "href": "edit-comments.php",
+      "id": "menu-comments",
+      "subs": []
+    },
+    {
+      "label": "Appearance",
+      "href": "themes.php",
+      "id": "menu-appearance",
+      "subs": [
+        {
+          "label": "Themes",
+          "href": "themes.php"
+        },
+        {
+          "label": "Editor",
+          "href": "site-editor.php"
+        },
+        {
+          "label": "Fonts",
+          "href": "font-library.php"
+        }
+      ]
+    },
+    {
+      "label": "Plugins",
+      "href": "plugins.php",
+      "id": "menu-plugins",
+      "subs": [
+        {
+          "label": "Installed Plugins",
+          "href": "plugins.php"
+        },
+        {
+          "label": "Add Plugin",
+          "href": "plugin-install.php"
+        }
+      ]
+    },
+    {
+      "label": "Users",
+      "href": "users.php",
+      "id": "menu-users",
+      "subs": [
+        {
+          "label": "All Users",
+          "href": "users.php"
+        },
+        {
+          "label": "Add User",
+          "href": "user-new.php"
+        },
+        {
+          "label": "Profile",
+          "href": "profile.php"
+        }
+      ]
+    },
+    {
+      "label": "Tools",
+      "href": "tools.php",
+      "id": "menu-tools",
+      "subs": [
+        {
+          "label": "Available Tools",
+          "href": "tools.php"
+        },
+        {
+          "label": "Import",
+          "href": "import.php"
+        },
+        {
+          "label": "Export",
+          "href": "export.php"
+        },
+        {
+          "label": "Site Health",
+          "href": "site-health.php"
+        },
+        {
+          "label": "Export Personal Data",
+          "href": "export-personal-data.php"
+        },
+        {
+          "label": "Erase Personal Data",
+          "href": "erase-personal-data.php"
+        },
+        {
+          "label": "Theme File Editor",
+          "href": "theme-editor.php"
+        },
+        {
+          "label": "Plugin File Editor",
+          "href": "plugin-editor.php"
+        }
+      ]
+    },
+    {
+      "label": "Settings",
+      "href": "options-general.php",
+      "id": "menu-settings",
+      "subs": [
+        {
+          "label": "General",
+          "href": "options-general.php"
+        },
+        {
+          "label": "Connectors",
+          "href": "options-connectors.php"
+        },
+        {
+          "label": "Writing",
+          "href": "options-writing.php"
+        },
+        {
+          "label": "Reading",
+          "href": "options-reading.php"
+        },
+        {
+          "label": "Discussion",
+          "href": "options-discussion.php"
+        },
+        {
+          "label": "Media",
+          "href": "options-media.php"
+        },
+        {
+          "label": "Permalinks",
+          "href": "options-permalink.php"
+        },
+        {
+          "label": "Privacy",
+          "href": "options-privacy.php"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "n": 1,
+      "top": "Dashboard",
+      "label": "Dashboard",
+      "href": "index.php",
+      "url": "http://127.0.0.1:8080/wp-admin/index.php",
+      "screenshot": "screenshots/01-dashboard.jpg",
+      "title": "Dashboard ‹ Umami Food Magazine — WordPress",
+      "finalUrl": "http://127.0.0.1:8080/wp-admin/index.php",
+      "h1": "Dashboard",
+      "tabs": [],
+      "buttons": [
+        "Save Draft",
+        "Submit"
+      ],
+      "controls": [
+        "Site Health Status",
+        "At a Glance",
+        "Activity",
+        "Quick Draft Your Recent Drafts",
+        "WordPress Events and News",
+        "Welcome",
+        "Title",
+        "Content",
+        "City:"
+      ],
+      "tableColumns": [],
+      "text": "Screen Options\nHelp\nDashboard\nDismiss\nWelcome to WordPress!\n\nLearn more about the 7.1.4 version.\n\nAuthor rich content with blocks and patterns\n\nBlock patterns are pre-configured block layouts. Use them to get inspired or create new pages in a flash.\n\nAdd a new page\nCustomize your entire site with block themes\n\nDesign everything on your site — from the header down to the footer, all using blocks and patterns.\n\nOpen site editor\nSwitch up your site’s look & feel with Styles\n\nTweak your site, or give it a whole new look! Get creative — how about a new color palette or font?\n\nEdit styles\nSite Health Status\nMove up\nMove down\nShow or hide panel\nNo information yet…\n\nSite health checks will automatically run periodically to gather information about your site. You can also visit the Site Health screen to gather information about your site now.\n\nAt a Glance\nMove up\nMove down\nShow or hide panel\n18 Published posts\n1 Published page\n\nWordPress 7.1.4 running Twenty Twenty-Five theme.\n\nActivity\nMove up\nMove down\nShow or hide panel\nRecently Published\nNov 3rd, 6:17 am\nGive your oatmeal the ultimate makeover\nNov 2nd, 6:17 am\nSkip the spirits with delicious mocktails\nNov 1st, 6:17 am\nBaking mishaps – our troubleshooting tips\nOct 31st, 6:17 am\nLet’s hear it for carrots\nOct 30th, 6:17 am\nThe Umami guide to our favorite mushrooms\nQuick Draft\nMove up\nMove down\nShow or hide panel\nTitle \nContent \n\nWordPress Events and News\nMove up\nMove down\nShow or hide panel\n\nAttend an upcoming event near you.  Select location\n\n\t\nI Didn’t Realize WCAG Meant That! with Cam Coulter\nMeetup  Online\nThursday, Nov 5, 2026\n4:00 pm UTC\n\t\nSanta Cruz WordPress Helpdesk: Fix, support, improve your website.\nMeetup  Online\nFriday, Nov 6, 2026\n2:00 am UTC\n\t\nSan Jose WordPress Helpdesk: Fix, support, improve your website.\nMeetup  Online\nFriday, Nov 6, 2026\n2:00 am UTC\nWordPress 7.2 Beta 4\nWordPress 7.1.4\nOpen Channels FM: Postgres Faces AI-Discovered Bugs, Ubuntu Critiqued for Patching and Ochaken, Why You Should Archive Websites\nWPTavern: #240 – Martin Schmidt on Building Partnerships Between WordPress Product Makers and Hosting Companies\nOpen Channels FM: The Human Hurdle in Automated Cybersecurity\n\nMeetups \n(opens in a new tab)\n | WordCamps \n(opens in a new tab)\n | News \n(opens in a new tab)",
+      "screenOptions": "Screen elements Some screen elements can be shown or hidden by using the checkboxes. Expand or collapse the elements by clicking on their headings, and arrange them by dragging their headings or by clicking on the up and down arrows. Site Health StatusAt a GlanceActivityQuick DraftWordPress Events and NewsWelcome",
+      "help": [
+        "Welcome to your WordPress Dashboard!\nThe Dashboard is the first place you will come to every time you log into your site. It is where you will find all your WordPress tools. If you need help, just click the “Help” tab above the screen title.",
+        "The left-hand navigation menu provides links to all of the WordPress administration screens, with submenu items displayed on hover. You can minimize this menu to a narrow icon strip by clicking on the Collapse Menu arrow at the bottom.Links in the Toolbar at the top of the screen connect your dashboard and the front end of your site, and provide access to your profile and helpful WordPress information.",
+        "You can use the following controls to arrange your Dashboard screen to suit your workflow. This is true on most other administration screens as well.Screen Options — Use the Screen Options tab to choose which Dashboard boxes to show.Drag and Drop — To rearrange the boxes, drag and drop by clicking on the title bar of the selected box and releasing when you see a gray dotted-line rectangle appear in the location you want to place the box.Box Controls — Click the title bar of the box to expand or collapse it. Some boxes added by plugins may have configurable content, and will show a “Configure” link in the title bar if you hover over it.",
+        "The boxes on your Dashboard screen are:Welcome — Shows links for some of the most common tasks when setting up a new site.Site Health Status — Informs you of any potential issues that should be addressed to improve the performance or security of your website.At a Glance — Displays a summary of the content on your site and identifies which theme and version of WordPress you are using.Activity — Shows the upcoming scheduled posts, recently published posts, and the most recent comments on your posts and allows you to moderate them.Quick Draft — Allows you to create a new post and save it as a draft. Also displays links to the 3 most recent draft posts you've started.WordPress Events and News — Upcoming events near you as well as the latest news from the official WordPress project and the WordPress Planet."
+      ],
+      "helpTabs": [
+        "Overview",
+        "Navigation",
+        "Layout",
+        "Content"
+      ]
+    },
+    {
+      "n": 2,
+      "top": "Dashboard",
+      "label": "Updates",
+      "href": "update-core.php",
+      "url": "http://127.0.0.1:8080/wp-admin/update-core.php",
+      "screenshot": "screenshots/02-dashboard-updates.jpg",
+      "title": "WordPress Updates ‹ Umami Food Magazine — WordPress",
+      "finalUrl": "http://127.0.0.1:8080/wp-admin/update-core.php",
+      "h1": "WordPress Updates",
+      "tabs": [],
+      "buttons": [
+        "Re-install version 7.1.4"
+      ],
+      "controls": [],
+      "tableColumns": [],
+      "text": "Help\nWordPress Updates\n\nUpdates may take several minutes to complete. If there is no feedback after 5 minutes, or if there are errors please refer to the Help section above.\n\nCurrent version: 7.1.4\n\nLast checked on November 5, 2026 at 6:27 am UTC. Check again.\n\nThis site appears to be under version control. Automatic updates are disabled.\n\nYou have the latest version of WordPress.\n\nPlugins\n\nYour plugins are all up to date.\n\nThemes\n\nYour themes are all up to date.",
+      "help": [
+        "On this screen, you can update to the latest version of WordPress, as well as update your themes, plugins, and translations.\nIf an update is available, you᾿ll see a notification appear in the Toolbar and navigation menu. Keeping your site updated is important for security. It also makes the internet a safer place for you and your readers.",
+        "WordPress — Updating your WordPress installation is a simple one-click procedure: just click on the “Update now” button when you are notified that a new version is available. In most cases, WordPress will automatically apply maintenance and security updates in the background for you.Themes and Plugins — To update individual themes or plugins from this screen, use the checkboxes to make your selection, then click on the appropriate “Update” button. To update all of your themes or plugins at once, you can check the box at the top of the section to select all before clicking the update button.",
+        "Auto-updates can be enabled or disabled for WordPress major versions and for each individual theme or plugin. Themes or plugins with auto-updates enabled will display the estimated date of the next auto-update. Auto-updates depends on the WP-Cron task scheduling system.Please note: Third-party themes and plugins, or custom code, may override WordPress scheduling.",
+        "This feature will create a temporary backup of a plugin or theme before it is upgraded. This backup is used to restore the plugin or theme back to its previous state if there is an error during the update process.On systems with fewer resources, this may lead to server timeouts or resource limits being reached. If you encounter an issue during the update process, please create a support forum topic and reference Rollback in the issue title."
+      ],
+      "helpTabs": [
+        "Overview",
+        "How to Update",
+        "Auto-updates",
+        "Restore Plugin or Theme"
+      ]
+    },
+    {
+      "n": 3,
+      "top": "Dashboard",
+      "label": "Site Health → Info tab",
+      "href": "site-health.php?tab=debug",
+      "url": "http://127.0.0.1:8080/wp-admin/site-health.php?tab=debug",
+      "screenshot": "screenshots/03-dashboard-site-health-info-tab.jpg",
+      "title": "Site Health - Info ‹ Umami Food Magazine — WordPress",
+      "finalUrl": "http://127.0.0.1:8080/wp-admin/site-health.php?tab=debug",
+      "h1": "Site Health",
+      "tabs": [],
+      "buttons": [],
+      "controls": [],
+      "tableColumns": [],
+      "text": "Help\nSite Health\nResults are still loading…\nStatus\nInfo\nSite Health Info\n\nThis page can show you every detail about the configuration of your WordPress website. For any improvements that could be made, see the Site Health Status page.\n\nIf you want to export a handy list of all the information on this page, you can use the button below to copy it to the clipboard. You can then paste it in a text file and save it to your device, or paste it in an email exchange with a support engineer or theme/plugin developer for example.\n\nCopy site info to clipboard\nWordPress\nDirectories and Sizes\nActive Theme\nInactive Themes (2)\nInactive Plugins (2)\nMedia Handling\nServer\nDatabase\nWordPress Constants\nFilesystem Permissions",
+      "help": [
+        "This screen allows you to obtain a health diagnosis of your site, and displays an overall rating of the status of your installation.\nIn the Status tab, you can see critical information about your WordPress configuration, along with anything else that requires your attention.\nIn the Info tab, you will find all the details about the configuration of your WordPress site, server, and database. There is also an export feature that allows you to copy all of the information about your site to the clipboard, to help solve problems on your site when obtaining support."
+      ],
+      "helpTabs": [
+        "Overview"
+      ]
+    },
+    {
+      "n": 4,
+      "top": "Posts",
+      "label": "Posts",
+      "href": "edit.php",
+      "url": "http://127.0.0.1:8080/wp-admin/edit.php",
+      "screenshot": "screenshots/04-posts.jpg",
+      "title": "Posts ‹ Umami Food Magazine — WordPress",
+      "finalUrl": "http://127.0.0.1:8080/wp-admin/edit.php",
+      "h1": "Posts",
+      "tabs": [
+        "All",
+        "Published"
+      ],
+      "buttons": [
+        "Apply",
+        "Add Post",
+        "Search Posts",
+        "Filter",
+        "Update"
+      ],
+      "controls": [
+        "Author",
+        "Categories",
+        "Tags",
+        "Comments",
+        "Date",
+        "Number of items per page:",
+        "Compact view",
+        "Extended view",
+        "Search Posts:",
+        "Select bulk action",
+        "Filter by date",
+        "Filter by category",
+        "Current Page",
+        "Select All",
+        "Select Give your oatmeal the ultimate makeover",
+        "Select Skip the spirits with delicious mocktails",
+        "Select Baking mishaps – our troubleshooting tips",
+        "Select Let’s hear it for carrots",
+        "Select The Umami guide to our favorite mushrooms",
+        "Select The real deal for supermarket savvy shopping",
+        "Select Dairy-free and delicious milk chocolate",
+        "Select Give it a go and grow your own herbs",
+        "Select Borscht with pork ribs",
+        "Select Fiery chili sauce",
+        "Select Crema catalana",
+        "Select Thai green curry",
+        "Select Gluten free pizza",
+        "Select Victoria sponge cake",
+        "Select Watercress soup",
+        "Select Super easy vegetarian pasta bake",
+        "Select Vegan chocolate and nut brownies",
+        "Select Deep mediterranean quiche",
+        "Title",
+        "Slug",
+        "Day",
+        "Year",
+        "Hour",
+        "Minute",
+        "Password",
+        "Private",
+        "Articles",
+        "Recipes",
+        "Accompaniments",
+        "Desserts",
+        "Main courses",
+        "Snacks",
+        "Starters",
+        "Uncategorized",
+        "Allow Comments",
+        "Allow Pings",
+        "Status Published Scheduled Pending Review Draft",
+        "Make this post sticky",
+        "Comments — No Change — Allow Do not allow",
+        "Pings — No Change — Allow Do not allow",
+        "Status — No Change — Published Private Pending Review Draft",
+        "Sticky — No Change — Sticky Not Sticky"
+      ],
+      "tableColumns": [
+        "Title",
+        "Author",
+        "Categories",
+        "Tags",
+        "Comments",
+        "Date"
+      ],
+      "text": "Screen Options\nHelp\nPosts Add Post\nFilter posts list\nAll (18) | Published (18)\n\nSearch Posts:\n\nSelect bulk action\nBulk actions\nBulk edit\nMove to Trash\nFilter by date\nAll dates\nNovember 2026\nOctober 2026\nFilter by category\nAll Categories\nArticles\nRecipes\n   Accompaniments\n   Desserts\n   Main courses\n   Snacks\n   Starters\nUncategorized\n18 items\n\nPosts list\nTable ordered by Date. Descending.\nSelect All\n\t\nTitle\nSort ascending.\n\tAuthor\tCategories\tTags\t\nComments\nSort ascending.\n\t\nDate\n\nSelect Give your oatmeal the ultimate makeover\n\t\nGive your oatmeal the ultimate makeover\nEdit | Quick Edit | Trash | View\n\tUmami\tArticles\tBreakfast, Dessert, Oats, Vegan, Vegetarian\t\n—\nNo comments\n\tPublished\n2026/11/03 at 6:17 am\n\nSelect Skip the spirits with delicious mocktails\n\t\nSkip the spirits with delicious mocktails\nEdit | Quick Edit | Trash | View\n\tMegan Collins Quinlan\tArticles\tAlcohol free, Cocktail party, Dinner party, Drinks, Party\t\n—\nNo comments\n\tPublished\n2026/11/02 at 6:17 am\n\nSelect Baking mishaps – our troubleshooting tips\n\t\nBaking mishaps – our troubleshooting tips\nEdit | Quick Edit | Trash | View\n\tUmami\tArticles\tBaking, Learn to cook\t\n—\nNo comments\n\tPublished\n2026/11/01 at 6:17 am\n\nSelect Let’s hear it for carrots\n\t\nLet’s hear it for carrots\nEdit | Quick Edit | Trash | View\n\tUmami\tArticles\tCarrots, Healthy, Vegetarian\t\n—\nNo comments\n\tPublished\n2026/10/31 at 6:17 am\n\nSelect The Umami guide to our favorite mushrooms\n\t\nThe Umami guide to our favorite mushrooms\nEdit | Quick Edit | Trash | View\n\tUmami\tArticles\tMushrooms, Vegetarian\t\n—\nNo comments\n\tPublished\n2026/10/30 at 6:17 am\n\nSelect The real deal for supermarket savvy shopping\n\t\nThe real deal for supermarket savvy shopping\nEdit | Quick Edit | Trash | View\n\tMegan Collins Quinlan\tArticles\tShopping, Supermarkets\t\n—\nNo comments\n\tPublished\n2026/10/29 at 6:17 am\n\nSelect Dairy-free and delicious milk chocolate\n\t\nDairy-free and delicious milk chocolate\nEdit | Quick Edit | Trash | View\n\tUmami\tArticles\tChocolate, Vegan\t\n—\nNo comments\n\tPublished\n2026/10/28 at 6:17 am\n\nSelect Give it a go and grow your own herbs\n\t\nGive it a go and grow your own herbs\nEdit | Quick Edit | Trash | View\n\tHolly Foat\tArticles\tGrow your own, Herbs, Seasonal\t\n—\nNo comments\n\tPublished\n2026/10/27 at 6:17 am\n\nSelect Borscht with pork ribs\n\t\nBorscht with pork ribs\nEdit | Quick Edit | Trash | View\n\tUmami\tMain courses, Recipes\tSoup\t\n—\nNo comments\n\tPublished\n2026/10/26 at 6:17 am\n\nSelect Fiery chili sauce\n\t\nFiery chili sauce\nEdit | Quick Edit | Trash | View\n\tUmami\tAccompaniments, Recipes\tVegetarian\t\n—\nNo comments\n\tPublished\n2026/10/25 at 6:17 am\n\nSelect Crema catalana\n\t\nCrema catalana\nEdit | Quick Edit | Trash | View\n\tUmami\tDesserts, Recipes\tEgg, Vegetarian\t\n—\nNo comments\n\tPublished\n2026/10/24 at 6:17 am\n\nSelect Thai green curry\n\t\nThai green curry\nEdit | Quick Edit | Trash | View\n\tUmami\tMain courses, Recipes\t—\nNo tags\n\t\n—\nNo comments\n\tPublished\n2026/10/23 at 6:17 am\n\nSelect Gluten free pizza\n\t\nGluten free pizza\nEdit | Quick Edit | Trash | View\n\tUmami\tMain courses, Recipes\t—\nNo tags\n\t\n—\nNo comments\n\tPublished\n2026/10/22 at 6:17 am\n\nSelect Victoria sponge cake\n\t\nVictoria sponge cake\nEdit | Quick Edit | Trash | View\n\tUmami\tDesserts, Recipes\tCake\t\n—\nNo comments\n\tPublished\n2026/10/21 at 6:17 am\n\nSelect Watercress soup\n\t\nWatercress soup\nEdit | Quick Edit | Trash | View\n\tUmami\tRecipes, Starters\tSoup, Vegetarian\t\n—\nNo comments\n\tPublished\n2026/10/20 at 6:17 am\n\nSelect Super easy vegetarian pasta bake\n\t\nSuper easy vegetarian pasta bake\nEdit | Quick Edit | Trash | View\n\tUmami\tMain courses, Recipes\tBaked, Pasta, Vegetarian\t\n—\nNo comments\n\tPublished\n2026/10/19 at 6:17 am\n\nSelect Vegan chocolate and nut brownies\n\t\nVegan chocolate and nut brownies\nEdit | Quick Edit | Trash | View\n\tUmami\tRecipes, Snacks\tBaking, Chocolate, Dairy-free, Vegan\t\n—\nNo comments\n\tPublished\n2026/10/18 at 6:17 am\n\nSelect Deep mediterranean quiche\n\t\nDeep mediterranean quiche\nEdit | Quick Edit | Trash | View\n\tUmami\tMain courses, Recipes\tEgg, Pastry\t\n—\nNo comments\n\tPublished\n2026/10/17 at 6:17 am\n\nSelect All\n\t\nTitle\nSort ascending.\n\tAuthor\tCategories\tTags\t\nComments\nSort ascending.\n\t\nDate\nSelect bulk action\nBulk actions\nBulk edit\nMove to Trash\n18 items",
+      "screenOptions": "Columns Author Categories Tags Comments Date Pagination Number of items per page: View mode Compact view Extended view",
+      "help": [
+        "This screen provides access to all of your posts. You can customize the display of this screen to suit your workflow.",
+        "You can customize the display of this screen’s contents in a number of ways:You can hide/display columns based on your needs and decide how many posts to list per screen using the Screen Options tab.You can filter the list of posts by post status using the text links above the posts list to only show posts with that status. The default view is to show all posts.You can view posts in a simple title list or with an excerpt using the Screen Options tab.You can refine the list to show only posts in a specific category or from a specific month by using the dropdown menus above the posts list. Click the Filter button after making your selection. You also can refine the list by clicking on the post author, category or tag in the posts list.",
+        "Hovering over a row in the posts list will display action links that allow you to manage your post. You can perform the following actions:Edit takes you to the editing screen for that post. You can also reach that screen by clicking on the post title.Quick Edit provides inline access to the metadata of your post, allowing you to update post details without leaving this screen.Trash removes your post from this list and places it in the Trash, from which you can permanently delete it.Preview will show you what your draft post will look like if you publish it. View will take you to your live site to view the post. Which link is available depends on your post’s status.",
+        "You can also edit or move multiple posts to the Trash at once. Select the posts you want to act on using the checkboxes, then select the action you want to take from the Bulk actions menu and click Apply.When using Bulk Edit, you can change the metadata (categories, author, etc.) for all selected posts at once. To remove a post from the grouping, just click the remove button next to its name in the Bulk Edit area that appears."
+      ],
+      "helpTabs": [
+        "Overview",
+        "Screen Content",
+        "Available Actions",
+        "Bulk actions"
+      ]
+    },
+    {
+      "n": 5,
+      "top": "Posts",
+      "label": "Add Post",
+      "href": "post-new.php",
+      "url": "http://127.0.0.1:8080/wp-admin/post-new.php",
+      "screenshot": "screenshots/05-posts-add-post.jpg",
+      "title": "Add Post ‹ Umami Food Magazine — WordPress",
+      "finalUrl": "http://127.0.0.1:8080/wp-admin/post-new.php",
+      "h1": "Add Post",
+      "tabs": [],
+      "buttons": [],
+      "controls": [],
+      "tableColumns": [],
+      "text": "Add Post\nNo title\n· Post\nSave draft\nPublish\nPost\nBlock\nNo title\nSet featured image\nAdd an excerpt…\nLast edited a second ago.\nStatus\nDraft\nPublish\nImmediately\nSlug\n49\nAuthor\nadmin\nTemplate\nSingle Posts\nDiscussion\nOpen\nFormat\nStandard\nCategories\nTags\nOpen publish panel\nPost"
+    },
+    {
+      "n": 6,
+      "top": "Posts",
+      "label": "Categories",
+      "href": "edit-tags.php?taxonomy=category",
+      "url": "http://127.0.0.1:8080/wp-admin/edit-tags.php?taxonomy=category",
+      "screenshot": "screenshots/06-posts-categories.jpg",
+      "title": "Categories ‹ Umami Food Magazine — WordPress",
+      "finalUrl": "http://127.0.0.1:8080/wp-admin/edit-tags.php?taxonomy=category",
+      "h1": "Categories",
+      "tabs": [],
+      "buttons": [
+        "Apply",
+        "Search Categories",
+        "Add Category",
+        "Update Category"
+      ],
+      "controls": [
+        "Description",
+        "Slug",
+        "Count",
+        "Number of items per page:",
+        "Search Categories:",
+        "Name",
+        "Parent Category",
+        "Select bulk action",
+        "Current Page",
+        "Select All",
+        "Select Articles",
+        "Select Recipes",
+        "Select Accompaniments",
+        "Select Desserts",
+        "Select Main courses",
+        "Select Snacks",
+        "Select Starters"
+      ],
+      "tableColumns": [
+        "Name",
+        "Description",
+        "Slug",
+        "Count"
+      ],
+      "text": "Screen Options\nHelp\nCategories\n\nSearch Categories:\n\nAdd Category\nName\n\nThe name is how it appears on your site.\n\nSlug\n\nThe “slug” is the URL-friendly version of the name. It is usually all lowercase and contains only letters, numbers, and hyphens.\n\nParent Category\nNone\nArticles\nRecipes\n   Accompaniments\n   Desserts\n   Main courses\n   Snacks\n   Starters\nUncategorized\n\nCategories, unlike tags, can have a hierarchy. You might have a Jazz category, and under that have children categories for Bebop and Big Band. Totally optional.\n\nDescription\n\nThe description is not prominent by default; however, some themes may show it.\n\n \n\nSelect bulk action\nBulk actions\nDelete\n8 items\n\nCategories list\nTable ordered hierarchically. Ascending.\nSelect All\n\t\nName\n\t\nDescription\nSort ascending.\n\t\nSlug\nSort ascending.\n\t\nCount\nSort ascending.\n\nSelect Articles\n\tArticles\n\nEdit | Quick Edit | Delete | View\n\t\n\nUmami articles\n\n\tarticles\t8\n\nSelect Recipes\n\tRecipes\n\nEdit | Quick Edit | Delete | View\n\t\n\nUmami recipes\n\n\trecipes\t10\n\nSelect Accompaniments\n\t— Accompaniments\n\nEdit | Quick Edit | Delete | View\n\t—\nNo description\n\taccompaniments\t1\n\nSelect Desserts\n\t— Desserts\n\nEdit | Quick Edit | Delete | View\n\t—\nNo description\n\tdesserts\t2\n\nSelect Main courses\n\t— Main courses\n\nEdit | Quick Edit | Delete | View\n\t—\nNo description\n\tmain-courses\t5\n\nSelect Snacks\n\t— Snacks\n\nEdit | Quick Edit | Delete | View\n\t—\nNo description\n\tsnacks\t1\n\nSelect Starters\n\t— Starters\n\nEdit | Quick Edit | Delete | View\n\t—\nNo description\n\tstarters\t1\n \tUncategorized\n\nEdit | Quick Edit | View\n\t—\nNo description\n\tuncategorized\t0\n\nSelect All\n\t\nName\n\t\nDescription\nSort ascending.\n\t\nSlug\nSort ascending.\n\t\nCount\nSort ascending.\nSelect bulk action\nBulk actions\nDelete\n8 items\n\nDeleting a category does not delete the posts in that category. Instead, posts that were only assigned to the deleted category are set to the default category Uncategorized. The default category cannot be deleted.\n\nCategories can be selectively converted to tags using the category to tag converter.",
+      "screenOptions": "Columns Description Slug Count Pagination Number of items per page:",
+      "help": [
+        "You can use categories to define sections of your site and group related posts. The default category is “Uncategorized” until you change it in your writing settings.\nWhat’s the difference between categories and tags? Normally, tags are ad-hoc keywords that identify important information in your post (names, subjects, etc) that may or may not recur in other posts, while categories are pre-determined sections. If you think of your site like a book, the categories are like the Table of Contents and the tags are like the terms in the index.",
+        "When adding a new category on this screen, you’ll fill in the following fields:Name — The name is how it appears on your site.Slug — The “slug” is the URL-friendly version of the name. It is usually all lowercase and contains only letters, numbers, and hyphens.Parent — Categories, unlike tags, can have a hierarchy. You might have a Jazz category, and under that have child categories for Bebop and Big Band. Totally optional. To create a subcategory, just choose another category from the Parent dropdown.Description — The description is not prominent by default; however, some themes may display it.You can change the display of this screen using the Screen Options tab to set how many items are displayed per screen and to display/hide columns in the table."
+      ],
+      "helpTabs": [
+        "Overview",
+        "Adding Categories"
+      ]
+    },
+    {
+      "n": 7,
+      "top": "Posts",
+      "label": "Tags",
+      "href": "edit-tags.php?taxonomy=post_tag",
+      "url": "http://127.0.0.1:8080/wp-admin/edit-tags.php?taxonomy=post_tag",
+      "screenshot": "screenshots/07-posts-tags.jpg",
+      "title": "Tags ‹ Umami Food Magazine — WordPress",
+      "finalUrl": "http://127.0.0.1:8080/wp-admin/edit-tags.php?taxonomy=post_tag",
+      "h1": "Tags",
+      "tabs": [],
+      "buttons": [
+        "Apply",
+        "Search Tags",
+        "Add Tag",
+        "Update Tag"
+      ],
+      "controls": [
+        "Description",
+        "Slug",
+        "Count",
+        "Number of items per page:",
+        "Search Tags:",
+        "Name",
+        "Select bulk action",
+        "Current Page",
+        "Select All",
+        "Select Alcohol free",
+        "Select Baked",
+        "Select Baking",
+        "Select Breakfast",
+        "Select Cake",
+        "Select Carrots",
+        "Select Chocolate",
+        "Select Cocktail party",
+        "Select Dairy-free",
+        "Select Dessert",
+        "Select Dinner party",
+        "Select Drinks",
+        "Select Egg",
+        "Select Grow your own",
+        "Select Healthy",
+        "Select Herbs",
+        "Select Learn to cook",
+        "Select Mushrooms",
+        "Select Oats",
+        "Select Party"
+      ],
+      "tableColumns": [
+        "Name",
+        "Description",
+        "Slug",
+        "Count"
+      ],
+      "text": "Screen Options\nHelp\nTags\n\nSearch Tags:\n\nAdd Tag\nName\n\nThe name is how it appears on your site.\n\nSlug\n\nThe “slug” is the URL-friendly version of the name. It is usually all lowercase and contains only letters, numbers, and hyphens.\n\nDescription\n\nThe description is not prominent by default; however, some themes may show it.\n\n \n\nSelect bulk action\nBulk actions\nDelete\nTags list navigation\n28 items « ‹ \nCurrent Page\n of 2 \nNext page\n› \nLast page\n»\n\nTags list\nTable ordered by Name. Ascending.\nSelect All\n\t\nName\n\t\nDescription\nSort ascending.\n\t\nSlug\nSort ascending.\n\t\nCount\nSort ascending.\n\nSelect Alcohol free\n\tAlcohol free\n\nEdit | Quick Edit | Delete | View\n\t—\nNo description\n\talcohol-free\t1\n\nSelect Baked\n\tBaked\n\nEdit | Quick Edit | Delete | View\n\t—\nNo description\n\tbaked\t1\n\nSelect Baking\n\tBaking\n\nEdit | Quick Edit | Delete | View\n\t—\nNo description\n\tbaking\t2\n\nSelect Breakfast\n\tBreakfast\n\nEdit | Quick Edit | Delete | View\n\t—\nNo description\n\tbreakfast\t1\n\nSelect Cake\n\tCake\n\nEdit | Quick Edit | Delete | View\n\t—\nNo description\n\tcake\t1\n\nSelect Carrots\n\tCarrots\n\nEdit | Quick Edit | Delete | View\n\t—\nNo description\n\tcarrots\t1\n\nSelect Chocolate\n\tChocolate\n\nEdit | Quick Edit | Delete | View\n\t—\nNo description\n\tchocolate\t2\n\nSelect Cocktail party\n\tCocktail party\n\nEdit | Quick Edit | Delete | View\n\t—\nNo description\n\tcocktail-party\t1\n\nSelect Dairy-free\n\tDairy-free\n\nEdit | Quick Edit | Delete | View\n\t—\nNo description\n\tdairy-free\t1\n\nSelect Dessert\n\tDessert\n\nEdit | Quick Edit | Delete | View\n\t—\nNo description\n\tdessert\t1\n\nSelect Dinner party\n\tDinner party\n\nEdit | Quick Edit | Delete | View\n\t—\nNo description\n\tdinner-party\t1\n\nSelect Drinks\n\tDrinks\n\nEdit | Quick Edit | Delete | View\n\t—\nNo description\n\tdrinks\t1\n\nSelect Egg\n\tEgg\n\nEdit | Quick Edit | Delete | View\n\t—\nNo description\n\tegg\t2\n\nSelect Grow your own\n\tGrow your own\n\nEdit | Quick Edit | Delete | View\n\t—\nNo description\n\tgrow-your-own\t1\n\nSelect Healthy\n\tHealthy\n\nEdit | Quick Edit | Delete | View\n\t—\nNo description\n\thealthy\t1\n\nSelect Herbs\n\tHerbs\n\nEdit | Quick Edit | Delete | View\n\t—\nNo description\n\therbs\t1\n\nSelect Learn to cook\n\tLearn to cook\n\nEdit | Quick Edit | Delete | View\n\t—\nNo description\n\tlearn-to-cook\t1\n\nSelect Mushrooms\n\tMushrooms\n\nEdit | Quick Edit | Delete | View\n\t—\nNo description\n\tmushrooms\t1\n\nSelect Oats\n\tOats\n\nEdit | Quick Edit | Delete | View\n\t—\nNo description\n\toats\t1\n\nSelect Party\n\tParty\n\nEdit | Quick Edit | Delete | View\n\t—\nNo description\n\tparty\t1\n\nSelect All\n\t\nName\n\t\nDescription\nSort ascending.\n\t\nSlug\nSort ascending.\n\t\nCount\nSort ascending.\nSelect bulk action\nBulk actions\nDelete\n28 items « ‹ \nCurrent Page\n1 of 2 \nNext page\n› \nLast page\n»\n\nTags can be selectively converted to categories using the tag to category converter.",
+      "screenOptions": "Columns Description Slug Count Pagination Number of items per page:",
+      "help": [
+        "You can assign keywords to your posts using tags. Unlike categories, tags have no hierarchy, meaning there is no relationship from one tag to another.\nWhat’s the difference between categories and tags? Normally, tags are ad-hoc keywords that identify important information in your post (names, subjects, etc) that may or may not recur in other posts, while categories are pre-determined sections. If you think of your site like a book, the categories are like the Table of Contents and the tags are like the terms in the index.",
+        "When adding a new tag on this screen, you’ll fill in the following fields:Name — The name is how it appears on your site.Slug — The “slug” is the URL-friendly version of the name. It is usually all lowercase and contains only letters, numbers, and hyphens.Description — The description is not prominent by default; however, some themes may display it.You can change the display of this screen using the Screen Options tab to set how many items are displayed per screen and to display/hide columns in the table."
+      ],
+      "helpTabs": [
+        "Overview",
+        "Adding Tags"
+      ]
+    },
+    {
+      "n": 8,
+      "top": "Posts",
+      "label": "Edit Post (block editor)",
+      "href": "post.php?post=36&action=edit",
+      "url": "http://127.0.0.1:8080/wp-admin/post.php?post=36&action=edit",
+      "screenshot": "screenshots/08-posts-edit-post-block-editor.jpg",
+      "title": "Edit Post “Give it a go and grow your own herbs” ‹ Umami Food Magazine — WordPress",
+      "finalUrl": "http://127.0.0.1:8080/wp-admin/post.php?post=36&action=edit",
+      "h1": "Edit Post",
+      "tabs": [],
+      "buttons": [],
+      "controls": [],
+      "tableColumns": [],
+      "text": "Edit Post\nGive it a go and grow your own herbs\n· Post\nSave\nPost\nBlock\nGive it a go and grow your own herbs\nReplace\nRemove\nAdd an excerpt…\n377 words, 2 minutes read time.\nLast edited 9 days ago.\nStatus\nPublished\nPublish\nOctober 27 6:17 am\nSlug\ngive-it-a-go-and-grow-your-own-herbs\nAuthor\nHolly Foat\nTemplate\nSingle Posts\nDiscussion\nOpen\nFormat\nStandard\nMove to trash\nCategories\nTags\nOpen save panel\nPost"
+    },
+    {
+      "n": 9,
+      "top": "Media",
+      "label": "Media",
+      "href": "upload.php",
+      "url": "http://127.0.0.1:8080/wp-admin/upload.php",
+      "screenshot": "screenshots/09-media.jpg",
+      "title": "Media Library ‹ Umami Food Magazine — WordPress",
+      "finalUrl": "http://127.0.0.1:8080/wp-admin/upload.php",
+      "h1": "Media Library",
+      "tabs": [],
+      "buttons": [
+        "Apply",
+        "Add Media File",
+        "Filter",
+        "Search Media",
+        "Select"
+      ],
+      "controls": [
+        "Author",
+        "Uploaded to",
+        "Date",
+        "Number of items per page:",
+        "Filter by type",
+        "Filter by date",
+        "Search Media",
+        "Select bulk action",
+        "Current Page",
+        "Select All",
+        "Select Borscht with pork ribs",
+        "Select Mushrooms Umami",
+        "Select Heritage Carrots",
+        "Select Chocolate Brownie Umami",
+        "Select Mojito Mocktail",
+        "Select Oatmeal Fruit Syrop Topping",
+        "Select 3 issue bundle of the Umami food magazine",
+        "Select (Hero) Vegan chocolate and nut brownies",
+        "Select Supermarket Savvy Umami",
+        "Select Vegan Chocolate",
+        "Select Home Grown Herbs",
+        "Select Fiery chili sauce",
+        "Select Vegan chocolate and nut brownies",
+        "Select Super easy vegetarian pasta bake",
+        "Select Watercress soup",
+        "Select Victoria sponge cake",
+        "Select Gluten free pizza",
+        "Select Thai green curry",
+        "Select Crema catalana",
+        "Search"
+      ],
+      "tableColumns": [
+        "File",
+        "Author",
+        "Uploaded to",
+        "Date"
+      ],
+      "text": "Screen Options\nHelp\nMedia Library Add Media File\nFilter media items list\nList view\nGrid view\n \nFilter by type\nAll media items\nImages\nUnattached\nMine\n \nFilter by date\nAll dates\nNovember 2026\n \n\nSearch Media\n\nSelect bulk action\nBulk actions\nDelete permanently\nMedia items list navigation\n21 items « ‹ \nCurrent Page\n of 2 \nNext page\n› \nLast page\n»\n\nMedia items list\nTable ordered by Date. Descending.\nSelect All\n\t\nFile\nSort ascending.\n\t\nAuthor\nSort ascending.\n\t\nUploaded to\nSort ascending.\n\t\nDate\n\nSelect Borscht with pork ribs\n\t\nBorscht with pork ribs\n\nFile name:\nborscht-with-pork-ribs-umami.jpg\n\nEdit | Delete Permanently | View | Copy URL | Download file\n\t—\n(no author)\n\t(Unattached)\nAttach\t8 minutes ago\n\nSelect Mushrooms Umami\n\t\nMushrooms Umami\n\nFile name:\nmushrooms-umami.jpg\n\nEdit | Delete Permanently | View | Copy URL | Download file\n\t—\n(no author)\n\t(Unattached)\nAttach\t8 minutes ago\n\nSelect Heritage Carrots\n\t\nHeritage Carrots\n\nFile name:\nheritage-carrots.jpg\n\nEdit | Delete Permanently | View | Copy URL | Download file\n\t—\n(no author)\n\t(Unattached)\nAttach\t8 minutes ago\n\nSelect Chocolate Brownie Umami\n\t\nChocolate Brownie Umami\n\nFile name:\nchocolate-brownie-umami.jpg\n\nEdit | Delete Permanently | View | Copy URL | Download file\n\t—\n(no author)\n\t(Unattached)\nAttach\t8 minutes ago\n\nSelect Mojito Mocktail\n\t\nMojito Mocktail\n\nFile name:\nmojito-mocktail.jpg\n\nEdit | Delete Permanently | View | Copy URL | Download file\n\t—\n(no author)\n\t(Unattached)\nAttach\t8 minutes ago\n\nSelect Oatmeal Fruit Syrop Topping\n\t\nOatmeal Fruit Syrop Topping\n\nFile name:\noatmeal-fruit-syrup-topping.jpg\n\nEdit | Delete Permanently | View | Copy URL | Download file\n\t—\n(no author)\n\t(Unattached)\nAttach\t8 minutes ago\n\nSelect Mouth watering vegetarian pasta bake with rich tomato sauce and cheese toppings\n\t\nMouth watering vegetarian pasta bake with rich tomato sauce and cheese toppings\n\nFile name:\nveggie-pasta-bake-hero-umami-scaled.jpg\n\nEdit | Delete Permanently | View | Copy URL | Download file\n\t—\n(no author)\n\t(Unattached)\nAttach\t8 minutes ago\n\nSelect 3 issue bundle of the Umami food magazine\n\t\n3 issue bundle of the Umami food magazine\n\nFile name:\numami-bundle.png\n\nEdit | Delete Permanently | View | Copy URL | Download file\n\t—\n(no author)\n\t(Unattached)\nAttach\t8 minutes ago\n\nSelect (Hero) Vegan chocolate and nut brownies\n\t\n(Hero) Vegan chocolate and nut brownies\n\nFile name:\nvegan-brownies-hero-umami-scaled.jpg\n\nEdit | Delete Permanently | View | Copy URL | Download file\n\t—\n(no author)\n\t(Unattached)\nAttach\t8 minutes ago\n\nSelect Supermarket Savvy Umami\n\t\nSupermarket Savvy Umami\n\nFile name:\nsupermarket-savvy-umami.jpg\n\nEdit | Delete Permanently | View | Copy URL | Download file\n\t—\n(no author)\n\t(Unattached)\nAttach\t8 minutes ago\n\nSelect Vegan Chocolate\n\t\nVegan Chocolate\n\nFile name:\nvegan-chocolate.jpg\n\nEdit | Delete Permanently | View | Copy URL | Download file\n\t—\n(no author)\n\t(Unattached)\nAttach\t8 minutes ago\n\nSelect Home Grown Herbs\n\t\nHome Grown Herbs\n\nFile name:\nhome-grown-herbs.jpg\n\nEdit | Delete Permanently | View | Copy URL | Download file\n\t—\n(no author)\n\t(Unattached)\nAttach\t8 minutes ago\n\nSelect Fiery chili sauce\n\t\nFiery chili sauce\n\nFile name:\nchili-sauce-umami.jpg\n\nEdit | Delete Permanently | View | Copy URL | Download file\n\t—\n(no author)\n\t(Unattached)\nAttach\t8 minutes ago\n\nSelect Vegan chocolate and nut brownies\n\t\nVegan chocolate and nut brownies\n\nFile name:\nvegan-chocolate-nut-brownies.jpg\n\nEdit | Delete Permanently | View | Copy URL | Download file\n\t—\n(no author)\n\t(Unattached)\nAttach\t8 minutes ago\n\nSelect Super easy vegetarian pasta bake\n\t\nSuper easy vegetarian pasta bake\n\nFile name:\nveggie-pasta-bake-umami.jpg\n\nEdit | Delete Permanently | View | Copy URL | Download file\n\t—\n(no author)\n\t(Unattached)\nAttach\t8 minutes ago\n\nSelect Watercress soup\n\t\nWatercress soup\n\nFile name:\nwatercress-soup-umami.jpg\n\nEdit | Delete Permanently | View | Copy URL | Download file\n\t—\n(no author)\n\t(Unattached)\nAttach\t8 minutes ago\n\nSelect Victoria sponge cake\n\t\nVictoria sponge cake\n\nFile name:\nvictoria-sponge-umami.jpg\n\nEdit | Delete Permanently | View | Copy URL | Download file\n\t—\n(no author)\n\t(Unattached)\nAttach\t8 minutes ago\n\nSelect Gluten free pizza\n\t\nGluten free pizza\n\nFile name:\npizza-umami.jpg\n\nEdit | Delete Permanently | View | Copy URL | Download file\n\t—\n(no author)\n\t(Unattached)\nAttach\t8 minutes ago\n\nSelect Thai green curry\n\t\nThai green curry\n\nFile name:\nthai-green-curry-umami.jpg\n\nEdit | Delete Permanently | View | Copy URL | Download file\n\t—\n(no author)\n\t(Unattached)\nAttach\t8 minutes ago\n\nSelect Crema catalana\n\t\nCrema catalana\n\nFile name:\ncrema-catalana-umami.jpg\n\nEdit | Delete Permanently | View | Copy URL | Download file\n\t—\n(no author)\n\t(Unattached)\nAttach\t8 minutes ago\n\nSelect All\n\t\nFile\nSort ascending.\n\t\nAuthor\nSort ascending.\n\t\nUploaded to\nSort ascending.\n\t\nDate\nSelect bulk action\nBulk actions\nDelete permanently\n21 items « ‹ \nCurrent Page\n1 of 2 \nNext page\n› \nLast page\n»",
+      "screenOptions": "Columns Author Uploaded to Date Pagination Number of items per page:",
+      "help": [
+        "All the files you’ve uploaded are listed in the Media Library, with the most recent uploads listed first. You can use the Screen Options tab to customize the display of this screen.\nYou can narrow the list by file type/status or by date using the dropdown menus above the media table.\nYou can view your media in a simple visual grid or a list with columns. Switch between these views using the icons to the left above the media.",
+        "Hovering over a row reveals action links that allow you to manage media items. You can perform the following actions:Edit takes you to a simple screen to edit that individual file’s metadata. You can also reach that screen by clicking on the media file name or thumbnail.Delete Permanently will delete the file from the media library (as well as from any posts to which it is currently attached).View will take you to a public display page for that file.Copy URL copies the URL for the media file to your clipboard.Download file downloads the original media file to your device.",
+        "If a media file has not been attached to any content, you will see that in the Uploaded To column, and can click on Attach to launch a small popup that will allow you to search for existing content and attach the file."
+      ],
+      "helpTabs": [
+        "Overview",
+        "Available Actions",
+        "Attaching Files"
+      ]
+    },
+    {
+      "n": 10,
+      "top": "Media",
+      "label": "Add Media File",
+      "href": "media-new.php",
+      "url": "http://127.0.0.1:8080/wp-admin/media-new.php",
+      "screenshot": "screenshots/10-media-add-media-file.jpg",
+      "title": "Upload Media ‹ Umami Food Magazine — WordPress",
+      "finalUrl": "http://127.0.0.1:8080/wp-admin/media-new.php",
+      "h1": "Upload Media",
+      "tabs": [],
+      "buttons": [
+        "Upload"
+      ],
+      "controls": [
+        "Upload"
+      ],
+      "tableColumns": [],
+      "text": "Help\nUpload Media\n\nDrop files to upload\n\nor\n\nYou are using the multi-file uploader. Problems? Try the browser uploader instead.\n\nMaximum upload file size: 2 MB.",
+      "help": [
+        "You can upload media files here without creating a post first. This allows you to upload files to use with posts and pages later and/or to get a web link for a particular file that you can share. There are three options for uploading files:\nDrag and drop your files into the area below. Multiple files are allowed.\nClicking Select Files opens a navigation window showing you files in your operating system. Selecting Open after clicking on the file you want activates a progress bar on the uploader screen.\nRevert to the Browser Uploader by clicking the link below the drag and drop box."
+      ],
+      "helpTabs": [
+        "Overview"
+      ]
+    },
+    {
+      "n": 11,
+      "top": "Pages",
+      "label": "Pages",
+      "href": "edit.php?post_type=page",
+      "url": "http://127.0.0.1:8080/wp-admin/edit.php?post_type=page",
+      "screenshot": "screenshots/11-pages.jpg",
+      "title": "Pages ‹ Umami Food Magazine — WordPress",
+      "finalUrl": "http://127.0.0.1:8080/wp-admin/edit.php?post_type=page",
+      "h1": "Pages",
+      "tabs": [
+        "All",
+        "Published"
+      ],
+      "buttons": [
+        "Apply",
+        "Add Page",
+        "Search Pages",
+        "Filter",
+        "Update"
+      ],
+      "controls": [
+        "Author",
+        "Comments",
+        "Date",
+        "Number of items per page:",
+        "Compact view",
+        "Extended view",
+        "Search Pages:",
+        "Select bulk action",
+        "Filter by date",
+        "Current Page",
+        "Select All",
+        "Select About Umami",
+        "Title",
+        "Slug",
+        "Day",
+        "Year",
+        "Hour",
+        "Minute",
+        "Password",
+        "Private",
+        "Parent Main Page (no parent) About Umami",
+        "Order",
+        "Template Default template Page No Title",
+        "Allow Comments",
+        "Status Published Scheduled Pending Review Draft",
+        "Parent — No Change — Main Page (no parent) About Umami",
+        "Template — No Change — Default template Page No Title",
+        "Comments — No Change — Allow Do not allow",
+        "Status — No Change — Published Private Pending Review Draft"
+      ],
+      "tableColumns": [
+        "Title",
+        "Author",
+        "Comments",
+        "Date"
+      ],
+      "text": "Screen Options\nHelp\nPages Add Page\nFilter pages list\nAll (1) | Published (1)\n\nSearch Pages:\n\nSelect bulk action\nBulk actions\nBulk edit\nMove to Trash\nFilter by date\nAll dates\nNovember 2026\n1 item\n\nPages list\nTable ordered by Hierarchical Menu Order and Title. Ascending.\nSelect All\n\t\nTitle\n\tAuthor\t\nComments\nSort ascending.\n\t\nDate\nSort descending.\n\nSelect About Umami\n\t\nAbout Umami\nEdit | Quick Edit | Trash | View\n\tSamuel Adamson\t\n—\nNo comments\n\tPublished\n2026/11/04 at 6:17 am\n\nSelect All\n\t\nTitle\n\tAuthor\t\nComments\nSort ascending.\n\t\nDate\nSort descending.\nSelect bulk action\nBulk actions\nBulk edit\nMove to Trash\n1 item",
+      "screenOptions": "Columns Author Comments Date Pagination Number of items per page: View mode Compact view Extended view",
+      "help": [
+        "Pages are similar to posts in that they have a title, body text, and associated metadata, but they are different in that they are not part of the chronological blog stream, kind of like permanent posts. Pages are not categorized or tagged, but can have a hierarchy. You can nest pages under other pages by making one the “Parent” of the other, creating a group of pages.",
+        "Managing pages is very similar to managing posts, and the screens can be customized in the same way.You can also perform the same types of actions, including narrowing the list by using the filters, acting on a page using the action links that appear when you hover over a row, or using the Bulk actions menu to edit the metadata for multiple pages at once."
+      ],
+      "helpTabs": [
+        "Overview",
+        "Managing Pages"
+      ]
+    },
+    {
+      "n": 12,
+      "top": "Pages",
+      "label": "Add Page",
+      "href": "post-new.php?post_type=page",
+      "url": "http://127.0.0.1:8080/wp-admin/post-new.php?post_type=page",
+      "screenshot": "screenshots/12-pages-add-page.jpg",
+      "title": "Add Page ‹ Umami Food Magazine — WordPress",
+      "finalUrl": "http://127.0.0.1:8080/wp-admin/post-new.php?post_type=page",
+      "h1": "Add Page",
+      "tabs": [],
+      "buttons": [],
+      "controls": [],
+      "tableColumns": [],
+      "text": "Add Page\nNo title\n· Page\nSave draft\nPublish\nPage\nBlock\nNo title\nSet featured image\nLast edited a second ago.\nStatus\nDraft\nPublish\nImmediately\nSlug\n50\nAuthor\nadmin\nTemplate\nPages\nDiscussion\nClosed\nParent\nNone\nOpen publish panel\nPage"
+    },
+    {
+      "n": 13,
+      "top": "Pages",
+      "label": "Edit Page (block editor)",
+      "href": "post.php?post=44&action=edit",
+      "url": "http://127.0.0.1:8080/wp-admin/post.php?post=44&action=edit",
+      "screenshot": "screenshots/13-pages-edit-page-block-editor.jpg",
+      "title": "Edit Page “About Umami” ‹ Umami Food Magazine — WordPress",
+      "finalUrl": "http://127.0.0.1:8080/wp-admin/post.php?post=44&action=edit",
+      "h1": "Edit Page",
+      "tabs": [],
+      "buttons": [],
+      "controls": [],
+      "tableColumns": [],
+      "text": "Edit Page\nAbout Umami\n· Page\nSave\nPage\nBlock\nAbout Umami\nSet featured image\n31 words, 1 minute read time.\nLast edited a day ago.\nStatus\nPublished\nPublish\nNovember 4 6:17 am\nSlug\nabout-umami\nAuthor\nSamuel Adamson\nTemplate\nPages\nDiscussion\nClosed\nParent\nNone\nMove to trash\nOpen save panel\nPage"
+    },
+    {
+      "n": 14,
+      "top": "Comments",
+      "label": "Comments",
+      "href": "edit-comments.php",
+      "url": "http://127.0.0.1:8080/wp-admin/edit-comments.php",
+      "screenshot": "screenshots/14-comments.jpg",
+      "title": "Comments ‹ Umami Food Magazine — WordPress",
+      "finalUrl": "http://127.0.0.1:8080/wp-admin/edit-comments.php",
+      "h1": "Comments",
+      "tabs": [
+        "All",
+        "Mine",
+        "Pending",
+        "Approved",
+        "Spam",
+        "Trash"
+      ],
+      "buttons": [
+        "Apply",
+        "Add Comment\n\t\t\t\tUpdate Comment\n\t\t\t\tSubmit Reply"
+      ],
+      "controls": [
+        "Author",
+        "In response to",
+        "Submitted on",
+        "Number of items per page:",
+        "Compact view",
+        "Extended view",
+        "Select All",
+        "Comment",
+        "Name",
+        "Email",
+        "URL"
+      ],
+      "tableColumns": [
+        "Author",
+        "Comment",
+        "In response to",
+        "Submitted on"
+      ],
+      "text": "Screen Options\nHelp\nComments\nFilter comments list\nAll (0) | Mine (0) | Pending (0) | Approved (0) | Spam (0) | Trash (0)\nComments list\nOrdered by Comment Date, descending.\nSelect All\n\t\nAuthor\nSort ascending.\n\tComment\t\nIn response to\nSort ascending.\n\t\nSubmitted on\nSort ascending.\n\nNo comments found.\n\nSelect All\n\t\nAuthor\nSort ascending.\n\tComment\t\nIn response to\nSort ascending.\n\t\nSubmitted on\nSort ascending.",
+      "screenOptions": "Columns Author In response to Submitted on Pagination Number of items per page: View mode Compact view Extended view",
+      "help": [
+        "You can manage comments made on your site similar to the way you manage posts and other content. This screen is customizable in the same ways as other management screens, and you can act on comments using the on-hover action links or the bulk actions.",
+        "A red bar on the left means the comment is waiting for you to moderate it.In the Author column, in addition to the author’s name, email address, and site URL, the commenter’s IP address is shown. Clicking on this link will show you all the comments made from this IP address.In the Comment column, hovering over any comment gives you options to approve, reply (and approve), quick edit, edit, spam mark, or trash that comment.In the In response to column, there are three elements. The text is the name of the post that inspired the comment, and links to the post editor for that entry. The View Post link leads to that post on your live site. The small bubble with the number in it shows the number of approved comments that post has received. If there are pending comments, a red notification circle with the number of pending comments is displayed. Clicking the notification circle will filter the comments screen to show only pending comments on that post.In the Submitted on column, the date and time the comment was left on your site appears. Clicking on the date/time link will take you to that comment on your live site.Many people take advantage of keyboard shortcuts to moderate their comments more quickly. Use the link to the side to learn more."
+      ],
+      "helpTabs": [
+        "Overview",
+        "Moderating Comments"
+      ]
+    },
+    {
+      "n": 15,
+      "top": "Appearance",
+      "label": "Appearance",
+      "href": "themes.php",
+      "url": "http://127.0.0.1:8080/wp-admin/themes.php",
+      "screenshot": "screenshots/15-appearance.jpg",
+      "title": "Themes ‹ Umami Food Magazine — WordPress",
+      "finalUrl": "http://127.0.0.1:8080/wp-admin/themes.php",
+      "h1": "Themes 3",
+      "tabs": [],
+      "buttons": [
+        "Add Theme"
+      ],
+      "controls": [
+        "Search installed themes"
+      ],
+      "tableColumns": [],
+      "text": "Help\nThemes 3 Add Theme\n\nSearch installed themes\n\nTheme Details\nActive: Twenty Twenty-Five\nCustomize\nTheme Details\nTwenty Twenty-Four\nActivate Live Preview\nTheme Details\nTwenty Twenty-Three\nActivate Live Preview\nAdd Theme",
+      "help": [
+        "This screen is used for managing your installed themes. Aside from the default theme(s) included with your WordPress installation, themes are designed and developed by third parties.\nFrom this screen you can:\nHover or tap to see Activate and Live Preview buttons.\nClick Customize for the active theme or Live Preview for any other theme to see a live preview.\nClick on a theme to open the Theme Details dialog and see the theme name, version, author, description, tags, and the Delete link.\nUse the buttons at the top of the dialog, or alt/option plus the left or right arrow keys on your keyboard, to navigate between themes quickly.\nThe active theme is displayed highlighted as the first theme.\nThe search for installed themes will search for terms in their name, description, author, or tag. The search results will be updated as you type.",
+        "If you would like to see more themes to choose from, click on the “Add Theme” button and you will be able to browse or search for additional themes from the WordPress Theme Directory. Themes in the WordPress Theme Directory are designed and developed by third parties, and are compatible with the license WordPress uses. Oh, and they are free!",
+        "Tap or hover on any theme then click the Live Preview button to see a live preview of that theme and change theme options in a separate, full-screen view. You can also find a Live Preview button at the bottom of the theme details screen. Any installed theme can be previewed and customized in this way.The theme being previewed is fully interactive — navigate to different pages to see how the theme handles posts, archives, and other page templates. The settings may differ depending on what theme features the theme being previewed supports. To accept the new settings and activate the theme all in one step, click the Activate & Publish button above the menu.When previewing on smaller monitors, you can use the collapse icon at the bottom of the left-hand pane. This will hide the pane, giving you more room to preview your site in the new theme. To bring the pane back, click on the collapse icon again.",
+        "Auto-updates can be enabled or disabled for each individual theme. Themes with auto-updates enabled will display the estimated date of the next auto-update. Auto-updates depends on the WP-Cron task scheduling system.Please note: Third-party themes and plugins, or custom code, may override WordPress scheduling."
+      ],
+      "helpTabs": [
+        "Overview",
+        "Adding Themes",
+        "Previewing and Customizing",
+        "Auto-updates"
+      ]
+    },
+    {
+      "n": 16,
+      "top": "Appearance",
+      "label": "Editor",
+      "href": "site-editor.php",
+      "url": "http://127.0.0.1:8080/wp-admin/site-editor.php",
+      "screenshot": "screenshots/16-appearance-editor.jpg",
+      "title": "Blog Home ‹ Template ‹ Umami Food Magazine ‹ Editor — WordPress",
+      "finalUrl": "http://127.0.0.1:8080/wp-admin/site-editor.php",
+      "h1": "Design",
+      "tabs": [],
+      "buttons": [],
+      "controls": [],
+      "tableColumns": [],
+      "text": "Design\nCustomize the appearance of your website using the block editor.\nIdentity\nStyles\nPages\nNavigation\nPatterns\nTemplates\nSaved"
+    },
+    {
+      "n": 17,
+      "top": "Appearance",
+      "label": "Fonts",
+      "href": "font-library.php",
+      "url": "http://127.0.0.1:8080/wp-admin/font-library.php",
+      "screenshot": "screenshots/17-appearance-fonts.jpg",
+      "title": "Fonts ‹ Umami Food Magazine — WordPress",
+      "finalUrl": "http://127.0.0.1:8080/wp-admin/font-library.php?p=%2Ffont-list",
+      "h1": "Fonts",
+      "tabs": [],
+      "buttons": [],
+      "controls": [],
+      "tableColumns": [],
+      "text": "Fonts\nLibrary\nUpload\nInstall Fonts\nTHEME\nFira Code\n1 of 1 active\nManrope\n1 of 1 active\nUpdate"
+    },
+    {
+      "n": 18,
+      "top": "Appearance",
+      "label": "Site Editor → Styles",
+      "href": "site-editor.php?p=%2Fstyles",
+      "url": "http://127.0.0.1:8080/wp-admin/site-editor.php?p=%2Fstyles",
+      "screenshot": "screenshots/18-appearance-site-editor-styles.jpg",
+      "title": "Blog Home ‹ Template ‹ Umami Food Magazine ‹ Editor — WordPress",
+      "finalUrl": "http://127.0.0.1:8080/wp-admin/site-editor.php?p=%2Fstyles",
+      "h1": "Design",
+      "tabs": [],
+      "buttons": [],
+      "controls": [],
+      "tableColumns": [],
+      "text": "Design\nCustomize the appearance of your website using the block editor.\nIdentity\nStyles\nPages\nNavigation\nPatterns\nTemplates\nSaved\nStyles\nAa\nBrowse styles\nTypography\nColors\nBackground\nShadows\nLayout\n\nCustomize the appearance of specific blocks for the whole site.\n\nBlocks"
+    },
+    {
+      "n": 19,
+      "top": "Appearance",
+      "label": "Site Editor → Pages",
+      "href": "site-editor.php?p=%2Fpage",
+      "url": "http://127.0.0.1:8080/wp-admin/site-editor.php?p=%2Fpage",
+      "screenshot": "screenshots/19-appearance-site-editor-pages.jpg",
+      "title": "Blog Home ‹ Template ‹ Umami Food Magazine ‹ Editor — WordPress",
+      "finalUrl": "http://127.0.0.1:8080/wp-admin/site-editor.php?p=%2Fpage",
+      "h1": "Pages",
+      "tabs": [],
+      "buttons": [],
+      "controls": [],
+      "tableColumns": [],
+      "text": "Pages\nAll Pages\nPublished\nScheduled\nDrafts\nPending\nPrivate\nTrash\nSaved\nPages\nAdd Page\nSearch\nAbout Umami\nEdit\nAuthor\nSamuel Adamson\nStatus\nPublished"
+    },
+    {
+      "n": 20,
+      "top": "Appearance",
+      "label": "Site Editor → Templates",
+      "href": "site-editor.php?p=%2Ftemplate",
+      "url": "http://127.0.0.1:8080/wp-admin/site-editor.php?p=%2Ftemplate",
+      "screenshot": "screenshots/20-appearance-site-editor-templates.jpg",
+      "title": "Editor ‹ Umami Food Magazine — WordPress",
+      "finalUrl": "http://127.0.0.1:8080/wp-admin/site-editor.php?p=%2Ftemplate",
+      "h1": "Templates",
+      "tabs": [],
+      "buttons": [],
+      "controls": [],
+      "tableColumns": [],
+      "text": "Templates\nCreate new templates, or reset any customizations made to the templates supplied by your theme.\nAll templates\nTwenty Twenty-Five\nSaved\nTemplates\nAdd Template\nSearch\nAll Archives\nDisplays any archive, including posts by a single author, category, tag, taxonomy, custom post type, and date. This template will serve as a fallback when more specific templates (e.g. Category or Tag) cannot be found.\nAuthor\nTwenty Twenty-Five\nBlog Home\nDisplays the latest posts as either the site homepage or as the \"Posts page\" as defined under reading settings. If it exists, the Front Page template overrides this template when posts are shown on the homepage.\nAuthor\nTwenty Twenty-Five\nIndex\nUsed as a fallback template for all pages when a more specific template is not defined.\nAuthor\nTwenty Twenty-Five\nPage No Title\nAuthor\nTwenty Twenty-Five\nPage: 404\nDisplays when a visitor views a non-existent page, such as a dead link or a mistyped URL.\nAuthor\nTwenty Twenty-Five\nPages\nDisplays a static page unless a custom template has been applied to that page or a dedicated template exists.\nAuthor\nTwenty Twenty-Five\nSearch Results\nDisplays when a visitor performs a search on your website.\nAuthor\nTwenty Twenty-Five\nSingle Posts\nDisplays a single post on your website unless a custom template has been applied to that post or a dedicated template exists.\nAuthor\nTwenty Twenty-Five"
+    },
+    {
+      "n": 21,
+      "top": "Appearance",
+      "label": "Site Editor → Patterns",
+      "href": "site-editor.php?p=%2Fpattern",
+      "url": "http://127.0.0.1:8080/wp-admin/site-editor.php?p=%2Fpattern",
+      "screenshot": "screenshots/21-appearance-site-editor-patterns.jpg",
+      "title": "Editor ‹ Umami Food Magazine — WordPress",
+      "finalUrl": "http://127.0.0.1:8080/wp-admin/site-editor.php?p=%2Fpattern",
+      "h1": "Patterns",
+      "tabs": [],
+      "buttons": [],
+      "controls": [],
+      "tableColumns": [],
+      "text": "Patterns\nManage what patterns are available when editing the site.\nAll template parts\n7\nHeader\n3\nFooter\n3\nGeneral\n1\nAll patterns\n69\nAbout\n7\nBanners\n18\nCall to action\n13\nContact\n3\nFeatured\n15\nFooters\n5\nGallery\n1\nHeaders\n5\nMedia\n2\nPages\n10\nPost formats\n3\nPosts\n4\nServices\n3\nTestimonials\n3\nText\n3\nUncategorized\n3\nSaved\nAll patterns\nAdd Pattern\n\nA list of all patterns from all sources.\n\nSearch\nSync status\nReset\nBanner with book description\nThis pattern cannot be edited.\nNot synced\nCover with big heading\nThis pattern cannot be edited.\nNot synced\nShort heading and paragraph and image on the left\nThis pattern cannot be edited.\nNot synced\nIntro with left-aligned description\nThis pattern cannot be edited.\nNot synced\nPoster-like section\nThis pattern cannot be edited.\nNot synced\nBanner with description and images grid\nThis pattern cannot be edited.\nNot synced\nPost format name\nThis pattern cannot be edited.\nNot synced\nComments\nThis pattern cannot be edited.\nNot synced\nCentered link and social links\nThis pattern cannot be edited.\nNot synced\nContact, info and locations\nThis pattern cannot be edited.\nNot synced\nContact location and link\nThis pattern cannot be edited.\nNot synced\nCall to action with book links\nThis pattern cannot be edited.\nNot synced\nCall to action with locations\nThis pattern cannot be edited.\nNot synced\nCentered heading\nThis pattern cannot be edited.\nNot synced\nEvents list\nThis pattern cannot be edited.\nNot synced\nCall to action with grid layout with products and link\nThis pattern cannot be edited.\nNot synced\nHeading and search form\nThis pattern cannot be edited.\nNot synced\nNewsletter sign-up\nThis pattern cannot be edited.\nNot synced\nEvents, 3 columns with event images and titles\nThis pattern cannot be edited.\nNot synced\nEvent RSVP\nThis pattern cannot be edited.\nNot synced\nPAGE\n1\n2\n3\n4\nOF 4"
+    },
+    {
+      "n": 22,
+      "top": "Appearance",
+      "label": "Site Editor → Navigation",
+      "href": "site-editor.php?p=%2Fnavigation",
+      "url": "http://127.0.0.1:8080/wp-admin/site-editor.php?p=%2Fnavigation",
+      "screenshot": "screenshots/22-appearance-site-editor-navigation.jpg",
+      "title": "Blog Home ‹ Template ‹ Umami Food Magazine ‹ Editor — WordPress",
+      "finalUrl": "http://127.0.0.1:8080/wp-admin/site-editor.php?p=%2Fnavigation",
+      "h1": "Navigation",
+      "tabs": [],
+      "buttons": [],
+      "controls": [],
+      "tableColumns": [],
+      "text": "Navigation\nNavigation Menus are a curated collection of blocks that allow visitors to get around your site.\nAbout Umami\n\nSaved"
+    },
+    {
+      "n": 23,
+      "top": "Appearance",
+      "label": "Customize (classic customizer)",
+      "href": "customize.php",
+      "url": "http://127.0.0.1:8080/wp-admin/customize.php",
+      "screenshot": "screenshots/23-appearance-customize-classic-customizer.jpg",
+      "title": "Customize: Umami Food Magazine – Umami demo content from Drupal",
+      "finalUrl": "http://127.0.0.1:8080/wp-admin/customize.php",
+      "h1": "",
+      "tabs": [],
+      "buttons": [],
+      "controls": [],
+      "tableColumns": [],
+      "text": "Close\nHurray! Your theme supports site editing with blocks. Tell me more.\nUse Site Editor\nYou are customizing\nUmami Food Magazine\nHelp\nActive theme\nTwenty Twenty-Five\nChange\nSite Identity\nHomepage Settings\nAdditional CSS\n Hide Controls\nDesktop\n \nTablet\n \nMobile\n\nNotifications\n\nHurray! Your theme supports site editing with blocks. Tell me more . Use Site Editor"
+    },
+    {
+      "n": 24,
+      "top": "Plugins",
+      "label": "Plugins",
+      "href": "plugins.php",
+      "url": "http://127.0.0.1:8080/wp-admin/plugins.php",
+      "screenshot": "screenshots/24-plugins.jpg",
+      "title": "Plugins ‹ Umami Food Magazine — WordPress",
+      "finalUrl": "http://127.0.0.1:8080/wp-admin/plugins.php",
+      "h1": "Plugins",
+      "tabs": [
+        "All",
+        "Inactive",
+        "Auto-updates Disabled"
+      ],
+      "buttons": [
+        "Apply",
+        "Add Plugin",
+        "Search installed plugins"
+      ],
+      "controls": [
+        "Description",
+        "Automatic Updates",
+        "Number of items per page:",
+        "Search installed plugins",
+        "Select bulk action",
+        "Current Page",
+        "Select All",
+        "Select Akismet Anti-spam: Spam Protection",
+        "Select Hello Dolly"
+      ],
+      "tableColumns": [
+        "Plugin",
+        "Description",
+        "Automatic Updates"
+      ],
+      "text": "Screen Options\nHelp\nPlugins Add Plugin\nFilter plugins list\nAll (2) | Inactive (2) | Auto-updates Disabled (2)\n\nSearch installed plugins\n\nSelect bulk action\nBulk actions\nActivate\nDeactivate\nUpdate\nDelete\nEnable Auto-updates\nDisable Auto-updates\n2 items\n\nPlugins list\nSelect All\n\tPlugin\tDescription\tAutomatic Updates\n\nSelect Akismet Anti-spam: Spam Protection\n\t\nAkismet Anti-spam: Spam Protection\nActivate | Delete\n\t\n\nUsed by millions, Akismet is quite possibly the best way in the world to protect your blog from spam. Akismet Anti-spam keeps your site protected even while you sleep. To get started: activate the Akismet plugin and then go to your Akismet Settings page to set up your API key.\n\nVersion 5.7.2 | By Automattic - Anti-spam Team | View details\n\tEnable auto-updates\n\nSelect Hello Dolly\n\t\nHello Dolly\nActivate | Delete\n\t\n\nThis is not just a plugin, it symbolizes the hope and enthusiasm of an entire generation summed up in two words sung most famously by Louis Armstrong: Hello, Dolly. When activated you will randomly see a lyric from Hello, Dolly in the upper right of your admin screen on every page.\n\nVersion 1.7.2 | By Matt Mullenweg | View details\n\tEnable auto-updates\n\nSelect All\n\tPlugin\tDescription\tAutomatic Updates\nSelect bulk action\nBulk actions\nActivate\nDeactivate\nUpdate\nDelete\nEnable Auto-updates\nDisable Auto-updates\n2 items",
+      "screenOptions": "Columns Description Automatic Updates Pagination Number of items per page:",
+      "help": [
+        "Plugins extend and expand the functionality of WordPress. Once a plugin is installed, you may activate it or deactivate it here.\nThe search for installed plugins will search for terms in their name, description, or author. The search results will be updated as you type.\nIf you would like to see more plugins to choose from, click on the “Add Plugin” button and you will be able to browse or search for additional plugins from the WordPress Plugin Directory. Plugins in the WordPress Plugin Directory are designed and developed by third parties, and are compatible with the license WordPress uses. Oh, and they are free!",
+        "Most of the time, plugins play nicely with the core of WordPress and with other plugins. Sometimes, though, a plugin’s code will get in the way of another plugin, causing compatibility issues. If your site starts doing strange things, this may be the problem. Try deactivating all your plugins and re-activating them in various combinations until you isolate which one(s) caused the issue.If something goes wrong with a plugin and you cannot use WordPress, delete or rename that file in the /home/user/dwordpress-admin/wordpress/wp-content/plugins directory and it will be automatically deactivated.",
+        "Auto-updates can be enabled or disabled for each individual plugin. Plugins with auto-updates enabled will display the estimated date of the next auto-update. Auto-updates depends on the WP-Cron task scheduling system.Auto-updates are only available for plugins recognized by WordPress.org, or that include a compatible update system.Please note: Third-party themes and plugins, or custom code, may override WordPress scheduling.",
+        "Plugin Dependencies aims to make the process of installing and activating add-ons (dependents) and the plugins they rely on (dependencies) consistent and easy.If a required plugin is deleted, a notice will be displayed on the Plugin administration screen informing the user that there is some missing dependencies to install and/or activate. Additionally, each plugin whose dependencies are not met will have an error notice on their plugin row.If a dependent plugin is missing some dependencies, its activation button will be disabled until the required dependencies are activated."
+      ],
+      "helpTabs": [
+        "Overview",
+        "Troubleshooting",
+        "Auto-updates",
+        "Dependencies"
+      ]
+    },
+    {
+      "n": 25,
+      "top": "Plugins",
+      "label": "Add Plugin",
+      "href": "plugin-install.php",
+      "url": "http://127.0.0.1:8080/wp-admin/plugin-install.php",
+      "screenshot": "screenshots/25-plugins-add-plugin.jpg",
+      "title": "Add Plugins ‹ Umami Food Magazine — WordPress",
+      "finalUrl": "http://127.0.0.1:8080/wp-admin/plugin-install.php",
+      "h1": "Add Plugins",
+      "tabs": [],
+      "buttons": [
+        "Upload Plugin",
+        "Install Now",
+        "Search Plugins"
+      ],
+      "controls": [
+        "Plugin zip file",
+        "Search Plugins",
+        "Search plugins by:"
+      ],
+      "tableColumns": [],
+      "text": "Help\nAdd Plugins Upload Plugin\nFilter plugins list\n\nPlugins extend and expand the functionality of WordPress. You may install plugins from the WordPress Plugin Directory right on this page, or upload a plugin in .zip format by clicking the button above.\n\nFeatured Popular Recommended Favorites\nSearch Plugins\nSearch plugins by:\nKeyword\nAuthor\nTag\n\nPlugins list\nVakanssi: Careers Page, Hiring & Applicant Tracking\nInstall Now\nMore Details\n\nA full applicant tracking system for WordPress: careers page, pipeline, interviews, hire. Self-hosted, with no per-seat fees.\n\nBy Vakanssi\n\n0.0 rating\n (0)\nLast Updated: 3 hours ago\nLess Than 10 Active Installations\nCompatible with your version of WordPress\nFunnelFork – Visual Quiz Builder for Product Recommendations & Decision Trees\nInstall Now\nMore Details\n\nDrag & drop quiz builder: draw product recommendation quizzes, decision trees and assessments as a flowchart. Works with WooCommerce.\n\nBy Teqz Quality WordPress Plugins\n\n5.0 rating based on 3 ratings\n (3)\nLast Updated: 2 days ago\n20+ Active Installations\nCompatible with your version of WordPress\nNotices Panel\nInstall Now\nMore Details\n\nMoves admin notices into a bell panel in the admin bar. Nothing stored, nothing lost: success messages and inline notices stay where they are.\n\nBy Megiston\n\n0.0 rating\n (0)\nLast Updated: 2 weeks ago\n200+ Active Installations\nCompatible with your version of WordPress\nRevertix – Backup, Migration, Staging & Clone\nInstall Now\nMore Details\n\nBackup, staging, migration & clone for WordPress. Back up, duplicate and move your whole site in resumable chunks - no timeouts on big sites.\n\nBy Nitramix\n\n5.0 rating based on 2 ratings\n (2)\nLast Updated: 3 months ago\n90+ Active Installations\nCompatible with your version of WordPress\nBit Connect – Community, Discussion Forum, Feedback & Roadmap\nInstall Now\nMore Details\n\nBuild a community, forum, feedback portal and public roadmap with posts, profiles, votes, discussions, notifications and moderation.\n\nBy Bit Apps\n\n5.0 rating based on 1 rating\n (1)\nLast Updated: 7 days ago\n70+ Active Installations\nCompatible with your version of WordPress\nGym Class Pass Manager\nInstall Now\nMore Details\n\nSimple class booking for gyms, boxes and studios: activities, a weekly schedule and a mobile web app where members book and cancel their spot.\n\nBy Asdesign Web Studio\n\n5.0 rating based on 1 rating\n (1)\nLast Updated: 4 days ago\n30+ Active Installations\nCompatible with your version of WordPress\nAdmirly – Testimonials & Customer Reviews\nInstall Now\nMore Details\n\nCollect testimonials and customer reviews with one link, approve them, and display them as a testimonial wall, grid or scrolling strip.\n\nBy kratosagency\n\n0.0 rating\n (0)\nLast Updated: 2 weeks ago\n40+ Active Installations\nCompatible with your version of WordPress\nSoftIcon Flipbook – PDF Flipbook & Magazine Viewer\nInstall Now\nMore Details\n\nTurn any PDF or set of images into a page-turning flipbook with a block editor block. Two-page spreads on desktop, one page on phones.\n\nBy softiconai\n\n0.0 rating\n (0)\nLast Updated: 2 days ago\n70+ Active Installations\nCompatible with your version of WordPress\nPopular tags\n\nYou may also browse based on the most popular tags in the Plugin Directory:\n\naccessibility admin ads affiliate AI ajax analytics api automation block blocks booking buddypress button cache calendar categories category chat chatbot checkout comment comments contact contact form contact form 7 content crm css custom customer support dashboard e-commerce ecommerce editor elementor email embed events facebook feed form forms gallery GDPR google gutenberg image images import javascript jquery link links live chat login marketing media menu mobile navigation newsletter page pages payment payment gateway payments performance popup post posts privacy redirect responsive reviews rss schema search security seo share shipping shortcode sidebar slider social social media spam statistics tags theme tracking twitter users video whatsapp widget widgets woocommerce youtube",
+      "help": [
+        "Plugins hook into WordPress to extend its functionality with custom features. Plugins are developed independently from the core WordPress application by thousands of developers all over the world. All plugins in the official WordPress Plugin Directory are compatible with the license WordPress uses.\nYou can find new plugins to install by searching or browsing the directory right here in your own Plugins section. The search results will be updated as you type.",
+        "If you know what you are looking for, Search is your best bet. The Search screen has options to search the WordPress Plugin Directory for a particular Term, Author, or Tag. You can also search the directory by selecting popular tags. Tags in larger type mean more plugins have been labeled with that tag.If you just want to get an idea of what’s available, you can browse Featured and Popular plugins by using the links above the plugins list. These sections rotate regularly.You can also browse a user’s favorite plugins, by using the Favorites link above the plugins list and entering their WordPress.org username.If you want to install a plugin that you’ve downloaded elsewhere, click the Upload Plugin button above the plugins list. You will be prompted to upload the .zip package, and once uploaded, you can activate the new plugin."
+      ],
+      "helpTabs": [
+        "Overview",
+        "Adding Plugins"
+      ]
+    },
+    {
+      "n": 26,
+      "top": "Plugins",
+      "label": "Add New Plugin (search)",
+      "href": "plugin-install.php?tab=search&s=seo",
+      "url": "http://127.0.0.1:8080/wp-admin/plugin-install.php?tab=search&s=seo",
+      "screenshot": "screenshots/26-plugins-add-new-plugin-search.jpg",
+      "title": "Add Plugins ‹ Umami Food Magazine — WordPress",
+      "finalUrl": "http://127.0.0.1:8080/wp-admin/plugin-install.php?tab=search&s=seo",
+      "h1": "Add Plugins",
+      "tabs": [],
+      "buttons": [
+        "Upload Plugin",
+        "Install Now",
+        "Search Plugins"
+      ],
+      "controls": [
+        "Plugin zip file",
+        "Search Plugins",
+        "Search plugins by:",
+        "Current Page"
+      ],
+      "tableColumns": [],
+      "text": "Help\nAdd Plugins Upload Plugin\nFilter plugins list\n\nPlugins extend and expand the functionality of WordPress. You may install plugins from the WordPress Plugin Directory right on this page, or upload a plugin in .zip format by clicking the button above.\n\nSearch Results Featured Popular Recommended Favorites\nSearch Plugins\nSearch plugins by:\nKeyword\nAuthor\nTag\nPlugins list navigation\n9,054 items « ‹ \nCurrent Page\n of 252 \nNext page\n› \nLast page\n»\n\nPlugins list\nRank Math SEO – AI SEO Tools to Dominate SEO Rankings\nInstall Now\nMore Details\n\nGrow your organic traffic and AI visibility with powerful SEO tools, XML sitemaps, Schema automation, and built-in AI SEO, all in one place.\n\nBy Rank Math SEO\n\n5.0 rating based on 7,522 ratings\n (7,522)\nLast Updated: 2 days ago\n4+ Million Active Installations\nCompatible with your version of WordPress\nYoast SEO – Advanced SEO with real-time guidance and built-in AI\nInstall Now\nMore Details\n\nReal-time SEO guidance, schema, and AI built in. Help search engines and AI systems understand your content. All AI tools included, no hidden fees.\n\nBy Yoast\n\n5.0 rating based on 27,820 ratings\n (27,820)\nLast Updated: 1 week ago\n10+ Million Active Installations\nCompatible with your version of WordPress\nAll in One SEO – AI SEO Plugin to Boost SEO Rankings & Traffic (Schema, Local SEO, Sitemap & SEO Insights)\nInstall Now\nMore Details\n\nAIOSEO is the WordPress SEO plugin. Boost SEO rankings with AI SEO tools, schema, meta descriptions, XML sitemaps & rank tracking.\n\nBy Syed Balkhi\n\n4.5 rating based on 5,231 ratings\n (5,231)\nLast Updated: 17 hours ago\n2+ Million Active Installations\nCompatible with your version of WordPress\nThe SEO Framework – Fast, Automated, Effortless.\nInstall Now\nMore Details\n\nThe fastest feature-complete SEO plugin for professional WordPress websites. Secure, fast, unbranded, and automated SEO. Do less; get better results.\n\nBy Sybre Waaijer\n\n5.0 rating based on 380 ratings\n (380)\nLast Updated: 3 weeks ago\n200,000+ Active Installations\nCompatible with your version of WordPress\nSEOPress – AI SEO Plugin & On-site SEO\nInstall Now\nMore Details\n\nWordPress SEO plugin with AI SEO metadata, schema, XML sitemap, redirections & Search Console. Privacy-first, white-label SEO. Now AI-ready.\n\nBy Benjamin Denis\n\n5.0 rating based on 1,268 ratings\n (1,268)\nLast Updated: 7 days ago\n300,000+ Active Installations\nCompatible with your version of WordPress\nSlim SEO – AI SEO Plugin, Lightweight, Fast & Automated\nInstall Now\nMore Details\n\nAn AI SEO plugin for WordPress that's lightweight and fast. Automatically generates meta tags, sitemaps, schemas and more with no bloat.\n\nBy Anh Tran\n\n4.5 rating based on 136 ratings\n (136)\nLast Updated: 5 hours ago\n70,000+ Active Installations\nCompatible with your version of WordPress\nLiteSpeed Cache\nInstall Now\nMore Details\n\nAll-in-one unbeatable acceleration & PageSpeed improvement: caching, image/CSS/JS optimization...\n\nBy LiteSpeed Technologies\n\n5.0 rating based on 2,778 ratings\n (2,778)\nLast Updated: 1 day ago\n7+ Million Active Installations\nCompatible with your version of WordPress\nGEO Plugin by Squirrly SEO\nInstall Now\nMore Details\n\nBecome the brand AI recommends. SEO + AEO + GEO so your WordPress ranks on Google and gets cited by ChatGPT, Perplexity, Gemini & AI Overviews.\n\nBy SEO Squirrly\n\n4.5 rating based on 683 ratings\n (683)\nLast Updated: 2 days ago\n30,000+ Active Installations\nUntested with your version of WordPress\nXagio SEO & AEO – AI SEO for Google Rankings & AI Visibility\nInstall Now\nMore Details\n\nAI powered meta, clustering, content, schema & rank tracking, plus an AI website builder - the AI SEO weapon most WordPress users haven't found yet.\n\nBy Xagio SEO\n\n5.0 rating based on 51 ratings\n (51)\nLast Updated: 10 hours ago\n10,000+ Active Installations\nUntested with your version of WordPress\nJetpack – AI Agents & MCP, Security, Backup & Analytics\nInstall Now\nMore Details\n\nConnect ChatGPT, Claude, or another AI agent to your site. Plus backup, malware scan, firewall, stats, CDN, and SEO tools in one plugin.\n\nBy Automattic\n\n3.5 rating based on 2,409 ratings\n (2,409)\nLast Updated: 2 days ago\n3+ Million Active Installations\nCompatible with your version of WordPress\nSEO SIMPLE PACK\nInstall Now\nMore Details\n\nThis is a very simple SEO plugin. You can easily set and customize meta tags and OGP tags for each page.\n\nBy LOOS\n\n4.5 rating based on 14 ratings\n (14)\nLast Updated: 6 months ago\n100,000+ Active Installations\nUntested with your version of WordPress\nThinkRank SEO – AI SEO Plugin for SEO & Google Search Console\nInstall Now\nMore Details\n\nAI SEO plugin for WordPress SEO: AI SEO tools, Google Search Console, meta descriptions, schema & XML sitemaps. Focus keywords+MCP for Claude/ChatGPT.\n\nBy WPDeveloper\n\n5.0 rating based on 37 ratings\n (37)\nLast Updated: 17 minutes ago\n20,000+ Active Installations\nCompatible with your version of WordPress\nSiteSEO – SEO Simplified\nInstall Now\nMore Details\n\nSiteSEO is an easy, fast and powerful SEO plugin for WordPress. Unlock your Website's potential and Maximize your online visibility with our SiteSEO!\n\nBy Softaculous\n\n4.0 rating based on 8 ratings\n (8)\nLast Updated: 1 month ago\n400,000+ Active Installations\nCompatible with your version of WordPress\nSmartCrawl SEO checker, analyzer & optimizer\nInstall Now\nMore Details\n\nSEO checker, content analysis & SEO optimizer. Rank higher on search engines with 301 redirects, XML sitemaps & one-click setup.\n\nBy WPMU DEV - Your All-in-One WordPress Platform\n\n5.0 rating based on 171 ratings\n (171)\nLast Updated: 3 weeks ago\n10,000+ Active Installations\nCompatible with your version of WordPress\nSEO Engine – Smart SEO with AI, Schema & Redirection for WordPress\nInstall Now\nMore Details\n\nMade it through the SEO plugin wasteland? You've earned a coffee  Quietly powerful AI SEO that actually works. No bloat, just results. Enjoy! \n\nBy Jordy Meow\n\n5.0 rating based on 48 ratings\n (48)\nLast Updated: 2 days ago\n1,000+ Active Installations\nCompatible with your version of Word",
+      "help": [
+        "Plugins hook into WordPress to extend its functionality with custom features. Plugins are developed independently from the core WordPress application by thousands of developers all over the world. All plugins in the official WordPress Plugin Directory are compatible with the license WordPress uses.\nYou can find new plugins to install by searching or browsing the directory right here in your own Plugins section. The search results will be updated as you type.",
+        "If you know what you are looking for, Search is your best bet. The Search screen has options to search the WordPress Plugin Directory for a particular Term, Author, or Tag. You can also search the directory by selecting popular tags. Tags in larger type mean more plugins have been labeled with that tag.If you just want to get an idea of what’s available, you can browse Featured and Popular plugins by using the links above the plugins list. These sections rotate regularly.You can also browse a user’s favorite plugins, by using the Favorites link above the plugins list and entering their WordPress.org username.If you want to install a plugin that you’ve downloaded elsewhere, click the Upload Plugin button above the plugins list. You will be prompted to upload the .zip package, and once uploaded, you can activate the new plugin."
+      ],
+      "helpTabs": [
+        "Overview",
+        "Adding Plugins"
+      ]
+    },
+    {
+      "n": 27,
+      "top": "Users",
+      "label": "Users",
+      "href": "users.php",
+      "url": "http://127.0.0.1:8080/wp-admin/users.php",
+      "screenshot": "screenshots/27-users.jpg",
+      "title": "Users ‹ Umami Food Magazine — WordPress",
+      "finalUrl": "http://127.0.0.1:8080/wp-admin/users.php",
+      "h1": "Users",
+      "tabs": [
+        "All",
+        "Administrator",
+        "Editor",
+        "Author"
+      ],
+      "buttons": [
+        "Apply",
+        "Add User",
+        "Search Users",
+        "Change"
+      ],
+      "controls": [
+        "Email",
+        "Role",
+        "Posts",
+        "Number of items per page:",
+        "Search Users:",
+        "Select bulk action",
+        "Change role to…",
+        "Current Page",
+        "Select All",
+        "Select admin",
+        "Select grace.hamilton",
+        "Select gregorio.sanchez",
+        "Select holly.foat",
+        "Select margaret.hopper",
+        "Select maria.garcia",
+        "Select megan.collins.quinlan",
+        "Select samuel.adamson",
+        "Select umami"
+      ],
+      "tableColumns": [
+        "Username",
+        "Name",
+        "Email",
+        "Role",
+        "Posts"
+      ],
+      "text": "Screen Options\nHelp\nUsers Add User\nFilter users list\nAll (9) | Administrator (1) | Editor (3) | Author (5)\n\nSearch Users:\n\nSelect bulk action\nBulk actions\nDelete\nSend password reset\nChange role to…\nChange role to…\nSubscriber\nContributor\nAuthor\nEditor\nAdministrator\n— No role for this site —\n9 items\n\nUsers list\nTable ordered by Username. Ascending.\nSelect All\n\t\nUsername\n\tName\t\nEmail\nSort ascending.\n\tRole\tPosts\n\nSelect admin\n\t\nadmin\n\nEdit | View\n\t—\nUnknown\n\tadmin@example.com\tAdministrator\t0\n\nSelect grace.hamilton\n\t\ngrace.hamilton\n\nEdit | Delete | View | Send password reset\n\t—\nUnknown\n\tgrace.hamilton@example.com\tEditor\t0\n\nSelect gregorio.sanchez\n\t\ngregorio.sanchez\n\nEdit | Delete | View | Send password reset\n\t—\nUnknown\n\tgregorio.sanchez@example.com\tAuthor\t0\n\nSelect holly.foat\n\t\nholly.foat\n\nEdit | Delete | View | Send password reset\n\t—\nUnknown\n\tholly.foat@example.com\tAuthor\t1\n1 post by this author\n\nSelect margaret.hopper\n\t\nmargaret.hopper\n\nEdit | Delete | View | Send password reset\n\t—\nUnknown\n\tmargaret.hopper@example.com\tEditor\t0\n\nSelect maria.garcia\n\t\nmaria.garcia\n\nEdit | Delete | View | Send password reset\n\t—\nUnknown\n\tmaria.garcia@example.com\tEditor\t0\n\nSelect megan.collins.quinlan\n\t\nmegan.collins.quinlan\n\nEdit | Delete | View | Send password reset\n\t—\nUnknown\n\tmegan.collins.quinlan@example.com\tAuthor\t2\n2 posts by this author\n\nSelect samuel.adamson\n\t\nsamuel.adamson\n\nEdit | Delete | View | Send password reset\n\t—\nUnknown\n\tsamuel.adamson@example.com\tAuthor\t0\n\nSelect umami\n\t\numami\n\nEdit | Delete | View | Send password reset\n\t—\nUnknown\n\tumami@example.com\tAuthor\t15\n15 posts by this author\n\nSelect All\n\t\nUsername\n\tName\t\nEmail\nSort ascending.\n\tRole\tPosts\nSelect bulk action\nBulk actions\nDelete\nSend password reset\nChange role to…\nChange role to…\nSubscriber\nContributor\nAuthor\nEditor\nAdministrator\n— No role for this site —\n9 items",
+      "screenOptions": "Columns Email Role Posts Pagination Number of items per page:",
+      "help": [
+        "This screen lists all the existing users for your site. Each user has one of five defined roles as set by the site admin: Site Administrator, Editor, Author, Contributor, or Subscriber. Users with roles other than Administrator will see fewer options in the dashboard navigation when they are logged in, based on their role.\nTo add a new user for your site, click the Add User button at the top of the screen or Add User in the Users menu section.",
+        "You can customize the display of this screen in a number of ways:You can hide/display columns based on your needs and decide how many users to list per screen using the Screen Options tab.You can filter the list of users by User Role using the text links above the users list to show All, Administrator, Editor, Author, Contributor, or Subscriber. The default view is to show all users. Unused User Roles are not listed.You can view all posts made by a user by clicking on the number under the Posts column.",
+        "Hovering over a row in the users list will display action links that allow you to manage users. You can perform the following actions:Edit takes you to the editable profile screen for that user. You can also reach that screen by clicking on the username.Delete brings you to the Delete Users screen for confirmation, where you can permanently remove a user from your site and delete their content. You can also delete multiple users at once by using bulk actions.View takes you to a public author archive which lists all the posts published by the user.Send password reset sends the user an email with a link to set a new password."
+      ],
+      "helpTabs": [
+        "Overview",
+        "Screen Content",
+        "Available Actions"
+      ]
+    },
+    {
+      "n": 28,
+      "top": "Users",
+      "label": "Add User",
+      "href": "user-new.php",
+      "url": "http://127.0.0.1:8080/wp-admin/user-new.php",
+      "screenshot": "screenshots/28-users-add-user.jpg",
+      "title": "Add User ‹ Umami Food Magazine — WordPress",
+      "finalUrl": "http://127.0.0.1:8080/wp-admin/user-new.php",
+      "h1": "Add User",
+      "tabs": [],
+      "buttons": [
+        "Add User"
+      ],
+      "controls": [
+        "Username (required)",
+        "Email (required)",
+        "First Name",
+        "Last Name",
+        "Website",
+        "Password",
+        "Repeat Password (required)",
+        "Confirm use of weak password",
+        "Send the new user an email about their account",
+        "Role"
+      ],
+      "tableColumns": [],
+      "text": "Help\nAdd User\n\nCreate a brand new user and add them to this site.\n\nUsername (required)\t\nEmail (required)\t\nFirst Name\t\nLast Name\t\nWebsite\t\nPassword\tGenerate password\nStrong\n \nHide\n\nSend User Notification\t Send the new user an email about their account\nRole\t\nSubscriber\nContributor\nAuthor\nEditor\nAdministrator",
+      "help": [
+        "To add a new user to your site, fill in the form on this screen and click the Add User button at the bottom.\nNew users are automatically assigned a password, which they can change after logging in. You can view or edit the assigned password by clicking the Show Password button. The username cannot be changed once the user has been added.\nBy default, new users will receive an email letting them know they’ve been added as a user for your site. This email will also contain a password reset link. Uncheck the box if you do not want to send the new user a welcome email.\nRemember to click the Add User button at the bottom of this screen when you are finished.",
+        "Here is a basic overview of the different user roles and the permissions associated with each one:Subscribers can read comments/comment/receive newsletters, etc. but cannot create regular site content.Contributors can write and manage their posts but not publish posts or upload media files.Authors can publish and manage their own posts, and are able to upload files.Editors can publish posts, manage posts as well as manage other people’s posts, etc.Administrators have access to all the administration features."
+      ],
+      "helpTabs": [
+        "Overview",
+        "User Roles"
+      ]
+    },
+    {
+      "n": 29,
+      "top": "Users",
+      "label": "Profile",
+      "href": "profile.php",
+      "url": "http://127.0.0.1:8080/wp-admin/profile.php",
+      "screenshot": "screenshots/29-users-profile.jpg",
+      "title": "Profile ‹ Umami Food Magazine — WordPress",
+      "finalUrl": "http://127.0.0.1:8080/wp-admin/profile.php",
+      "h1": "Profile",
+      "tabs": [],
+      "buttons": [
+        "Update Profile"
+      ],
+      "controls": [
+        "Disable syntax highlighting when editing code",
+        "Default",
+        "Fresh",
+        "Light",
+        "Blue",
+        "Coffee",
+        "Ectoplasm",
+        "Midnight",
+        "Ocean",
+        "Sunrise",
+        "Enable keyboard shortcuts for comment moderation.",
+        "Show Toolbar when viewing site",
+        "Disable infinite scrolling in the Media Library grid view",
+        "Language",
+        "Username",
+        "First Name",
+        "Last Name",
+        "Nickname (required)",
+        "Display name publicly as",
+        "Email (required)",
+        "Website",
+        "Biographical Info",
+        "New Password",
+        "Repeat New Password",
+        "Confirm use of weak password"
+      ],
+      "tableColumns": [],
+      "text": "Help\nProfile\n\nPersonal Options\nSyntax Highlighting\t Disable syntax highlighting when editing code\nAdministration Color Scheme\t\nAdministration Color Scheme\n Default\n \t \t \n  Fresh\n \t \t \t \n  Light\n \t \t \t \n  Blue\n \t \t \t \n  Coffee\n \t \t \t \n  Ectoplasm\n \t \t \t \n  Midnight\n \t \t \t \n  Ocean\n \t \t \t \n  Sunrise\n \t \t \t \n\nKeyboard Shortcuts\t Enable keyboard shortcuts for comment moderation. Documentation on Keyboard Shortcuts\nToolbar\t Show Toolbar when viewing site\n\nInfinite Scrolling\t Disable infinite scrolling in the Media Library grid view\nLanguage\t\nSite Default\nEnglish (United States)\nAfrikaans\nአማርኛ\nAragonés\nالعربية\nالعربية المغربية\nঅসমীয়া\nگؤنئی آذربایجان\nAzərbaycan dili\nБеларуская мова\nБългарски\nবাংলা\nབོད་ཡིག\nBosanski\nCatalà\nCatalà (Valencià)\nCebuano\nČeština\nCymraeg\nDansk\nDeutsch (Österreich)\nDeutsch (Schweiz)\nDeutsch (Sie)\nDeutsch\nDeutsch (Schweiz, Du)\nDolnoserbšćina\nརྫོང་ཁ\nΕλληνικά\nEnglish (Australia)\nEnglish (New Zealand)\nEnglish (South Africa)\nEnglish (Canada)\nEnglish (UK)\nEsperanto\nEspañol de Argentina\nEspañol de México\nEspañol de Chile\nEspañol de Colombia\nEspañol de Perú\nEspañol de Venezuela\nEspañol de Ecuador\nEspañol de República Dominicana\nEspañol de Uruguay\nEspañol de Puerto Rico\nEspañol de Guatemala\nEspañol\nEspañol de Costa Rica\nEesti\nEuskara\nفارسی\n(فارسی (افغانستان\nSuomi\nFøroyskt\nFrançais du Canada\nFrançais\nFrançais de Belgique\nFriulian\nFrysk\nGàidhlig\nGalego\nગુજરાતી\nهزاره گی\nעִבְרִית\nहिन्दी\nHrvatski\nHornjoserbšćina\nMagyar\nՀայերեն\nBahasa Indonesia\nÍslenska\nItaliano\n日本語\nBasa Jawa\nქართული\nTaqbaylit\nҚазақ тілі\nភាសាខ្មែរ\nಕನ್ನಡ\n한국어\nكوردی‎\nКыргызча\nພາສາລາວ\nLietuvių kalba\nLatviešu valoda\nМакедонски јазик\nമലയാളം\nМонгол\nमराठी\nBahasa Melayu\nဗမာစာ\nNorsk bokmål\nनेपाली\nNederlands\nNederlands (België)\nNederlands (Formeel)\nNorsk nynorsk\nOccitan\nਪੰਜਾਬੀ\nNigerian Pidgin\nPolski\nپښتو\nPortuguês\nPortuguês (AO90)\nPortuguês do Brasil\nPortuguês de Angola\nRuáinga\nRomână\nРусский\nСахалыы\nسنڌي\nසිංහල\nSlovenčina\nسرائیکی\nSlovenščina\nShqip\nСрпски језик\nSvenska\nKiswahili\nŚlōnskŏ gŏdka\nதமிழ்\nதமிழ்\nతెలుగు\nไทย\nTagalog\nTürkçe\nТатар теле\nReo Tahiti\nئۇيغۇرچە\nУкраїнська\nاردو\nO‘zbekcha\nTiếng Việt\nYorùbá\n简体中文\n繁體中文\n香港中文\nName\nUsername\t Usernames cannot be changed.\nFirst Name\t\nLast Name\t\nNickname (required)\t\nDisplay name publicly as\t\nadmin\nContact Info\nEmail (required)\t\n\nIf you change this, an email will be sent at your new address to confirm it. The new address will not become active until confirmed.\n\nWebsite\t\nAbout Yourself\nBiographical Info\t\n\nShare a little biographical information to fill out your profile. This may be shown publicly.\n\nProfile Picture\t\n\nYou can change your profile picture on Gravatar.\n\nAccount Management\nNew Password\tSet New Password\nSessions\t\nLog Out Everywhere Else\n\nDid you lose your phone or leave your account logged in at a public computer? You can log out everywhere else, and stay logged in here.\n\nApplication Passwords\n\nApplication passwords allow authentication via non-interactive systems, such as XML-RPC or the REST API, without providing your actual password. Application passwords can be easily revoked. They cannot be used for traditional logins to your website.\n\nThe application password feature requires HTTPS, which is not enabled on this site.\n\nIf this is a development website, you can set the environment type accordingly to enable application passwords.",
+      "help": [
+        "Your profile contains information about you (your “account”) as well as some personal options related to using WordPress.\nYou can change your password, turn on keyboard shortcuts, change the color scheme of your WordPress administration screens, and turn off the WYSIWYG (Visual) editor, among other things. You can hide the Toolbar (formerly called the Admin Bar) from the front end of your site, however it cannot be disabled on the admin screens.\nYou can select the language you wish to use while using the WordPress administration screen without affecting the language site visitors see.\nYour username cannot be changed, but you can use other fields to enter your real name or a nickname, and change which name to display on your posts.\nYou can log out of other devices, such as your phone or a public computer, by clicking the Log Out Everywhere Else button.\nRequired fields are indicated; the rest are optional. Profile information will only be displayed if your theme is set up to do so.\nRemember to click the Update Profile button when you are finished."
+      ],
+      "helpTabs": [
+        "Overview"
+      ]
+    },
+    {
+      "n": 30,
+      "top": "Users",
+      "label": "Edit User",
+      "href": "user-edit.php?user_id=2",
+      "url": "http://127.0.0.1:8080/wp-admin/user-edit.php?user_id=2",
+      "screenshot": "screenshots/30-users-edit-user.jpg",
+      "title": "Edit User Gregorio Sánchez ‹ Umami Food Magazine — WordPress",
+      "finalUrl": "http://127.0.0.1:8080/wp-admin/user-edit.php?user_id=2",
+      "h1": "Edit User Gregorio Sánchez",
+      "tabs": [],
+      "buttons": [
+        "Add User",
+        "Update User"
+      ],
+      "controls": [
+        "Default",
+        "Fresh",
+        "Light",
+        "Blue",
+        "Coffee",
+        "Ectoplasm",
+        "Midnight",
+        "Ocean",
+        "Sunrise",
+        "Enable keyboard shortcuts for comment moderation.",
+        "Show Toolbar when viewing site",
+        "Disable infinite scrolling in the Media Library grid view",
+        "Language",
+        "Username",
+        "Role",
+        "First Name",
+        "Last Name",
+        "Nickname (required)",
+        "Display name publicly as",
+        "Email (required)",
+        "Website",
+        "Biographical Info",
+        "New Password",
+        "Repeat New Password",
+        "Confirm use of weak password"
+      ],
+      "tableColumns": [],
+      "text": "Help\nEdit User Gregorio Sánchez Add User\n\nPersonal Options\nAdministration Color Scheme\t\nAdministration Color Scheme\n Default\n \t \t \n  Fresh\n \t \t \t \n  Light\n \t \t \t \n  Blue\n \t \t \t \n  Coffee\n \t \t \t \n  Ectoplasm\n \t \t \t \n  Midnight\n \t \t \t \n  Ocean\n \t \t \t \n  Sunrise\n \t \t \t \n\nKeyboard Shortcuts\t Enable keyboard shortcuts for comment moderation. Documentation on Keyboard Shortcuts\nToolbar\t Show Toolbar when viewing site\n\nInfinite Scrolling\t Disable infinite scrolling in the Media Library grid view\nLanguage\t\nSite Default\nEnglish (United States)\nAfrikaans\nአማርኛ\nAragonés\nالعربية\nالعربية المغربية\nঅসমীয়া\nگؤنئی آذربایجان\nAzərbaycan dili\nБеларуская мова\nБългарски\nবাংলা\nབོད་ཡིག\nBosanski\nCatalà\nCatalà (Valencià)\nCebuano\nČeština\nCymraeg\nDansk\nDeutsch (Österreich)\nDeutsch (Schweiz)\nDeutsch (Sie)\nDeutsch\nDeutsch (Schweiz, Du)\nDolnoserbšćina\nརྫོང་ཁ\nΕλληνικά\nEnglish (Australia)\nEnglish (New Zealand)\nEnglish (South Africa)\nEnglish (Canada)\nEnglish (UK)\nEsperanto\nEspañol de Argentina\nEspañol de México\nEspañol de Chile\nEspañol de Colombia\nEspañol de Perú\nEspañol de Venezuela\nEspañol de Ecuador\nEspañol de República Dominicana\nEspañol de Uruguay\nEspañol de Puerto Rico\nEspañol de Guatemala\nEspañol\nEspañol de Costa Rica\nEesti\nEuskara\nفارسی\n(فارسی (افغانستان\nSuomi\nFøroyskt\nFrançais du Canada\nFrançais\nFrançais de Belgique\nFriulian\nFrysk\nGàidhlig\nGalego\nગુજરાતી\nهزاره گی\nעִבְרִית\nहिन्दी\nHrvatski\nHornjoserbšćina\nMagyar\nՀայերեն\nBahasa Indonesia\nÍslenska\nItaliano\n日本語\nBasa Jawa\nქართული\nTaqbaylit\nҚазақ тілі\nភាសាខ្មែរ\nಕನ್ನಡ\n한국어\nكوردی‎\nКыргызча\nພາສາລາວ\nLietuvių kalba\nLatviešu valoda\nМакедонски јазик\nമലയാളം\nМонгол\nमराठी\nBahasa Melayu\nဗမာစာ\nNorsk bokmål\nनेपाली\nNederlands\nNederlands (België)\nNederlands (Formeel)\nNorsk nynorsk\nOccitan\nਪੰਜਾਬੀ\nNigerian Pidgin\nPolski\nپښتو\nPortuguês\nPortuguês (AO90)\nPortuguês do Brasil\nPortuguês de Angola\nRuáinga\nRomână\nРусский\nСахалыы\nسنڌي\nසිංහල\nSlovenčina\nسرائیکی\nSlovenščina\nShqip\nСрпски језик\nSvenska\nKiswahili\nŚlōnskŏ gŏdka\nதமிழ்\nதமிழ்\nతెలుగు\nไทย\nTagalog\nTürkçe\nТатар теле\nReo Tahiti\nئۇيغۇرچە\nУкраїнська\nاردو\nO‘zbekcha\nTiếng Việt\nYorùbá\n简体中文\n繁體中文\n香港中文\nName\nUsername\t Usernames cannot be changed.\nRole\t\nSubscriber\nContributor\nAuthor\nEditor\nAdministrator\n— No role for this site —\n\nFirst Name\t\nLast Name\t\nNickname (required)\t\nDisplay name publicly as\t\nGregorio Sánchez\ngregorio.sanchez\nContact Info\nEmail (required)\t\nWebsite\t\nAbout the user\nBiographical Info\t\n\nShare a little biographical information to fill out your profile. This may be shown publicly.\n\nProfile Picture\t\n\nAccount Management\nNew Password\tSet New Password\nPassword Reset\t\nSend Reset Link\n\nSend Gregorio Sánchez a link to reset their password. This will not change their password, nor will it force a change.\n\nApplication Passwords\n\nApplication passwords allow authentication via non-interactive systems, such as XML-RPC or the REST API, without providing your actual password. Application passwords can be easily revoked. They cannot be used for traditional logins to your website.\n\nThe application password feature requires HTTPS, which is not enabled on this site.\n\nIf this is a development website, you can set the environment type accordingly to enable application passwords.",
+      "help": [
+        "Your profile contains information about you (your “account”) as well as some personal options related to using WordPress.\nYou can change your password, turn on keyboard shortcuts, change the color scheme of your WordPress administration screens, and turn off the WYSIWYG (Visual) editor, among other things. You can hide the Toolbar (formerly called the Admin Bar) from the front end of your site, however it cannot be disabled on the admin screens.\nYou can select the language you wish to use while using the WordPress administration screen without affecting the language site visitors see.\nYour username cannot be changed, but you can use other fields to enter your real name or a nickname, and change which name to display on your posts.\nYou can log out of other devices, such as your phone or a public computer, by clicking the Log Out Everywhere Else button.\nRequired fields are indicated; the rest are optional. Profile information will only be displayed if your theme is set up to do so.\nRemember to click the Update Profile button when you are finished."
+      ],
+      "helpTabs": [
+        "Overview"
+      ]
+    },
+    {
+      "n": 31,
+      "top": "Tools",
+      "label": "Tools",
+      "href": "tools.php",
+      "url": "http://127.0.0.1:8080/wp-admin/tools.php",
+      "screenshot": "screenshots/31-tools.jpg",
+      "title": "Tools ‹ Umami Food Magazine — WordPress",
+      "finalUrl": "http://127.0.0.1:8080/wp-admin/tools.php",
+      "h1": "Tools",
+      "tabs": [],
+      "buttons": [],
+      "controls": [],
+      "tableColumns": [],
+      "text": "Help\nTools\nCategories and Tags Converter\n\nIf you want to convert your categories to tags (or vice versa), use the Categories and Tags Converter available from the Import screen.",
+      "help": [
+        "Categories have hierarchy, meaning that you can nest sub-categories. Tags do not have hierarchy and cannot be nested. Sometimes people start out using one on their posts, then later realize that the other would work better for their content.\nThe Categories and Tags Converter link on this screen will take you to the Import screen, where that Converter is one of the plugins you can install. Once that plugin is installed, the Activate Plugin & Run Importer link will take you to a screen where you can choose to convert tags into categories or vice versa."
+      ],
+      "helpTabs": [
+        "Categories and Tags Converter"
+      ]
+    },
+    {
+      "n": 32,
+      "top": "Tools",
+      "label": "Import",
+      "href": "import.php",
+      "url": "http://127.0.0.1:8080/wp-admin/import.php",
+      "screenshot": "screenshots/32-tools-import.jpg",
+      "title": "Import ‹ Umami Food Magazine — WordPress",
+      "finalUrl": "http://127.0.0.1:8080/wp-admin/import.php",
+      "h1": "Import",
+      "tabs": [],
+      "buttons": [],
+      "controls": [],
+      "tableColumns": [],
+      "text": "Help\nImport\n\nIf you have posts or comments in another system, WordPress can import those into this site. To get started, choose a system to import from below:\n\nBlogger\nInstall Now | Details\n\t\nImport posts, comments, and users from a Blogger blog.\n\nCategories and Tags Converter\nInstall Now | Details\n\t\nConvert existing categories to tags or tags to categories, selectively.\n\nLiveJournal\nInstall Now | Details\n\t\nImport posts from LiveJournal using their API.\n\nMovable Type and TypePad\nInstall Now | Details\n\t\nImport posts and comments from a Movable Type or TypePad blog.\n\nRSS\nInstall Now | Details\n\t\nImport posts from an RSS feed.\n\nTumblr\nInstall Now | Details\n\t\nImport posts & media from Tumblr using their API.\n\nWordPress\nInstall Now | Details\n\t\nImport posts, pages, comments, custom fields, categories, and tags from a WordPress export file.\n\nIf the importer you need is not listed, search the plugin directory to see if an importer is available.",
+      "help": [
+        "This screen lists links to plugins to import data from blogging/content management platforms. Choose the platform you want to import from, and click Install Now when you are prompted in the popup window. If your platform is not listed, click the link to search the plugin directory for other importer plugins to see if there is one for your platform.\nIn previous versions of WordPress, all importers were built-in. They have been turned into plugins since most people only use them once or infrequently."
+      ],
+      "helpTabs": [
+        "Overview"
+      ]
+    },
+    {
+      "n": 33,
+      "top": "Tools",
+      "label": "Export",
+      "href": "export.php",
+      "url": "http://127.0.0.1:8080/wp-admin/export.php",
+      "screenshot": "screenshots/33-tools-export.jpg",
+      "title": "Export ‹ Umami Food Magazine — WordPress",
+      "finalUrl": "http://127.0.0.1:8080/wp-admin/export.php",
+      "h1": "Export",
+      "tabs": [],
+      "buttons": [
+        "Download Export File"
+      ],
+      "controls": [
+        "All content",
+        "Posts",
+        "Start date:",
+        "End date:",
+        "Status:",
+        "Pages",
+        "Authors: All admin (admin) Samuel Adamson (samuel.adamson)",
+        "Media"
+      ],
+      "tableColumns": [],
+      "text": "Help\nExport\n\nWhen you click the button below WordPress will create an XML file for you to save to your computer.\n\nThis format, which is called WordPress eXtended RSS or WXR, will contain your posts, pages, comments, custom fields, categories, and tags.\n\nOnce you’ve saved the download file, you can use the Import function in another WordPress installation to import the content from this site.\n\nChoose what to export\nContent to export\n\n All content\n\nThis will contain all of your posts, pages, comments, custom fields, terms, navigation menus, and custom posts.\n\n Posts\n\n Pages\n\n Media",
+      "help": [
+        "You can export a file of your site’s content in order to import it into another installation or platform. The export file will be an XML file format called WXR. Posts, pages, comments, custom fields, categories, and tags can be included. You can choose for the WXR file to include only certain posts or pages by setting the dropdown filters to limit the export by category, author, date range by month, or publishing status.\nOnce generated, your WXR file can be imported by another WordPress site or by another blogging platform able to access this format."
+      ],
+      "helpTabs": [
+        "Overview"
+      ]
+    },
+    {
+      "n": 34,
+      "top": "Tools",
+      "label": "Site Health",
+      "href": "site-health.php",
+      "url": "http://127.0.0.1:8080/wp-admin/site-health.php",
+      "screenshot": "screenshots/34-tools-site-health.jpg",
+      "title": "Site Health - Status ‹ Umami Food Magazine — WordPress",
+      "finalUrl": "http://127.0.0.1:8080/wp-admin/site-health.php",
+      "h1": "Site Health",
+      "tabs": [],
+      "buttons": [],
+      "controls": [],
+      "tableColumns": [],
+      "text": "Help\nSite Health\nResults are still loading…\nStatus\nInfo\nSite Health Status\n\nThe site health check shows information about your WordPress configuration and items that may need your attention.\n\n1 critical issue\n\nCritical issues are items that may have a high impact on your site’s performance or security. Resolving these issues should be prioritized.\n\nThe REST API encountered an error\nPerformance\n4 recommended improvements\n\nRecommended items are considered beneficial to your site, although not as important to prioritize as a critical issue. They may include improvements in areas such as security, performance, and user experience.\n\nYou should remove inactive plugins\nSecurity\nYou should remove inactive themes\nSecurity\nOne or more recommended modules are missing\nPerformance\nBackground updates may not be working properly\nSecurity\nPassed tests",
+      "help": [
+        "This screen allows you to obtain a health diagnosis of your site, and displays an overall rating of the status of your installation.\nIn the Status tab, you can see critical information about your WordPress configuration, along with anything else that requires your attention.\nIn the Info tab, you will find all the details about the configuration of your WordPress site, server, and database. There is also an export feature that allows you to copy all of the information about your site to the clipboard, to help solve problems on your site when obtaining support."
+      ],
+      "helpTabs": [
+        "Overview"
+      ]
+    },
+    {
+      "n": 35,
+      "top": "Tools",
+      "label": "Export Personal Data",
+      "href": "export-personal-data.php",
+      "url": "http://127.0.0.1:8080/wp-admin/export-personal-data.php",
+      "screenshot": "screenshots/35-tools-export-personal-data.jpg",
+      "title": "Export Personal Data ‹ Umami Food Magazine — WordPress",
+      "finalUrl": "http://127.0.0.1:8080/wp-admin/export-personal-data.php",
+      "h1": "Export Personal Data",
+      "tabs": [
+        "All"
+      ],
+      "buttons": [
+        "Apply",
+        "Send Request"
+      ],
+      "controls": [
+        "Requester",
+        "Status",
+        "Requested",
+        "Next steps",
+        "Number of items per page:",
+        "Username or email address",
+        "Send personal data export confirmation email.",
+        "Select bulk action",
+        "Select All"
+      ],
+      "tableColumns": [
+        "Requester",
+        "Status",
+        "Requested",
+        "Next steps"
+      ],
+      "text": "Screen Options\nHelp\nExport Personal Data\n\nThis tool helps site owners comply with local laws and regulations by exporting known data for a given user in a .zip file.\n\nAdd Data Export Request\nUsername or email address\t\nConfirmation email\t Send personal data export confirmation email.\n\nFilter export personal data list\nAll (0)\n\nExport personal data list\nSelect All\n\t\nRequester\nSort ascending.\n\tStatus\t\nRequested\nSort ascending.\n\tNext steps\nNo items found.\n\nSelect All\n\t\nRequester\nSort ascending.\n\tStatus\t\nRequested\nSort ascending.\n\tNext steps",
+      "screenOptions": "Columns Requester Status Requested Next steps Pagination Number of items per page:",
+      "help": [
+        "This screen is where you manage requests for an export of personal data.\nPrivacy Laws around the world require businesses and online services to provide an export of some of the data they collect about an individual, and to deliver that export on request. The rights those laws enshrine are sometimes called the \"Right of Data Portability\". It allows individuals to obtain and reuse their personal data for their own purposes across different services. It allows them to move, copy or transfer personal data easily from one IT environment to another.\nThe tool associates data stored in WordPress with a supplied email address, including profile data and comments.\nNote: Since this tool only gathers data from WordPress and participating plugins, you may need to do more to comply with export requests. For example, you should also send the requester some of the data collected from or stored with the 3rd party services your organization uses.",
+        "WordPress collects (but never publishes) a limited amount of data from registered users who have logged in to the site. Generally, these users are people who contribute to the site in some way -- content, store management, and so on. With rare exceptions, these users do not include occasional visitors who might have registered to comment on articles or buy products. The data WordPress retains can include:Profile Information — user email address, username, display name, nickname, first name, last name, description/bio, and registration date.Community Events Location — The IP Address of the user, which populates the Upcoming Community Events dashboard widget with relevant information.Session Tokens — User login information, IP Addresses, Expiration Date, User Agent (Browser/OS), and Last Login.Comments — For user comments, Email Address, IP Address, User Agent (Browser/OS), Date/Time, Comment Content, and Content URL.Media — A list of URLs for media files the user uploads.",
+        "Many plugins may collect or store personal data either in the WordPress database or remotely. Any Export Personal Data request should include data from plugins as well.If you are not sure, check the plugin documentation or contact the plugin author to see if the plugin collects data and if it supports the Data Exporter tool. This information may be available in the Privacy Policy Guide.If you are a plugin author, you can learn more about how to add the Personal Data Exporter to a plugin."
+      ],
+      "helpTabs": [
+        "Overview",
+        "Default Data",
+        "Plugin Data"
+      ]
+    },
+    {
+      "n": 36,
+      "top": "Tools",
+      "label": "Erase Personal Data",
+      "href": "erase-personal-data.php",
+      "url": "http://127.0.0.1:8080/wp-admin/erase-personal-data.php",
+      "screenshot": "screenshots/36-tools-erase-personal-data.jpg",
+      "title": "Erase Personal Data ‹ Umami Food Magazine — WordPress",
+      "finalUrl": "http://127.0.0.1:8080/wp-admin/erase-personal-data.php",
+      "h1": "Erase Personal Data",
+      "tabs": [
+        "All"
+      ],
+      "buttons": [
+        "Apply",
+        "Send Request"
+      ],
+      "controls": [
+        "Requester",
+        "Status",
+        "Requested",
+        "Next steps",
+        "Number of items per page:",
+        "Username or email address",
+        "Send personal data erasure confirmation email.",
+        "Select bulk action",
+        "Select All"
+      ],
+      "tableColumns": [
+        "Requester",
+        "Status",
+        "Requested",
+        "Next steps"
+      ],
+      "text": "Screen Options\nHelp\nErase Personal Data\n\nThis tool helps site owners comply with local laws and regulations by deleting or anonymizing known data for a given user.\n\nAdd Data Erasure Request\nUsername or email address\t\nConfirmation email\t Send personal data erasure confirmation email.\n\nFilter erase personal data list\nAll (0)\n\nErase personal data list\nSelect All\n\t\nRequester\nSort ascending.\n\tStatus\t\nRequested\nSort ascending.\n\tNext steps\nNo items found.\n\nSelect All\n\t\nRequester\nSort ascending.\n\tStatus\t\nRequested\nSort ascending.\n\tNext steps",
+      "screenOptions": "Columns Requester Status Requested Next steps Pagination Number of items per page:",
+      "help": [
+        "This screen is where you manage requests to erase personal data.\nPrivacy Laws around the world require businesses and online services to delete, anonymize, or forget the data they collect about an individual. The rights those laws enshrine are sometimes called the \"Right to be Forgotten\".\nThe tool associates data stored in WordPress with a supplied email address, including profile data and comments.\nNote: As this tool only gathers data from WordPress and participating plugins, you may need to do more to comply with erasure requests. For example, you are also responsible for ensuring that data collected by or stored with the 3rd party services your organization uses gets deleted.",
+        "WordPress collects (but never publishes) a limited amount of data from logged-in users but then deletes it or anonymizes it. That data can include:Profile Information — user email address, username, display name, nickname, first name, last name, description/bio, and registration date.Community Events Location — The IP Address of the user which is used for the Upcoming Community Events shown in the dashboard widget.Session Tokens — User login information, IP Addresses, Expiration Date, User Agent (Browser/OS), and Last Login.Comments — WordPress does not delete comments. The software does anonymize (but, again, never publishes) the associated Email Address, IP Address, and User Agent (Browser/OS).Media — A list of URLs for all media file uploads made by the user.",
+        "Many plugins may collect or store personal data either in the WordPress database or remotely. Any Erase Personal Data request should delete data from plugins as well.If you are not sure, check the plugin documentation or contact the plugin author to see if the plugin collects data and if it supports the Data Eraser tool. This information may be available in the Privacy Policy Guide.If you are a plugin author, you can learn more about how to add the Personal Data Eraser to a plugin."
+      ],
+      "helpTabs": [
+        "Overview",
+        "Default Data",
+        "Plugin Data"
+      ]
+    },
+    {
+      "n": 37,
+      "top": "Tools",
+      "label": "Theme File Editor",
+      "href": "theme-editor.php",
+      "url": "http://127.0.0.1:8080/wp-admin/theme-editor.php",
+      "screenshot": "screenshots/37-tools-theme-file-editor.jpg",
+      "title": "Edit Themes ‹ Umami Food Magazine — WordPress",
+      "finalUrl": "http://127.0.0.1:8080/wp-admin/theme-editor.php",
+      "h1": "Edit Themes",
+      "tabs": [],
+      "buttons": [
+        "Select",
+        "Update File"
+      ],
+      "controls": [
+        "Select theme to edit:",
+        "Selected file content:"
+      ],
+      "tableColumns": [],
+      "text": "Help\nEdit Themes\n\nDid you know?\n\nThere is no need to change your CSS here — you can edit and live preview CSS changes in the built-in CSS editor.\n\nThere is a minified version of this stylesheet.\n\nIt is likely that this unminified stylesheet will not be served to visitors.\n\nEditing Twenty Twenty-Five (active)\nFile: style.css\nSelect theme to edit: \nTwenty Twenty-Five\nTwenty Twenty-Four\nTwenty Twenty-Three\n \n\nTheme Files\nStylesheet\n(style.css)\nTheme Functions\n(functions.php)\nassets\nfolder\nstyle.min.css\nparts\nfolder\ntemplates\nfolder\npackage-lock.json\npackage.json\nstyles\nfolder\nTheme Styles & Block Settings\n(theme.json)\npatterns\nfolder\ncontributing.txt\nreadme.txt\nSelected file content:\n1\n/*\n2\nTheme Name: Twenty Twenty-Five\n3\nTheme URI: https://wordpress.org/themes/twentytwentyfive/\n4\nAuthor: the WordPress team\n5\nAuthor URI: https://wordpress.org\n6\nDescription: Twenty Twenty-Five emphasizes simplicity and adaptability. It offers flexible design options, supported by a variety of patterns for different page types, such as services and landing pages, making it ideal for building personal blogs, professional portfolios, online magazines, or business websites. Its templates cater to various blog styles, from text-focused to image-heavy layouts. Additionally, it supports international typography and diverse color palettes, ensuring accessibility and customization for users worldwide.\n7\nRequires at least: 6.7\n8\nTested up to: 7.1\n9\nRequires PHP: 7.2\n10\nVersion: 1.5\n11\nLicense: GNU General Public License v2 or later\n12\nLicense URI: http://www.gnu.org/licenses/gpl-2.0.html\n13\nText Domain: twentytwentyfive\n14\nTags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, style-variations, accessibility-ready, blog, portfolio, news\n15\n*/\n16\n​\n17\n/*\n18\n * IMPORTANT: This file is only served on the frontend when `SCRIPT_DEBUG` is enabled;\n19\n * in most instances, the `style.min.css` file will be served. It is not recommended that you\n20\n * use the Theme File Editor to modify this stylesheet. Instead, add the necessary style\n21\n * overrides via \"Additional CSS\" in the Site Editor.\n22\n */\n23\n​\n24\n/*\n25\n * Link styles\n26\n * https://github.com/WordPress/gutenberg/issues/42319\n27\n */\n28\na {\n29\n    text-decoration-thickness: 1px !important;\n30\n    text-underline-offset: .1em;\n31\n}\n32\n​\n33\n/* Focus styles */\n34\n:where(.wp-site-blocks *:focus) {\n35\n    outline-width: 2px;\n36\n    outline-style: solid;",
+      "help": [
+        "You can use the theme file editor to edit the individual CSS and PHP files which make up your theme.Begin by choosing a theme to edit from the dropdown menu and clicking the Select button. A list then appears of the theme’s template files. Clicking once on any file name causes the file to appear in the large Editor box.For PHP files, you can use the documentation dropdown to select from functions recognized in that file. Look Up takes you to a web page with reference material about that particular function.When using a keyboard to navigate:In the editing area, the Tab key enters a tab character.To move away from this area, press the Esc key followed by the Tab key.Screen reader users: when in forms mode, you may need to press the Esc key twice.After typing in your edits, click Update File.Advice: Think very carefully about your site crashing if you are live-editing the theme currently in use.Upgrading to a newer version of the same theme will override changes made here. To avoid this, consider creating a child theme instead."
+      ],
+      "helpTabs": [
+        "Overview"
+      ]
+    },
+    {
+      "n": 38,
+      "top": "Tools",
+      "label": "Plugin File Editor",
+      "href": "plugin-editor.php",
+      "url": "http://127.0.0.1:8080/wp-admin/plugin-editor.php",
+      "screenshot": "screenshots/38-tools-plugin-file-editor.jpg",
+      "title": "Edit Plugins ‹ Umami Food Magazine — WordPress",
+      "finalUrl": "http://127.0.0.1:8080/wp-admin/plugin-editor.php",
+      "h1": "Edit Plugins",
+      "tabs": [],
+      "buttons": [
+        "Select",
+        "Update File"
+      ],
+      "controls": [
+        "Select plugin to edit:",
+        "Selected file content:",
+        "Documentation:"
+      ],
+      "tableColumns": [],
+      "text": "Help\nEdit Plugins\nEditing Akismet Anti-spam: Spam Protection (inactive)\nFile: akismet/akismet.php\nSelect plugin to edit: \nAkismet Anti-spam: Spam Protection\nHello Dolly\n \n\nPlugin Files\nakismet.php\nreadme.txt\n_inc\nfolder\nviews\nfolder\nindex.php\nclass.akismet-widget.php\nclass-akismet-connector.php\nwrapper.php\nclass.akismet.php\nclass-akismet-compatible-plugins.php\nclass-akismet-abilities.php\nchangelog.txt\nabilities\nfolder\nclass.akismet-cli.php\nLICENSE.txt\nclass.akismet-rest-api.php\nclass.akismet-admin.php\nSelected file content:\n1\n<?php\n2\n/**\n3\n * @package Akismet\n4\n */\n5\n/*\n6\nPlugin Name: Akismet Anti-spam: Spam Protection\n7\nPlugin URI: https://akismet.com/\n8\nDescription: Used by millions, Akismet is quite possibly the best way in the world to <strong>protect your blog from spam</strong>. Akismet Anti-spam keeps your site protected even while you sleep. To get started: activate the Akismet plugin and then go to your Akismet Settings page to set up your API key.\n9\nVersion: 5.7.2\n10\nRequires at least: 5.8\n11\nRequires PHP: 7.2\n12\nAuthor: Automattic - Anti-spam Team\n13\nAuthor URI: https://automattic.com/wordpress-plugins/\n14\nLicense: GPLv2 or later\n15\nText Domain: akismet\n16\n*/\n17\n​\n18\n/*\n19\nThis program is free software; you can redistribute it and/or\n20\nmodify it under the terms of the GNU General Public License\n21\nas published by the Free Software Foundation; either version 2\n22\nof the License, or (at your option) any later version.\n23\n​\n24\nThis program is distributed in the hope that it will be useful,\n25\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\n26\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n27\nGNU General Public License for more details.\n28\n​\n29\nYou should have received a copy of the GNU General Public License\n30\nalong with this program; if not, write to the Free Software\n31\nFoundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.\n32\n​\n33\nCopyright 2005-2025 Automattic, Inc.\n34\n*/\n35\n​\n36\n// Make sure we don't expose any info if called directly\n37\nif ( ! function_exists( 'add_action' ) ) {\n38\n    echo 'Hi there!  I\\'m just a plugin, not much I can do when called directly.';\n39\n    exit;\n40\n}\nDocumentation: \nFunction Name…\nadd_action()\ndefine()\ndefined()\nfunction_exists()\nget_api_key()\ninit()\nis_admin()\nplugin_dir_path()\nregister_activation_hook()\nregister_deactivation_hook()",
+      "help": [
+        "You can use the plugin file editor to make changes to any of your plugins’ individual PHP files. Be aware that if you make changes, plugins updates will overwrite your customizations.Choose a plugin to edit from the dropdown menu and click the Select button. Click once on any file name to load it in the editor, and make your changes. Do not forget to save your changes (Update File) when you are finished.The documentation menu below the editor lists the PHP functions recognized in the plugin file. Clicking Look Up takes you to a web page about that particular function.When using a keyboard to navigate:In the editing area, the Tab key enters a tab character.To move away from this area, press the Esc key followed by the Tab key.Screen reader users: when in forms mode, you may need to press the Esc key twice.If you want to make changes but do not want them to be overwritten when the plugin is updated, you may be ready to think about writing your own plugin. For information on how to edit plugins, write your own from scratch, or just better understand their anatomy, check out the links below."
+      ],
+      "helpTabs": [
+        "Overview"
+      ]
+    },
+    {
+      "n": 39,
+      "top": "Tools",
+      "label": "Import → WordPress (installer)",
+      "href": "admin.php?import=wordpress",
+      "url": "http://127.0.0.1:8080/wp-admin/admin.php?import=wordpress",
+      "screenshot": "screenshots/39-tools-import-wordpress-installer.jpg",
+      "title": "Import ‹ Umami Food Magazine — WordPress",
+      "finalUrl": "http://127.0.0.1:8080/wp-admin/import.php?invalid=wordpress",
+      "h1": "Import",
+      "tabs": [],
+      "buttons": [],
+      "controls": [],
+      "tableColumns": [],
+      "text": "Help\nImport\n\nError: The wordpress importer is invalid or is not installed.\n\nIf you have posts or comments in another system, WordPress can import those into this site. To get started, choose a system to import from below:\n\nBlogger\nInstall Now | Details\n\t\nImport posts, comments, and users from a Blogger blog.\n\nCategories and Tags Converter\nInstall Now | Details\n\t\nConvert existing categories to tags or tags to categories, selectively.\n\nLiveJournal\nInstall Now | Details\n\t\nImport posts from LiveJournal using their API.\n\nMovable Type and TypePad\nInstall Now | Details\n\t\nImport posts and comments from a Movable Type or TypePad blog.\n\nRSS\nInstall Now | Details\n\t\nImport posts from an RSS feed.\n\nTumblr\nInstall Now | Details\n\t\nImport posts & media from Tumblr using their API.\n\nWordPress\nInstall Now | Details\n\t\nImport posts, pages, comments, custom fields, categories, and tags from a WordPress export file.\n\nIf the importer you need is not listed, search the plugin directory to see if an importer is available.",
+      "help": [
+        "This screen lists links to plugins to import data from blogging/content management platforms. Choose the platform you want to import from, and click Install Now when you are prompted in the popup window. If your platform is not listed, click the link to search the plugin directory for other importer plugins to see if there is one for your platform.\nIn previous versions of WordPress, all importers were built-in. They have been turned into plugins since most people only use them once or infrequently."
+      ],
+      "helpTabs": [
+        "Overview"
+      ]
+    },
+    {
+      "n": 40,
+      "top": "Settings",
+      "label": "Settings",
+      "href": "options-general.php",
+      "url": "http://127.0.0.1:8080/wp-admin/options-general.php",
+      "screenshot": "screenshots/40-settings.jpg",
+      "title": "General Settings ‹ Umami Food Magazine — WordPress",
+      "finalUrl": "http://127.0.0.1:8080/wp-admin/options-general.php",
+      "h1": "General Settings",
+      "tabs": [],
+      "buttons": [
+        "Save Changes"
+      ],
+      "controls": [
+        "Site Title",
+        "Tagline",
+        "WordPress Address (URL)",
+        "Site Address (URL)",
+        "Administration Email Address",
+        "Anyone can register",
+        "New User Default Role",
+        "Site Language",
+        "Timezone",
+        "November 5, 2026F j, Y",
+        "2026-11-05Y-m-d",
+        "11/05/2026m/d/Y",
+        "05/11/2026d/m/Y",
+        "05.11.2026d.m.Y",
+        "Custom: enter a custom date format in the following field",
+        "Custom date format:",
+        "6:32 amg:i a",
+        "6:32 AMg:i A",
+        "06:32H:i",
+        "Custom: enter a custom time format in the following field",
+        "Custom time format:",
+        "Week Starts On"
+      ],
+      "tableColumns": [],
+      "text": "Help\nGeneral Settings\nSite Title\t\nTagline\t\n\nIn a few words, explain what this site is about. Example: “Just another WordPress site.”\n\nSite Icon\t\nChoose a Site Icon\n\nThe Site Icon is what you see in browser tabs, bookmark bars, and within the WordPress mobile apps. It should be square and at least 512 by 512 pixels.\n\nWordPress Address (URL)\t\nSite Address (URL)\t\n\nEnter the same address here unless you want your site home page to be different from your WordPress installation directory.\n\nAdministration Email Address\t\n\nThis address is used for admin purposes. If you change this, an email will be sent to your new address to confirm it. The new address will not become active until confirmed.\n\nMembership\t\nMembership\n Anyone can register\n\nNew User Default Role\t\nSubscriber\nContributor\nAuthor\n\nSite Language\t\nEnglish (United States)\nAfrikaans\nአማርኛ\nAragonés\nالعربية\nالعربية المغربية\nঅসমীয়া\nگؤنئی آذربایجان\nAzərbaycan dili\nБеларуская мова\nБългарски\nবাংলা\nབོད་ཡིག\nBosanski\nCatalà\nCatalà (Valencià)\nCebuano\nČeština\nCymraeg\nDansk\nDeutsch (Österreich)\nDeutsch (Schweiz)\nDeutsch (Sie)\nDeutsch\nDeutsch (Schweiz, Du)\nDolnoserbšćina\nརྫོང་ཁ\nΕλληνικά\nEnglish (Australia)\nEnglish (New Zealand)\nEnglish (South Africa)\nEnglish (Canada)\nEnglish (UK)\nEsperanto\nEspañol de Argentina\nEspañol de México\nEspañol de Chile\nEspañol de Colombia\nEspañol de Perú\nEspañol de Venezuela\nEspañol de Ecuador\nEspañol de República Dominicana\nEspañol de Uruguay\nEspañol de Puerto Rico\nEspañol de Guatemala\nEspañol\nEspañol de Costa Rica\nEesti\nEuskara\nفارسی\n(فارسی (افغانستان\nSuomi\nFøroyskt\nFrançais du Canada\nFrançais\nFrançais de Belgique\nFriulian\nFrysk\nGàidhlig\nGalego\nગુજરાતી\nهزاره گی\nעִבְרִית\nहिन्दी\nHrvatski\nHornjoserbšćina\nMagyar\nՀայերեն\nBahasa Indonesia\nÍslenska\nItaliano\n日本語\nBasa Jawa\nქართული\nTaqbaylit\nҚазақ тілі\nភាសាខ្មែរ\nಕನ್ನಡ\n한국어\nكوردی‎\nКыргызча\nພາສາລາວ\nLietuvių kalba\nLatviešu valoda\nМакедонски јазик\nമലയാളം\nМонгол\nमराठी\nBahasa Melayu\nဗမာစာ\nNorsk bokmål\nनेपाली\nNederlands\nNederlands (België)\nNederlands (Formeel)\nNorsk nynorsk\nOccitan\nਪੰਜਾਬੀ\nNigerian Pidgin\nPolski\nپښتو\nPortuguês\nPortuguês (AO90)\nPortuguês do Brasil\nPortuguês de Angola\nRuáinga\nRomână\nРусский\nСахалыы\nسنڌي\nසිංහල\nSlovenčina\nسرائیکی\nSlovenščina\nShqip\nСрпски језик\nSvenska\nKiswahili\nŚlōnskŏ gŏdka\nதமிழ்\nதமிழ்\nతెలుగు\nไทย\nTagalog\nTürkçe\nТатар теле\nReo Tahiti\nئۇيغۇرچە\nУкраїнська\nاردو\nO‘zbekcha\nTiếng Việt\nYorùbá\n简体中文\n繁體中文\n香港中文\n\nTimezone\t\nAbidjan\nAccra\nAddis Ababa\nAlgiers\nAsmara\nBamako\nBangui\nBanjul\nBissau\nBlantyre\nBrazzaville\nBujumbura\nCairo\nCasablanca\nCeuta\nConakry\nDakar\nDar es Salaam\nDjibouti\nDouala\nEl Aaiun\nFreetown\nGaborone\nHarare\nJohannesburg\nJuba\nKampala\nKhartoum\nKigali\nKinshasa\nLagos\nLibreville\nLome\nLuanda\nLubumbashi\nLusaka\nMalabo\nMaputo\nMaseru\nMbabane\nMogadishu\nMonrovia\nNairobi\nNdjamena\nNiamey\nNouakchott\nOuagadougou\nPorto-Novo\nSao Tome\nTripoli\nTunis\nWindhoek\nAdak\nAnchorage\nAnguilla\nAntigua\nAraguaina\nArgentina - Buenos Aires\nArgentina - Catamarca\nArgentina - Cordoba\nArgentina - Jujuy\nArgentina - La Rioja\nArgentina - Mendoza\nArgentina - Rio Gallegos\nArgentina - Salta\nArgentina - San Juan\nArgentina - San Luis\nArgentina - Tucuman\nArgentina - Ushuaia\nAruba\nAsuncion\nAtikokan\nBahia\nBahia Banderas\nBarbados\nBelem\nBelize\nBlanc-Sablon\nBoa Vista\nBogota\nBoise\nCambridge Bay\nCampo Grande\nCancun\nCaracas\nCayenne\nCayman\nChicago\nChihuahua\nCiudad Juarez\nCosta Rica\nCoyhaique\nCreston\nCuiaba\nCuracao\nDanmarkshavn\nDawson\nDawson Creek\nDenver\nDetroit\nDominica\nEdmonton\nEirunepe\nEl Salvador\nFortaleza\nFort Nelson\nGlace Bay\nGoose Bay\nGrand Turk\nGrenada\nGuadeloupe\nGuatemala\nGuayaquil\nGuyana\nHalifax\nHavana\nHermosillo\nIndiana - Indianapolis\nIndiana - Knox\nIndiana - Marengo\nIndiana - Petersburg\nIndiana - Tell City\nIndiana - Vevay\nIndiana - Vincennes\nIndiana - Winamac\nInuvik\nIqaluit\nJamaica\nJuneau\nKentucky - Louisville\nKentucky - Monticello\nKralendijk\nLa Paz\nLima\nLos Angeles\nLower Princes\nMaceio\nManagua\nManaus\nMarigot\nMartinique\nMatamoros\nMazatlan\nMenominee\nMerida\nMetlakatla\nMexico City\nMiquelon\nMoncton\nMonterrey\nMontevideo\nMontserrat\nNassau\nNew York\nNome\nNoronha\nNorth Dakota - Beulah\nNorth Dakota - Center\nNorth Dakota - New Salem\nNuuk\nOjinaga\nPanama\nParamaribo\nPhoenix\nPort-au-Prince\nPort of Spain\nPorto Velho\nPuerto Rico\nPunta Arenas\nRankin Inlet\nRecife\nRegina\nResolute\nRio Branco\nSantarem\nSantiago\nSanto Domingo\nSao Paulo\nScoresbysund\nSitka\nSt Barthelemy\nSt Johns\nSt Kitts\nSt Lucia\nSt Thomas\nSt Vincent\nSwift Current\nTegucigalpa\nThule\nTijuana\nToronto\nTortola\nVancouver\nWhitehorse\nWinnipeg\nYakutat\nCasey\nDavis\nDumontDUrville\nMacquarie\nMawson\nMcMurdo\nPalmer\nRothera\nSyowa\nTroll\nVostok\nLongyearbyen\nAden\nAlmaty\nAmman\nAnadyr\nAqtau\nAqtobe\nAshgabat\nAtyrau\nBaghdad\nBahrain\nBaku\nBangkok\nBarnaul\nBeirut\nBishkek\nBrunei\nChita\nColombo\nDamascus\nDhaka\nDili\nDubai\nDushanbe\nFamagusta\nGaza\nHebron\nHo Chi Minh\nHong Kong\nHovd\nIrkutsk\nJakarta\nJayapura\nJerusalem\nKabul\nKamchatka\nKarachi\nKathmandu\nKhandyga\nKolkata\nKrasnoyarsk\nKuala Lumpur\nKuching\nKuwait\nMacau\nMagadan\nMakassar\nManila\nMuscat\nNicosia\nNovokuznetsk\nNovosibirsk\nOmsk\nOral\nPhnom Penh\nPontianak\nPyongyang\nQatar\nQostanay\nQyzylorda\nRiyadh\nSakhalin\nSamarkand\nSeoul\nShanghai\nSingapore\nSrednekolymsk\nTaipei\nTashkent\nTbilisi\nTehran\nThimphu\nTokyo\nTomsk\nUlaanbaatar\nUrumqi\nUst-Nera\nVientiane\nVladivostok\nYakutsk\nYangon\nYekaterinburg\nYerevan\nAzores\nBermuda\nCanary\nCape Verde\nFaroe\nMadeira\nReykjavik\nSouth Georgia\nStanley\nSt Helena\nAdelaide\nBrisbane\nBroken Hill\nDarwin\nEucla\nHobart\nLindeman\nLord Howe\nMelbourne\nPerth\nSydney\nAmsterdam\nAndorra\nAstrakhan\nAthens\nBelgrade\nBerlin\nBratislava\nBrussels\nBucharest\nBudapest\nBusingen\nChisinau\nCopenhagen\nDublin\nGibraltar\nGuernsey\nHelsinki\nIsle of Man\nIstanbul\nJersey\nKaliningrad\nKirov\nKyiv\nLisbon\nLjubljana\nLondon\nLuxembourg\nMadrid\nMalta\nMariehamn\nMinsk\nMonaco\nMoscow\nOslo\nParis\nPodgorica\nPrague\nRiga\nRome\nSamara\nSan Marino\nSarajevo\nSaratov\nSimferopol\nSkopje\nSofia\nStockholm\nTallinn\nTirane\nUlyanovsk\nVaduz\nVatican\nVienna\nVilnius\nVolgograd\nWarsaw\nZagreb\nZurich\nAntananarivo\nChagos\nChristmas\nCocos\nComoro\nKerguelen\nMahe\nMaldives\nMauritius\nMayotte\nReunion\nApia\nAuckland\nBougainville\nChat",
+      "help": [
+        "The fields on this screen determine some of the basics of your site setup.\nMost themes show the site title at the top of every page, in the title bar of the browser, and as the identifying name for syndicated feeds. Many themes also show the tagline.\nTwo terms you will want to know are the WordPress URL and the site URL. The WordPress URL is where the core WordPress installation files are, and the site URL is the address a visitor uses in the browser to go to your site.\nThough the terms refer to two different concepts, in practice, they can be the same address or different. For example, you can have the core WordPress installation files in the root directory (https://example.com), in which case the two URLs would be the same. Or the WordPress files can be in a subdirectory (https://example.com/wordpress). In that case, the WordPress URL and the site URL would be different.\nBoth WordPress URL and site URL can start with either http:// or https://. A URL starting with https:// requires an SSL certificate, so be sure that you have one before changing to https://. With https://, a padlock will appear next to the address in the browser address bar. Both https:// and the padlock signal that your site meets some basic security requirements, which can build trust with your visitors and with search engines.\nIf you want site visitors to be able to register themselves, check the membership box. If you want the site administrator to register every new user, leave the box unchecked. In either case, you can set a default user role for all new users.\nYou can set the language, and WordPress will automatically download and install the translation files (available if your filesystem is writable).\nUTC means Coordinated Universal Time.\nYou must click the Save Changes button at the bottom of the screen for new settings to take effect."
+      ],
+      "helpTabs": [
+        "Overview"
+      ]
+    },
+    {
+      "n": 41,
+      "top": "Settings",
+      "label": "Connectors",
+      "href": "options-connectors.php",
+      "url": "http://127.0.0.1:8080/wp-admin/options-connectors.php",
+      "screenshot": "screenshots/41-settings-connectors.jpg",
+      "title": "Connectors ‹ Umami Food Magazine — WordPress",
+      "finalUrl": "http://127.0.0.1:8080/wp-admin/options-connectors.php",
+      "h1": "Connectors",
+      "tabs": [],
+      "buttons": [],
+      "controls": [],
+      "tableColumns": [],
+      "text": "Connectors\n\nAll of your API keys and credentials are stored here and shared across plugins. Configure once and use everywhere.\n\nThe AI plugin can use your AI connectors to generate featured images, alt text, titles, excerpts and more. Learn more↗\n\nInstall the AI plugin\nAkismet Anti-spam\nProtect your site from spam.\nActivate\nAnthropic\nText generation with Claude.\nInstall\nGoogle\nText and image generation with Gemini and Imagen.\nInstall\nOpenAI\nText and image generation with GPT and Dall-E.\nInstall\n\nIf the connector you need is not listed, search the plugin directory to see if a connector is available."
+    },
+    {
+      "n": 42,
+      "top": "Settings",
+      "label": "Writing",
+      "href": "options-writing.php",
+      "url": "http://127.0.0.1:8080/wp-admin/options-writing.php",
+      "screenshot": "screenshots/42-settings-writing.jpg",
+      "title": "Writing Settings ‹ Umami Food Magazine — WordPress",
+      "finalUrl": "http://127.0.0.1:8080/wp-admin/options-writing.php",
+      "h1": "Writing Settings",
+      "tabs": [],
+      "buttons": [
+        "Save Changes"
+      ],
+      "controls": [
+        "Default Post Category",
+        "Default Post Format",
+        "Mail Server",
+        "Port",
+        "Login Name",
+        "Password",
+        "Default Mail Category"
+      ],
+      "tableColumns": [],
+      "text": "Help\nWriting Settings\nDefault Post Category\t\nArticles\nRecipes\n   Accompaniments\n   Desserts\n   Main courses\n   Snacks\n   Starters\nUncategorized\n\nDefault Post Format\t\nStandard\nAside\nChat\nGallery\nLink\nImage\nQuote\nStatus\nVideo\nAudio\nPost via email\n\nTo post to WordPress by email, you must set up a secret email account with POP3 access. Any mail received at this address will be posted, so it’s a good idea to keep this address very secret. Here are three random strings you could use: R7D2mXdn, RFvPrIsT, oJksjagl.\n\nMail Server\t Port \nLogin Name\t\nPassword\t\n\nDefault Mail Category\t\nArticles\nRecipes\n   Accompaniments\n   Desserts\n   Main courses\n   Snacks\n   Starters\nUncategorized\nUpdate Services\n\nWhen you publish a new post, WordPress automatically notifies the following site update services. For more about this, see the Update Services documentation article. Separate multiple service URLs with line breaks.",
+      "help": [
+        "You can submit content in several different ways; this screen holds the settings for all of them. The top section controls the editor within the dashboard, while the rest control external publishing methods. For more information on any of these methods, use the documentation links.\nYou must click the Save Changes button at the bottom of the screen for new settings to take effect.",
+        "Post via email settings allow you to send your WordPress installation an email with the content of your post. You must set up a secret email account with POP3 access to use this, and any mail received at this address will be posted, so it’s a good idea to keep this address very secret.",
+        "If desired, WordPress will automatically alert various services of your new posts."
+      ],
+      "helpTabs": [
+        "Overview",
+        "Post Via Email",
+        "Update Services"
+      ]
+    },
+    {
+      "n": 43,
+      "top": "Settings",
+      "label": "Reading",
+      "href": "options-reading.php",
+      "url": "http://127.0.0.1:8080/wp-admin/options-reading.php",
+      "screenshot": "screenshots/43-settings-reading.jpg",
+      "title": "Reading Settings ‹ Umami Food Magazine — WordPress",
+      "finalUrl": "http://127.0.0.1:8080/wp-admin/options-reading.php",
+      "h1": "Reading Settings",
+      "tabs": [],
+      "buttons": [
+        "Save Changes"
+      ],
+      "controls": [
+        "Your latest posts",
+        "A static page (select below)",
+        "Homepage: — Select — About Umami",
+        "Posts page: — Select — About Umami",
+        "Number of recent posts shown on archive pages",
+        "Number of recent items shown in syndication feeds",
+        "Full text",
+        "Excerpt",
+        "Discourage search engines from indexing this site"
+      ],
+      "tableColumns": [],
+      "text": "Help\nReading Settings\nYour homepage displays\t\nYour homepage displays\n\n Your latest posts\n\n A static page (select below)\n\nHomepage: \n— Select —\nAbout Umami\nPosts page: \n— Select —\nAbout Umami\n\nNumber of recent posts shown on archive pages\t\nNumber of recent items shown in syndication feeds\t\nFor each post in a feed, include\t\nFor each post in a feed, include\n\n Full text\n Excerpt\n\nYour theme determines how content is displayed in browsers. Learn more about feeds.\n\nSearch engine visibility\t\nSearch engine visibility\n Discourage search engines from indexing this site\n\nIt is up to search engines to honor this request.",
+      "help": [
+        "This screen contains the settings that affect the display of your content.\nYou can choose what’s displayed on the homepage of your site. It can be posts in reverse chronological order (classic blog), or a fixed/static page. To set a static homepage, you first need to create two Pages. One will become the homepage, and the other will be where your posts are displayed.\nYou can also control the display of your content in RSS feeds, including the maximum number of posts to display and whether to show full text or an excerpt. Learn more about feeds.\nYou must click the Save Changes button at the bottom of the screen for new settings to take effect.",
+        "You can choose whether or not your site will be crawled by robots, ping services, and spiders. If you want those services to ignore your site, click the checkbox next to “Discourage search engines from indexing this site” and click the Save Changes button at the bottom of the screen.Note that even when set to discourage search engines, your site is still visible on the web and not all search engines adhere to this directive.When this setting is in effect, a reminder is shown in the At a Glance box of the Dashboard that says, “Search engines discouraged”, to remind you that you have directed search engines to not crawl your site."
+      ],
+      "helpTabs": [
+        "Overview",
+        "Search engine visibility"
+      ]
+    },
+    {
+      "n": 44,
+      "top": "Settings",
+      "label": "Discussion",
+      "href": "options-discussion.php",
+      "url": "http://127.0.0.1:8080/wp-admin/options-discussion.php",
+      "screenshot": "screenshots/44-settings-discussion.jpg",
+      "title": "Discussion Settings ‹ Umami Food Magazine — WordPress",
+      "finalUrl": "http://127.0.0.1:8080/wp-admin/options-discussion.php",
+      "h1": "Discussion Settings",
+      "tabs": [],
+      "buttons": [
+        "Save Changes"
+      ],
+      "controls": [
+        "Attempt to notify any blogs linked to from the post",
+        "Allow people to submit comments on new posts",
+        "Comment author must fill out name and email",
+        "Users must be registered and logged in to comment",
+        "Automatically close comments on old posts",
+        "Close comments when post is how many days old",
+        "Enable threaded (nested) comments",
+        "Number of levels for threaded (nested) comments",
+        "Break comments into pages",
+        "Top level comments per page",
+        "Comments page to display by default",
+        "Comments to display at the top of each page",
+        "Anyone posts a comment",
+        "A comment is held for moderation",
+        "Anyone posts a note",
+        "Comment must be manually approved",
+        "Comment author must have a previously approved comment",
+        "Number of links to allow in a comment before holding for moderation:",
+        "Show Avatars",
+        "G — Suitable for all audiences",
+        "PG — Possibly offensive, usually for audiences 13 and above",
+        "R — Intended for adult audiences above 17",
+        "X — Even more mature than above",
+        "Mystery Person",
+        "Blank",
+        "Gravatar Logo",
+        "Identicon (Generated)",
+        "Wavatar (Generated)",
+        "MonsterID (Generated)",
+        "Retro (Generated)",
+        "RoboHash (Generated)",
+        "Initials (Generated)",
+        "Color (Generated)"
+      ],
+      "tableColumns": [],
+      "text": "Help\nDiscussion Settings\nDefault post settings\t\nDefault post settings\n Attempt to notify any blogs linked to from the post\n Allow link notifications from other blogs (pingbacks and trackbacks) on new posts\n Allow people to submit comments on new posts\n\nIndividual posts may override these settings. Changes here will only be applied to new posts.\n\nOther comment settings\t\nOther comment settings\n Comment author must fill out name and email\n Users must be registered and logged in to comment\n Automatically close comments on old posts\nClose comments when post is how many days old \n Show comments cookies opt-in checkbox, allowing comment author cookies to be set\n Enable threaded (nested) comments\nNumber of levels for threaded (nested) comments \n2\n3\n4\n5\n6\n7\n8\n9\n10\n\nComment Pagination\t\nComment Pagination\n Break comments into pages\nTop level comments per page \nComments page to display by default \nlast page\nfirst page\nComments to display at the top of each page \nolder\nnewer\n\nEmail me whenever\t\nEmail me whenever\n Anyone posts a comment\n A comment is held for moderation\n Anyone posts a note\n\nBefore a comment appears\t\nBefore a comment appears\n Comment must be manually approved\n Comment author must have a previously approved comment\n\nComment Moderation\t\nComment Moderation\n\nNumber of links to allow in a comment before holding for moderation:  (A common characteristic of comment spam is a large number of hyperlinks.)\n\nWhen a comment contains any of these words in its content, author name, URL, email, IP address, or browser’s user agent string, it will be held in the moderation queue. One word or IP address per line. It will match inside words, so “press” will match “WordPress”.\n\nDisallowed Comment Keys\t\nDisallowed Comment Keys\n\nWhen a comment contains any of these words in its content, author name, URL, email, IP address, or browser’s user agent string, it will be put in the Trash. One word or IP address per line. It will match inside words, so “press” will match “WordPress”.\n\nAvatars\n\nAn avatar is an image that can be associated with a user across multiple websites. In this area, you can choose to display avatars of users who interact with the site.\n\nAvatar Display\t Show Avatars\nMaximum Rating\t\nMaximum Rating\n G — Suitable for all audiences\n PG — Possibly offensive, usually for audiences 13 and above\n R — Intended for adult audiences above 17\n X — Even more mature than above\n\nDefault Avatar\t\nDefault Avatar\n\nFor users without a custom avatar of their own, you can either display a generic logo or a generated one based on their email address.\n\n  Mystery Person\n  Blank\n  Gravatar Logo\n  Identicon (Generated)\n  Wavatar (Generated)\n  MonsterID (Generated)\n  Retro (Generated)\n  RoboHash (Generated)\n  Initials (Generated)\n  Color (Generated)",
+      "help": [
+        "This screen provides many options for controlling the management and display of comments and links to your posts/pages. So many, in fact, they will not all fit here! :) Use the documentation links to get information on what each discussion setting does.\nYou must click the Save Changes button at the bottom of the screen for new settings to take effect."
+      ],
+      "helpTabs": [
+        "Overview"
+      ]
+    },
+    {
+      "n": 45,
+      "top": "Settings",
+      "label": "Media",
+      "href": "options-media.php",
+      "url": "http://127.0.0.1:8080/wp-admin/options-media.php",
+      "screenshot": "screenshots/45-settings-media.jpg",
+      "title": "Media Settings ‹ Umami Food Magazine — WordPress",
+      "finalUrl": "http://127.0.0.1:8080/wp-admin/options-media.php",
+      "h1": "Media Settings",
+      "tabs": [],
+      "buttons": [
+        "Save Changes"
+      ],
+      "controls": [
+        "Width",
+        "Height",
+        "Crop thumbnail to exact dimensions (normally thumbnails are proportional)",
+        "Max Width",
+        "Max Height",
+        "Organize my uploads into month- and year-based folders"
+      ],
+      "tableColumns": [],
+      "text": "Help\nMedia Settings\nImage sizes\n\nThe sizes listed below determine the maximum dimensions in pixels to use when adding an image to the Media Library.\n\nThumbnail size\t\nThumbnail size\nWidth \nHeight \n Crop thumbnail to exact dimensions (normally thumbnails are proportional)\nMedium size\t\nMedium size\nMax Width \nMax Height \n\nLarge size\t\nLarge size\nMax Width \nMax Height \nUploading Files\n Organize my uploads into month- and year-based folders",
+      "help": [
+        "You can set maximum sizes for images inserted into your written content; you can also insert an image as Full Size.\nYou must click the Save Changes button at the bottom of the screen for new settings to take effect."
+      ],
+      "helpTabs": [
+        "Overview"
+      ]
+    },
+    {
+      "n": 46,
+      "top": "Settings",
+      "label": "Permalinks",
+      "href": "options-permalink.php",
+      "url": "http://127.0.0.1:8080/wp-admin/options-permalink.php",
+      "screenshot": "screenshots/46-settings-permalinks.jpg",
+      "title": "Permalink Settings ‹ Umami Food Magazine — WordPress",
+      "finalUrl": "http://127.0.0.1:8080/wp-admin/options-permalink.php",
+      "h1": "Permalink Settings",
+      "tabs": [],
+      "buttons": [
+        "Save Changes"
+      ],
+      "controls": [
+        "Plain",
+        "Day and name",
+        "Month and name",
+        "Numeric",
+        "Post name",
+        "Custom Structure",
+        "Customize permalink structure by selecting available tags",
+        "Category base",
+        "Tag base"
+      ],
+      "tableColumns": [],
+      "text": "Help\nPermalink Settings\n\nWordPress offers you the ability to create a custom URL structure for your permalinks and archives. Custom URL structures can improve the aesthetics, usability, and forward-compatibility of your links. A number of tags are available, and here are some examples to get you started.\n\nCommon Settings\n\nSelect the permalink structure for your website. Including the %postname% tag makes links easy to understand, and can help your posts rank higher in search engines.\n\nPermalink structure\t\nPermalink structure\n \nPlain\n\nhttp://127.0.0.1:8080/?p=123\n\n \nDay and name\n\nhttp://127.0.0.1:8080/index.php/2026/11/05/sample-post/\n\n \nMonth and name\n\nhttp://127.0.0.1:8080/index.php/2026/11/sample-post/\n\n \nNumeric\n\nhttp://127.0.0.1:8080/index.php/archives/123\n\n \nPost name\n\nhttp://127.0.0.1:8080/index.php/sample-post/\n\n \nCustom Structure\n\nCustomize permalink structure by selecting available tags\nhttp://127.0.0.1:8080/index.php \n\nAvailable tags:\n%year%\n%monthnum%\n%day%\n%hour%\n%minute%\n%second%\n%post_id%\n%postname%\n%category%\n%author%\nOptional\n\nIf you like, you may enter custom structures for your category and tag URLs here. For example, using topics as your category base would make your category links like http://127.0.0.1:8080/index.php/topics/uncategorized/. If you leave these blank the defaults will be used.\n\nCategory base\t\nTag base",
+      "help": [
+        "Permalinks are the permanent URLs to your individual pages and blog posts, as well as your category and tag archives. A permalink is the web address used to link to your content. The URL to each post should be permanent, and never change — hence the name permalink.\nThis screen allows you to choose your permalink structure. You can choose from common settings or create custom URL structures.\nYou must click the Save Changes button at the bottom of the screen for new settings to take effect.",
+        "Permalinks can contain useful information, such as the post date, title, or other elements. You can choose from any of the suggested permalink formats, or you can craft your own if you select Custom Structure.If you pick an option other than Plain, your general URL path with structure tags (terms surrounded by %) will also appear in the custom structure field and your path can be further modified there.When you assign multiple categories or tags to a post, only one can show up in the permalink: the lowest numbered category. This applies if your custom structure includes %category% or %tag%.You must click the Save Changes button at the bottom of the screen for new settings to take effect.",
+        "The Optional fields let you customize the “category” and “tag” base names that will appear in archive URLs. For example, the page listing all posts in the “Uncategorized” category could be /topics/uncategorized instead of /category/uncategorized.You must click the Save Changes button at the bottom of the screen for new settings to take effect."
+      ],
+      "helpTabs": [
+        "Overview",
+        "Permalink Settings",
+        "Custom Structures"
+      ]
+    },
+    {
+      "n": 47,
+      "top": "Settings",
+      "label": "Privacy",
+      "href": "options-privacy.php",
+      "url": "http://127.0.0.1:8080/wp-admin/options-privacy.php",
+      "screenshot": "screenshots/47-settings-privacy.jpg",
+      "title": "Privacy ‹ Umami Food Magazine — WordPress",
+      "finalUrl": "http://127.0.0.1:8080/wp-admin/options-privacy.php",
+      "h1": "Privacy",
+      "tabs": [],
+      "buttons": [
+        "Create",
+        "Use This Page"
+      ],
+      "controls": [],
+      "tableColumns": [],
+      "text": "Help\nPrivacy\nSettings\nPolicy Guide\nPrivacy Settings\n\nAs a website owner, you may need to follow national or international privacy laws. For example, you may need to create and display a privacy policy. If you already have a Privacy Policy page, please select it below. If not, please create one.\n\nThe new page will include help and suggestions for your privacy policy. However, it is your responsibility to use those resources correctly, to provide the information that your privacy policy requires, and to keep that information current and accurate.\n\nAfter your Privacy Policy page is set, you should edit it. You should also review your privacy policy from time to time, especially after installing or updating any themes or plugins. There may be changes or new suggested information for you to consider adding to your policy.\n\nNeed help putting together your new Privacy Policy page? Check out the privacy policy guide for recommendations on what content to include, along with policies suggested by your plugins and theme.\n\nCreate a new Privacy Policy page\t\n\nSelect a Privacy Policy page\t\n— Select —\nAbout Umami",
+      "help": [
+        "The Privacy screen lets you either build a new privacy-policy page or choose one you already have to show.\nThis screen includes suggestions to help you write your own privacy policy. However, it is your responsibility to use these resources correctly, to provide the information required by your privacy policy, and to keep this information current and accurate."
+      ],
+      "helpTabs": [
+        "Overview"
+      ]
+    }
+  ]
+}

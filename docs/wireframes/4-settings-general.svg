@@ -1,0 +1,89 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1280' height='820' viewBox='0 0 1280 820' font-family='Inter, Helvetica, Arial, sans-serif' font-size='13'>
+<title>General Settings (/wp-admin/settings/general)</title>
+<rect width='1280' height='820' fill='#f3f4f9'/>
+<rect x='0' y='0' width='230' height='820' rx='0' fill='#fff' stroke='#d4d6de' stroke-width='1'/>
+<rect x='16' y='16' width='120' height='34' rx='6' fill='#e8ebf5' stroke='#e8ebf5' stroke-width='1'/>
+<text x='28' y='38' font-size='14' fill='#222330' font-weight='700' text-anchor='start'>Umami</text>
+<text x='24' y='76' font-size='14' fill='#4a4f66' font-weight='normal' text-anchor='start'>▣</text>
+<text x='52' y='76' font-size='14' fill='#222330' font-weight='500' text-anchor='start'>Dashboard</text>
+<text x='204' y='76' font-size='14' fill='#8e929c' font-weight='normal' text-anchor='start'>›</text>
+<text x='24' y='114' font-size='14' fill='#4a4f66' font-weight='normal' text-anchor='start'>✎</text>
+<text x='52' y='114' font-size='14' fill='#222330' font-weight='500' text-anchor='start'>Posts</text>
+<text x='204' y='114' font-size='14' fill='#8e929c' font-weight='normal' text-anchor='start'>›</text>
+<text x='24' y='152' font-size='14' fill='#4a4f66' font-weight='normal' text-anchor='start'>▦</text>
+<text x='52' y='152' font-size='14' fill='#222330' font-weight='500' text-anchor='start'>Media</text>
+<text x='204' y='152' font-size='14' fill='#8e929c' font-weight='normal' text-anchor='start'>›</text>
+<text x='24' y='190' font-size='14' fill='#4a4f66' font-weight='normal' text-anchor='start'>▤</text>
+<text x='52' y='190' font-size='14' fill='#222330' font-weight='500' text-anchor='start'>Pages</text>
+<text x='204' y='190' font-size='14' fill='#8e929c' font-weight='normal' text-anchor='start'>›</text>
+<text x='24' y='228' font-size='14' fill='#4a4f66' font-weight='normal' text-anchor='start'>♨</text>
+<text x='52' y='228' font-size='14' fill='#222330' font-weight='500' text-anchor='start'>Recipes</text>
+<text x='204' y='228' font-size='14' fill='#8e929c' font-weight='normal' text-anchor='start'>›</text>
+<text x='24' y='266' font-size='14' fill='#4a4f66' font-weight='normal' text-anchor='start'>☰</text>
+<text x='52' y='266' font-size='14' fill='#222330' font-weight='500' text-anchor='start'>Comments</text>
+<text x='24' y='304' font-size='14' fill='#4a4f66' font-weight='normal' text-anchor='start'>◐</text>
+<text x='52' y='304' font-size='14' fill='#222330' font-weight='500' text-anchor='start'>Appearance</text>
+<text x='204' y='304' font-size='14' fill='#8e929c' font-weight='normal' text-anchor='start'>›</text>
+<text x='24' y='342' font-size='14' fill='#4a4f66' font-weight='normal' text-anchor='start'>⚙</text>
+<text x='52' y='342' font-size='14' fill='#222330' font-weight='500' text-anchor='start'>Plugins</text>
+<text x='204' y='342' font-size='14' fill='#8e929c' font-weight='normal' text-anchor='start'>›</text>
+<text x='24' y='380' font-size='14' fill='#4a4f66' font-weight='normal' text-anchor='start'>☺</text>
+<text x='52' y='380' font-size='14' fill='#222330' font-weight='500' text-anchor='start'>Users</text>
+<text x='204' y='380' font-size='14' fill='#8e929c' font-weight='normal' text-anchor='start'>›</text>
+<text x='24' y='418' font-size='14' fill='#4a4f66' font-weight='normal' text-anchor='start'>✇</text>
+<text x='52' y='418' font-size='14' fill='#222330' font-weight='500' text-anchor='start'>Tools</text>
+<text x='204' y='418' font-size='14' fill='#8e929c' font-weight='normal' text-anchor='start'>›</text>
+<rect x='10' y='436' width='210' height='32' rx='6' fill='#e6ebf7' stroke='#e6ebf7' stroke-width='1'/>
+<text x='24' y='456' font-size='14' fill='#4a4f66' font-weight='normal' text-anchor='start'>⚒</text>
+<text x='52' y='456' font-size='14' fill='#222330' font-weight='600' text-anchor='start'>Settings</text>
+<text x='204' y='456' font-size='14' fill='#8e929c' font-weight='normal' text-anchor='start'>›</text>
+<text x='24' y='764' font-size='14' fill='#4a4f66' font-weight='normal' text-anchor='start'>◯</text>
+<text x='52' y='764' font-size='14' fill='#222330' font-weight='normal' text-anchor='start'>admin</text>
+<text x='24' y='794' font-size='14' fill='#4a4f66' font-weight='normal' text-anchor='start'>?</text>
+<text x='52' y='794' font-size='14' fill='#222330' font-weight='normal' text-anchor='start'>Help</text>
+<text x='266' y='56' font-size='26' fill='#222330' font-weight='700' text-anchor='start'>General Settings</text>
+<text x='266' y='122' font-size='13' fill='#222330' font-weight='600' text-anchor='start'>Site Title</text>
+<rect x='526' y='100' width='360' height='34' rx='4' fill='#fff' stroke='#8e929c' stroke-width='1'/>
+<text x='536' y='122' font-size='13' fill='#222330' font-weight='normal' text-anchor='start'>Umami Food Magazine</text>
+<text x='906' y='122' font-size='12' fill='#6b6f82' font-weight='normal' text-anchor='start'>system.site: name</text>
+<text x='266' y='174' font-size='13' fill='#222330' font-weight='600' text-anchor='start'>Tagline</text>
+<rect x='526' y='152' width='360' height='34' rx='4' fill='#fff' stroke='#8e929c' stroke-width='1'/>
+<text x='536' y='174' font-size='13' fill='#222330' font-weight='normal' text-anchor='start'></text>
+<text x='906' y='174' font-size='12' fill='#6b6f82' font-weight='normal' text-anchor='start'>system.site: slogan</text>
+<text x='266' y='226' font-size='13' fill='#222330' font-weight='600' text-anchor='start'>WordPress Address (URL)</text>
+<rect x='526' y='204' width='360' height='34' rx='4' fill='#eef0f5' stroke='#8e929c' stroke-width='1'/>
+<text x='536' y='226' font-size='13' fill='#6b6f82' font-weight='normal' text-anchor='start'>http://127.0.0.1:8081</text>
+<text x='906' y='226' font-size='12' fill='#6b6f82' font-weight='normal' text-anchor='start'>read-only; set in settings.php / web server</text>
+<text x='266' y='278' font-size='13' fill='#222330' font-weight='600' text-anchor='start'>Site Address (URL)</text>
+<rect x='526' y='256' width='360' height='34' rx='4' fill='#eef0f5' stroke='#8e929c' stroke-width='1'/>
+<text x='536' y='278' font-size='13' fill='#6b6f82' font-weight='normal' text-anchor='start'>http://127.0.0.1:8081</text>
+<text x='906' y='278' font-size='12' fill='#6b6f82' font-weight='normal' text-anchor='start'>read-only</text>
+<text x='266' y='330' font-size='13' fill='#222330' font-weight='600' text-anchor='start'>Administration Email Address</text>
+<rect x='526' y='308' width='360' height='34' rx='4' fill='#fff' stroke='#8e929c' stroke-width='1'/>
+<text x='536' y='330' font-size='13' fill='#222330' font-weight='normal' text-anchor='start'>admin@example.com</text>
+<text x='906' y='330' font-size='12' fill='#6b6f82' font-weight='normal' text-anchor='start'>system.site: mail</text>
+<text x='266' y='382' font-size='13' fill='#222330' font-weight='600' text-anchor='start'>Membership</text>
+<rect x='526' y='368' width='16' height='16' rx='3' fill='#fff' stroke='#8e929c' stroke-width='1'/>
+<text x='550' y='382' font-size='13' fill='#222330' font-weight='normal' text-anchor='start'>Anyone can register</text>
+<text x='906' y='382' font-size='12' fill='#6b6f82' font-weight='normal' text-anchor='start'>user.settings: register</text>
+<text x='266' y='434' font-size='13' fill='#222330' font-weight='600' text-anchor='start'>New User Default Role</text>
+<rect x='526' y='412' width='360' height='34' rx='4' fill='#eef0f5' stroke='#8e929c' stroke-width='1'/>
+<text x='536' y='434' font-size='13' fill='#6b6f82' font-weight='normal' text-anchor='start'>Subscriber</text>
+<text x='906' y='434' font-size='12' fill='#6b6f82' font-weight='normal' text-anchor='start'>disabled: Drupal assigns roles explicitly → Roles</text>
+<text x='266' y='486' font-size='13' fill='#222330' font-weight='600' text-anchor='start'>Site Language</text>
+<rect x='526' y='464' width='360' height='34' rx='4' fill='#fff' stroke='#8e929c' stroke-width='1'/>
+<text x='536' y='486' font-size='13' fill='#222330' font-weight='normal' text-anchor='start'>English</text>
+<text x='906' y='486' font-size='12' fill='#6b6f82' font-weight='normal' text-anchor='start'>system.site: default_langcode</text>
+<text x='266' y='538' font-size='13' fill='#222330' font-weight='600' text-anchor='start'>Timezone</text>
+<rect x='526' y='516' width='360' height='34' rx='4' fill='#fff' stroke='#8e929c' stroke-width='1'/>
+<text x='536' y='538' font-size='13' fill='#222330' font-weight='normal' text-anchor='start'>UTC</text>
+<text x='906' y='538' font-size='12' fill='#6b6f82' font-weight='normal' text-anchor='start'>system.date: timezone.default</text>
+<text x='266' y='590' font-size='13' fill='#222330' font-weight='600' text-anchor='start'>Date Format / Time Format</text>
+<text x='526' y='590' font-size='13' fill='#003ecc' font-weight='normal' text-anchor='start'>→ Date and time formats</text>
+<text x='906' y='590' font-size='12' fill='#6b6f82' font-weight='normal' text-anchor='start'>link to /admin/config/regional/date-time</text>
+<text x='266' y='642' font-size='13' fill='#222330' font-weight='600' text-anchor='start'>Week Starts On</text>
+<rect x='526' y='620' width='360' height='34' rx='4' fill='#fff' stroke='#8e929c' stroke-width='1'/>
+<text x='536' y='642' font-size='13' fill='#222330' font-weight='normal' text-anchor='start'>Monday</text>
+<text x='906' y='642' font-size='12' fill='#6b6f82' font-weight='normal' text-anchor='start'>system.date: first_day</text>
+<rect x='266' y='682' width='112' height='32' rx='4' fill='#003ecc' stroke='#003ecc' stroke-width='1'/><text x='322.0' y='703' font-size='13' fill='#fff' font-weight='600' text-anchor='middle'>Save Changes</text>
+</svg>

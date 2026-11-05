@@ -1,0 +1,106 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1280' height='820' viewBox='0 0 1280 820' font-family='Inter, Helvetica, Arial, sans-serif' font-size='13'>
+<title>Dashboard (/wp-admin)</title>
+<rect width='1280' height='820' fill='#f3f4f9'/>
+<rect x='0' y='0' width='230' height='820' rx='0' fill='#fff' stroke='#d4d6de' stroke-width='1'/>
+<rect x='16' y='16' width='120' height='34' rx='6' fill='#e8ebf5' stroke='#e8ebf5' stroke-width='1'/>
+<text x='28' y='38' font-size='14' fill='#222330' font-weight='700' text-anchor='start'>Umami</text>
+<rect x='10' y='56' width='210' height='32' rx='6' fill='#e6ebf7' stroke='#e6ebf7' stroke-width='1'/>
+<text x='24' y='76' font-size='14' fill='#4a4f66' font-weight='normal' text-anchor='start'>▣</text>
+<text x='52' y='76' font-size='14' fill='#222330' font-weight='600' text-anchor='start'>Dashboard</text>
+<text x='204' y='76' font-size='14' fill='#8e929c' font-weight='normal' text-anchor='start'>›</text>
+<text x='24' y='114' font-size='14' fill='#4a4f66' font-weight='normal' text-anchor='start'>✎</text>
+<text x='52' y='114' font-size='14' fill='#222330' font-weight='500' text-anchor='start'>Posts</text>
+<text x='204' y='114' font-size='14' fill='#8e929c' font-weight='normal' text-anchor='start'>›</text>
+<text x='24' y='152' font-size='14' fill='#4a4f66' font-weight='normal' text-anchor='start'>▦</text>
+<text x='52' y='152' font-size='14' fill='#222330' font-weight='500' text-anchor='start'>Media</text>
+<text x='204' y='152' font-size='14' fill='#8e929c' font-weight='normal' text-anchor='start'>›</text>
+<text x='24' y='190' font-size='14' fill='#4a4f66' font-weight='normal' text-anchor='start'>▤</text>
+<text x='52' y='190' font-size='14' fill='#222330' font-weight='500' text-anchor='start'>Pages</text>
+<text x='204' y='190' font-size='14' fill='#8e929c' font-weight='normal' text-anchor='start'>›</text>
+<text x='24' y='228' font-size='14' fill='#4a4f66' font-weight='normal' text-anchor='start'>♨</text>
+<text x='52' y='228' font-size='14' fill='#222330' font-weight='500' text-anchor='start'>Recipes</text>
+<text x='204' y='228' font-size='14' fill='#8e929c' font-weight='normal' text-anchor='start'>›</text>
+<text x='24' y='266' font-size='14' fill='#4a4f66' font-weight='normal' text-anchor='start'>☰</text>
+<text x='52' y='266' font-size='14' fill='#222330' font-weight='500' text-anchor='start'>Comments</text>
+<text x='24' y='304' font-size='14' fill='#4a4f66' font-weight='normal' text-anchor='start'>◐</text>
+<text x='52' y='304' font-size='14' fill='#222330' font-weight='500' text-anchor='start'>Appearance</text>
+<text x='204' y='304' font-size='14' fill='#8e929c' font-weight='normal' text-anchor='start'>›</text>
+<text x='24' y='342' font-size='14' fill='#4a4f66' font-weight='normal' text-anchor='start'>⚙</text>
+<text x='52' y='342' font-size='14' fill='#222330' font-weight='500' text-anchor='start'>Plugins</text>
+<text x='204' y='342' font-size='14' fill='#8e929c' font-weight='normal' text-anchor='start'>›</text>
+<text x='24' y='380' font-size='14' fill='#4a4f66' font-weight='normal' text-anchor='start'>☺</text>
+<text x='52' y='380' font-size='14' fill='#222330' font-weight='500' text-anchor='start'>Users</text>
+<text x='204' y='380' font-size='14' fill='#8e929c' font-weight='normal' text-anchor='start'>›</text>
+<text x='24' y='418' font-size='14' fill='#4a4f66' font-weight='normal' text-anchor='start'>✇</text>
+<text x='52' y='418' font-size='14' fill='#222330' font-weight='500' text-anchor='start'>Tools</text>
+<text x='204' y='418' font-size='14' fill='#8e929c' font-weight='normal' text-anchor='start'>›</text>
+<text x='24' y='456' font-size='14' fill='#4a4f66' font-weight='normal' text-anchor='start'>⚒</text>
+<text x='52' y='456' font-size='14' fill='#222330' font-weight='500' text-anchor='start'>Settings</text>
+<text x='204' y='456' font-size='14' fill='#8e929c' font-weight='normal' text-anchor='start'>›</text>
+<text x='24' y='764' font-size='14' fill='#4a4f66' font-weight='normal' text-anchor='start'>◯</text>
+<text x='52' y='764' font-size='14' fill='#222330' font-weight='normal' text-anchor='start'>admin</text>
+<text x='24' y='794' font-size='14' fill='#4a4f66' font-weight='normal' text-anchor='start'>?</text>
+<text x='52' y='794' font-size='14' fill='#222330' font-weight='normal' text-anchor='start'>Help</text>
+<text x='266' y='56' font-size='26' fill='#222330' font-weight='700' text-anchor='start'>Dashboard</text>
+<rect x='266' y='84' width='978' height='110' rx='6' fill='#fff' stroke='#c9ccd6' stroke-width='1'/>
+<rect x='266' y='84' width='978' height='36' rx='6' fill='#f6f7fb' stroke='#c9ccd6' stroke-width='1'/>
+<rect x='266' y='114' width='978' height='6' fill='#f6f7fb'/>
+<text x='280' y='107' font-size='14' fill='#222330' font-weight='700' text-anchor='start'>Welcome to Drupal!</text>
+<text x='1174' y='107' font-size='13' fill='#003ecc' font-weight='normal' text-anchor='start'>Dismiss</text>
+<text x='286' y='140' font-size='14' fill='#222330' font-weight='600' text-anchor='start'>Author rich content</text>
+<text x='286' y='166' font-size='13' fill='#003ecc' font-weight='normal' text-anchor='start'>→ Add an article</text>
+<text x='612' y='140' font-size='14' fill='#222330' font-weight='600' text-anchor='start'>Customize your site</text>
+<text x='612' y='166' font-size='13' fill='#003ecc' font-weight='normal' text-anchor='start'>→ Block layout</text>
+<text x='938' y='140' font-size='14' fill='#222330' font-weight='600' text-anchor='start'>Switch the look &amp; feel</text>
+<text x='938' y='166' font-size='13' fill='#003ecc' font-weight='normal' text-anchor='start'>→ Appearance</text>
+<rect x='266' y='212' width='477' height='86' rx='6' fill='#fff' stroke='#c9ccd6' stroke-width='1'/>
+<rect x='266' y='212' width='477' height='36' rx='6' fill='#f6f7fb' stroke='#c9ccd6' stroke-width='1'/>
+<rect x='266' y='242' width='477' height='6' fill='#f6f7fb'/>
+<text x='280' y='235' font-size='14' fill='#222330' font-weight='700' text-anchor='start'>Site Health Status</text>
+<text x='282' y='262' font-size='13' fill='#222330' font-weight='600' text-anchor='start'>● 0 errors, 2 warnings</text>
+<text x='282' y='286' font-size='13' fill='#003ecc' font-weight='normal' text-anchor='start'>Visit the Site Health screen →</text>
+<rect x='266' y='314' width='477' height='176' rx='6' fill='#fff' stroke='#c9ccd6' stroke-width='1'/>
+<rect x='266' y='314' width='477' height='36' rx='6' fill='#f6f7fb' stroke='#c9ccd6' stroke-width='1'/>
+<rect x='266' y='344' width='477' height='6' fill='#f6f7fb'/>
+<text x='280' y='337' font-size='14' fill='#222330' font-weight='700' text-anchor='start'>At a Glance</text>
+<text x='282' y='362' font-size='13' fill='#003ecc' font-weight='normal' text-anchor='start'>✎ 8 Published posts</text>
+<text x='282' y='386' font-size='13' fill='#003ecc' font-weight='normal' text-anchor='start'>♨ 10 Published recipes</text>
+<text x='282' y='410' font-size='13' fill='#003ecc' font-weight='normal' text-anchor='start'>▤ 1 Published page</text>
+<text x='282' y='434' font-size='13' fill='#003ecc' font-weight='normal' text-anchor='start'>☰ 0 Comments</text>
+<text x='282' y='472' font-size='12' fill='#6b6f82' font-weight='normal' text-anchor='start'>Drupal 11.4.11 running the Umami theme.</text>
+<rect x='266' y='506' width='477' height='290' rx='6' fill='#fff' stroke='#c9ccd6' stroke-width='1'/>
+<rect x='266' y='506' width='477' height='36' rx='6' fill='#f6f7fb' stroke='#c9ccd6' stroke-width='1'/>
+<rect x='266' y='536' width='477' height='6' fill='#f6f7fb'/>
+<text x='280' y='529' font-size='14' fill='#222330' font-weight='700' text-anchor='start'>Activity</text>
+<text x='282' y='556' font-size='13' fill='#222330' font-weight='600' text-anchor='start'>Recently Published</text>
+<text x='282' y='582' font-size='12' fill='#6b6f82' font-weight='normal' text-anchor='start'>Nov 3</text>
+<text x='342' y='582' font-size='13' fill='#003ecc' font-weight='normal' text-anchor='start'>Give your oatmeal the ultimate makeover</text>
+<text x='282' y='604' font-size='12' fill='#6b6f82' font-weight='normal' text-anchor='start'>Nov 2</text>
+<text x='342' y='604' font-size='13' fill='#003ecc' font-weight='normal' text-anchor='start'>Skip the spirits with delicious mocktails</text>
+<text x='282' y='626' font-size='12' fill='#6b6f82' font-weight='normal' text-anchor='start'>Nov 1</text>
+<text x='342' y='626' font-size='13' fill='#003ecc' font-weight='normal' text-anchor='start'>Baking mishaps – our troubleshooting tips</text>
+<text x='282' y='648' font-size='12' fill='#6b6f82' font-weight='normal' text-anchor='start'>Oct 31</text>
+<text x='342' y='648' font-size='13' fill='#003ecc' font-weight='normal' text-anchor='start'>Let’s hear it for carrots</text>
+<text x='282' y='696' font-size='13' fill='#222330' font-weight='600' text-anchor='start'>Recent Comments</text>
+<text x='282' y='720' font-size='12' fill='#6b6f82' font-weight='normal' text-anchor='start'>No comments yet.</text>
+<rect x='767' y='212' width='477' height='278' rx='6' fill='#fff' stroke='#c9ccd6' stroke-width='1'/>
+<rect x='767' y='212' width='477' height='36' rx='6' fill='#f6f7fb' stroke='#c9ccd6' stroke-width='1'/>
+<rect x='767' y='242' width='477' height='6' fill='#f6f7fb'/>
+<text x='781' y='235' font-size='14' fill='#222330' font-weight='700' text-anchor='start'>Quick Draft</text>
+<text x='783' y='262' font-size='13' fill='#222330' font-weight='normal' text-anchor='start'>Title</text>
+<rect x='783' y='270' width='445' height='34' rx='4' fill='#fff' stroke='#8e929c' stroke-width='1'/>
+<text x='783' y='330' font-size='13' fill='#222330' font-weight='normal' text-anchor='start'>Content</text>
+<rect x='783' y='338' width='445' height='80' rx='4' fill='#fff' stroke='#8e929c' stroke-width='1'/><text x='793' y='382.0' font-size='12' fill='#6b6f82' font-weight='normal' text-anchor='start'>What’s on your mind?</text>
+<rect x='783' y='432' width='98' height='32' rx='4' fill='#003ecc' stroke='#003ecc' stroke-width='1'/><text x='832.0' y='453' font-size='13' fill='#fff' font-weight='600' text-anchor='middle'>Save Draft</text>
+<text x='897' y='453' font-size='12' fill='#6b6f82' font-weight='normal' text-anchor='start'>Creates an Article in moderation state “Draft”</text>
+<rect x='767' y='506' width='477' height='290' rx='6' fill='#fff' stroke='#c9ccd6' stroke-width='1'/>
+<rect x='767' y='506' width='477' height='36' rx='6' fill='#f6f7fb' stroke='#c9ccd6' stroke-width='1'/>
+<rect x='767' y='536' width='477' height='6' fill='#f6f7fb'/>
+<text x='781' y='529' font-size='14' fill='#222330' font-weight='700' text-anchor='start'>Drupal Events and News</text>
+<text x='783' y='556' font-size='13' fill='#222330' font-weight='normal' text-anchor='start'>WordPress shows a live feed of meetups and news here.</text>
+<text x='783' y='576' font-size='13' fill='#222330' font-weight='normal' text-anchor='start'>Drupal’s nearest equivalent is the Announcements feed,</text>
+<text x='783' y='596' font-size='13' fill='#222330' font-weight='normal' text-anchor='start'>plus drupal.org news and DrupalCon events.</text>
+<text x='783' y='636' font-size='13' fill='#003ecc' font-weight='normal' text-anchor='start'>→ Announcements (admin/announcements_feed)</text>
+<text x='783' y='660' font-size='13' fill='#003ecc' font-weight='normal' text-anchor='start'>→ drupal.org/news</text>
+<text x='783' y='684' font-size='13' fill='#003ecc' font-weight='normal' text-anchor='start'>→ events.drupal.org</text>
+</svg>

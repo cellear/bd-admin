@@ -1,0 +1,106 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1280' height='820' viewBox='0 0 1280 820' font-family='Inter, Helvetica, Arial, sans-serif' font-size='13'>
+<title>Categories (/wp-admin/posts/categories)</title>
+<rect width='1280' height='820' fill='#f3f4f9'/>
+<rect x='0' y='0' width='230' height='820' rx='0' fill='#fff' stroke='#d4d6de' stroke-width='1'/>
+<rect x='16' y='16' width='120' height='34' rx='6' fill='#e8ebf5' stroke='#e8ebf5' stroke-width='1'/>
+<text x='28' y='38' font-size='14' fill='#222330' font-weight='700' text-anchor='start'>Umami</text>
+<text x='24' y='76' font-size='14' fill='#4a4f66' font-weight='normal' text-anchor='start'>▣</text>
+<text x='52' y='76' font-size='14' fill='#222330' font-weight='500' text-anchor='start'>Dashboard</text>
+<text x='204' y='76' font-size='14' fill='#8e929c' font-weight='normal' text-anchor='start'>›</text>
+<rect x='10' y='94' width='210' height='32' rx='6' fill='#e6ebf7' stroke='#e6ebf7' stroke-width='1'/>
+<text x='24' y='114' font-size='14' fill='#4a4f66' font-weight='normal' text-anchor='start'>✎</text>
+<text x='52' y='114' font-size='14' fill='#222330' font-weight='600' text-anchor='start'>Posts</text>
+<text x='204' y='114' font-size='14' fill='#8e929c' font-weight='normal' text-anchor='start'>›</text>
+<text x='24' y='152' font-size='14' fill='#4a4f66' font-weight='normal' text-anchor='start'>▦</text>
+<text x='52' y='152' font-size='14' fill='#222330' font-weight='500' text-anchor='start'>Media</text>
+<text x='204' y='152' font-size='14' fill='#8e929c' font-weight='normal' text-anchor='start'>›</text>
+<text x='24' y='190' font-size='14' fill='#4a4f66' font-weight='normal' text-anchor='start'>▤</text>
+<text x='52' y='190' font-size='14' fill='#222330' font-weight='500' text-anchor='start'>Pages</text>
+<text x='204' y='190' font-size='14' fill='#8e929c' font-weight='normal' text-anchor='start'>›</text>
+<text x='24' y='228' font-size='14' fill='#4a4f66' font-weight='normal' text-anchor='start'>♨</text>
+<text x='52' y='228' font-size='14' fill='#222330' font-weight='500' text-anchor='start'>Recipes</text>
+<text x='204' y='228' font-size='14' fill='#8e929c' font-weight='normal' text-anchor='start'>›</text>
+<text x='24' y='266' font-size='14' fill='#4a4f66' font-weight='normal' text-anchor='start'>☰</text>
+<text x='52' y='266' font-size='14' fill='#222330' font-weight='500' text-anchor='start'>Comments</text>
+<text x='24' y='304' font-size='14' fill='#4a4f66' font-weight='normal' text-anchor='start'>◐</text>
+<text x='52' y='304' font-size='14' fill='#222330' font-weight='500' text-anchor='start'>Appearance</text>
+<text x='204' y='304' font-size='14' fill='#8e929c' font-weight='normal' text-anchor='start'>›</text>
+<text x='24' y='342' font-size='14' fill='#4a4f66' font-weight='normal' text-anchor='start'>⚙</text>
+<text x='52' y='342' font-size='14' fill='#222330' font-weight='500' text-anchor='start'>Plugins</text>
+<text x='204' y='342' font-size='14' fill='#8e929c' font-weight='normal' text-anchor='start'>›</text>
+<text x='24' y='380' font-size='14' fill='#4a4f66' font-weight='normal' text-anchor='start'>☺</text>
+<text x='52' y='380' font-size='14' fill='#222330' font-weight='500' text-anchor='start'>Users</text>
+<text x='204' y='380' font-size='14' fill='#8e929c' font-weight='normal' text-anchor='start'>›</text>
+<text x='24' y='418' font-size='14' fill='#4a4f66' font-weight='normal' text-anchor='start'>✇</text>
+<text x='52' y='418' font-size='14' fill='#222330' font-weight='500' text-anchor='start'>Tools</text>
+<text x='204' y='418' font-size='14' fill='#8e929c' font-weight='normal' text-anchor='start'>›</text>
+<text x='24' y='456' font-size='14' fill='#4a4f66' font-weight='normal' text-anchor='start'>⚒</text>
+<text x='52' y='456' font-size='14' fill='#222330' font-weight='500' text-anchor='start'>Settings</text>
+<text x='204' y='456' font-size='14' fill='#8e929c' font-weight='normal' text-anchor='start'>›</text>
+<text x='24' y='764' font-size='14' fill='#4a4f66' font-weight='normal' text-anchor='start'>◯</text>
+<text x='52' y='764' font-size='14' fill='#222330' font-weight='normal' text-anchor='start'>admin</text>
+<text x='24' y='794' font-size='14' fill='#4a4f66' font-weight='normal' text-anchor='start'>?</text>
+<text x='52' y='794' font-size='14' fill='#222330' font-weight='normal' text-anchor='start'>Help</text>
+<text x='266' y='56' font-size='26' fill='#222330' font-weight='700' text-anchor='start'>Categories</text>
+<rect x='266' y='84' width='340' height='560' rx='6' fill='#fff' stroke='#c9ccd6' stroke-width='1'/>
+<rect x='266' y='84' width='340' height='36' rx='6' fill='#f6f7fb' stroke='#c9ccd6' stroke-width='1'/>
+<rect x='266' y='114' width='340' height='6' fill='#f6f7fb'/>
+<text x='280' y='107' font-size='14' fill='#222330' font-weight='700' text-anchor='start'>Add New Category</text>
+<text x='282' y='130' font-size='13' fill='#222330' font-weight='normal' text-anchor='start'>Name</text>
+<rect x='282' y='138' width='308' height='34' rx='4' fill='#fff' stroke='#8e929c' stroke-width='1'/>
+<text x='282' y='190' font-size='12' fill='#6b6f82' font-weight='normal' text-anchor='start'>The name is how it appears on your site.</text>
+<text x='282' y='220' font-size='13' fill='#222330' font-weight='normal' text-anchor='start'>Slug</text>
+<rect x='282' y='228' width='308' height='34' rx='4' fill='#fff' stroke='#8e929c' stroke-width='1'/>
+<text x='282' y='280' font-size='12' fill='#6b6f82' font-weight='normal' text-anchor='start'>Becomes the term’s URL alias.</text>
+<text x='282' y='310' font-size='13' fill='#222330' font-weight='normal' text-anchor='start'>Parent Category</text>
+<rect x='282' y='318' width='308' height='34' rx='4' fill='#fff' stroke='#8e929c' stroke-width='1'/><text x='292' y='340' font-size='13' fill='#222330' font-weight='normal' text-anchor='start'>None</text><text x='572' y='340' font-size='13' fill='#555' font-weight='normal' text-anchor='start'>▾</text>
+<text x='282' y='380' font-size='13' fill='#222330' font-weight='normal' text-anchor='start'>Description</text>
+<rect x='282' y='388' width='308' height='90' rx='4' fill='#fff' stroke='#8e929c' stroke-width='1'/>
+<rect x='282' y='510' width='140' height='32' rx='4' fill='#003ecc' stroke='#003ecc' stroke-width='1'/><text x='352.0' y='531' font-size='13' fill='#fff' font-weight='600' text-anchor='middle'>Add New Category</text>
+<text x='282' y='566' font-size='12' fill='#6b6f82' font-weight='normal' text-anchor='start'>Drupal’s own term add form, embedded.</text>
+<rect x='984' y='84' width='180' height='34' rx='4' fill='#fff' stroke='#8e929c' stroke-width='1'/><text x='994' y='105.0' font-size='12' fill='#6b6f82' font-weight='normal' text-anchor='start'>Search Categories</text>
+<rect x='1174' y='84' width='70' height='32' rx='4' fill='#fff' stroke='#003ecc' stroke-width='1'/><text x='1209.0' y='105' font-size='13' fill='#003ecc' font-weight='600' text-anchor='middle'>Search</text>
+<rect x='630' y='130' width='614' height='36' rx='0' fill='#f6f7fb' stroke='#c9ccd6' stroke-width='1'/>
+<text x='640' y='153' font-size='13' fill='#222330' font-weight='700' text-anchor='start'></text>
+<text x='670' y='153' font-size='13' fill='#222330' font-weight='700' text-anchor='start'>Name</text>
+<text x='970' y='153' font-size='13' fill='#222330' font-weight='700' text-anchor='start'>Description</text>
+<text x='1150' y='153' font-size='13' fill='#222330' font-weight='700' text-anchor='start'>Slug</text>
+<text x='1280' y='153' font-size='13' fill='#222330' font-weight='700' text-anchor='start'>Count</text>
+<rect x='630' y='166' width='614' height='54' rx='0' fill='#fff' stroke='#e2e4ea' stroke-width='1'/>
+<rect x='640' y='184' width='14' height='14' rx='3' fill='#fff' stroke='#8e929c' stroke-width='1'/>
+<text x='670' y='188' font-size='13' fill='#003ecc' font-weight='normal' text-anchor='start'>Uncategorized</text>
+<text x='670' y='208' font-size='12' fill='#6b6f82' font-weight='normal' text-anchor='start'>Edit | Delete | View</text>
+<text x='970' y='198' font-size='13' fill='#222330' font-weight='normal' text-anchor='start'>—</text>
+<text x='1150' y='198' font-size='13' fill='#222330' font-weight='normal' text-anchor='start'>uncategorized</text>
+<text x='1280' y='198' font-size='13' fill='#222330' font-weight='normal' text-anchor='start'>0</text>
+<rect x='630' y='220' width='614' height='54' rx='0' fill='#fff' stroke='#e2e4ea' stroke-width='1'/>
+<rect x='640' y='238' width='14' height='14' rx='3' fill='#fff' stroke='#8e929c' stroke-width='1'/>
+<text x='670' y='242' font-size='13' fill='#003ecc' font-weight='normal' text-anchor='start'>Baking</text>
+<text x='670' y='262' font-size='12' fill='#6b6f82' font-weight='normal' text-anchor='start'>Edit | Delete | View</text>
+<text x='970' y='252' font-size='13' fill='#222330' font-weight='normal' text-anchor='start'>Cakes, bread and pastry</text>
+<text x='1150' y='252' font-size='13' fill='#222330' font-weight='normal' text-anchor='start'>baking</text>
+<text x='1280' y='252' font-size='13' fill='#222330' font-weight='normal' text-anchor='start'>2</text>
+<rect x='630' y='274' width='614' height='54' rx='0' fill='#fff' stroke='#e2e4ea' stroke-width='1'/>
+<rect x='640' y='292' width='14' height='14' rx='3' fill='#fff' stroke='#8e929c' stroke-width='1'/>
+<text x='670' y='296' font-size='13' fill='#003ecc' font-weight='normal' text-anchor='start'>— Bread</text>
+<text x='670' y='316' font-size='12' fill='#6b6f82' font-weight='normal' text-anchor='start'>Edit | Delete | View</text>
+<text x='970' y='306' font-size='13' fill='#222330' font-weight='normal' text-anchor='start'></text>
+<text x='1150' y='306' font-size='13' fill='#222330' font-weight='normal' text-anchor='start'>baking/bread</text>
+<text x='1280' y='306' font-size='13' fill='#222330' font-weight='normal' text-anchor='start'>1</text>
+<rect x='630' y='328' width='614' height='54' rx='0' fill='#fff' stroke='#e2e4ea' stroke-width='1'/>
+<rect x='640' y='346' width='14' height='14' rx='3' fill='#fff' stroke='#8e929c' stroke-width='1'/>
+<text x='670' y='350' font-size='13' fill='#003ecc' font-weight='normal' text-anchor='start'>Seasonal</text>
+<text x='670' y='370' font-size='12' fill='#6b6f82' font-weight='normal' text-anchor='start'>Edit | Delete | View</text>
+<text x='970' y='360' font-size='13' fill='#222330' font-weight='normal' text-anchor='start'></text>
+<text x='1150' y='360' font-size='13' fill='#222330' font-weight='normal' text-anchor='start'>seasonal</text>
+<text x='1280' y='360' font-size='13' fill='#222330' font-weight='normal' text-anchor='start'>3</text>
+<rect x='630' y='382' width='614' height='54' rx='0' fill='#fff' stroke='#e2e4ea' stroke-width='1'/>
+<rect x='640' y='400' width='14' height='14' rx='3' fill='#fff' stroke='#8e929c' stroke-width='1'/>
+<text x='670' y='404' font-size='13' fill='#003ecc' font-weight='normal' text-anchor='start'>— Autumn</text>
+<text x='670' y='424' font-size='12' fill='#6b6f82' font-weight='normal' text-anchor='start'>Edit | Delete | View</text>
+<text x='970' y='414' font-size='13' fill='#222330' font-weight='normal' text-anchor='start'></text>
+<text x='1150' y='414' font-size='13' fill='#222330' font-weight='normal' text-anchor='start'>seasonal/autumn</text>
+<text x='1280' y='414' font-size='13' fill='#222330' font-weight='normal' text-anchor='start'>1</text>
+<text x='630' y='466' font-size='13' fill='#003ecc' font-weight='normal' text-anchor='start'>Reorder categories with drag and drop (taxonomy overview) →</text>
+<text x='630' y='496' font-size='12' fill='#6b6f82' font-weight='normal' text-anchor='start'>Tags and Recipe Categories use this same page with another vocabulary.</text>
+</svg>

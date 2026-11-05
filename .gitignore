@@ -1,0 +1,9 @@
+# Local installs (reproduce with scripts/)
+/backdrop/
+/wordpress/
+/scripts/bin/
+/.db/
+/node_modules/
+*.log
+.DS_Store
+/downloads/
