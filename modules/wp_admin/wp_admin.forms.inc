@@ -9,7 +9,8 @@
  * A disabled field explaining why a WordPress option has no Backdrop equivalent.
  */
 function wp_admin_unavailable($title, $why, $type = 'textfield', $value = NULL) {
-  return array(
+  $element = $type === 'select' ? array('#options' => $value !== NULL ? array($value => $value) : array()) : array();
+  return $element + array(
     '#type' => $type,
     '#title' => $title,
     '#disabled' => TRUE,

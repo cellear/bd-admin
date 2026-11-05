@@ -124,7 +124,8 @@ function wp_admin_dashboard_activity() {
 function wp_admin_dashboard_quick_draft() {
   $content = '';
   if (node_access('create', 'post')) {
-    $content .= backdrop_render(backdrop_get_form('wp_admin_quick_draft_form'));
+    $form = backdrop_get_form('wp_admin_quick_draft_form');
+    $content .= backdrop_render($form);
   }
   global $user;
   $drafts = array();

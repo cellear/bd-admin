@@ -1,0 +1,93 @@
+<?php
+/**
+ * @file
+ * Tests for the WordPress-style admin module.
+ */
+
+/**
+ * Every wp-admin menu link loads; the chrome replaces the admin bar.
+ */
+class WpAdminMenuTestCase extends BackdropWebTestCase {
+
+  protected $profile = 'standard';
+  protected $admin;
+
+  function setUp() {
+    parent::setUp(array('wp_admin'));
+    $this->admin = $this->backdropCreateUser(array(
+      'access wp admin',
+      'access administration pages',
+      'administer site configuration',
+      'administer nodes',
+      'administer comments',
+      'administer taxonomy',
+      'administer users',
+      'administer modules',
+      'administer themes',
+      'administer layouts',
+      'administer menu',
+      'manage files',
+      'access file overview',
+      'use installer browser',
+      'administer url aliases',
+      'access site reports',
+      'access content overview',
+      'create post content',
+      'create page content',
+      'access administration bar',
+      'view the administration theme',
+    ));
+    $this->backdropLogin($this->admin);
+  }
+
+  /**
+   * Walks every link in the wp-admin menu.
+   */
+  function testEveryMenuLinkLoads() {
+    $this->backdropGet('wp-admin');
+    $this->assertResponse(200);
+    $this->assertRaw('id="wp-admin-sidebar"', 'The WordPress-style sidebar is rendered.');
+    $this->assertRaw('id="wp-admin-bar"', 'The WordPress-style admin bar is rendered.');
+    $this->assertNoRaw('id="admin-bar"', 'Backdrop’s admin bar is suppressed for wp-admin users.');
+    $this->assertText('Howdy,', 'The account menu is in the top bar.');
+    $this->assertText('Welcome to bd-admin!', 'The welcome panel is shown.');
+    foreach (array('Dashboard', 'Posts', 'Media', 'Pages', 'Comments', 'Appearance', 'Plugins', 'Users', 'Tools', 'Settings') as $label) {
+      $this->assertRaw('<span class="wp-admin-menu__label">' . $label . '</span>', "Sidebar shows $label.");
+    }
+
+    $visited = 0;
+    foreach (menu_tree_all_data('wp-admin') as $element) {
+      $paths = array($element['link']['link_path']);
+      foreach ($element['below'] as $child) {
+        $paths[] = $child['link']['link_path'];
+      }
+      foreach (array_unique($paths) as $path) {
+        // Animal / Habitat pages only exist with the sample content module.
+        if (strpos($path, 'animal') !== FALSE || strpos($path, 'habitat') !== FALSE) {
+          continue;
+        }
+        $this->backdropGet($path);
+        $this->assertResponse(200, "Menu link $path loads.");
+        $this->assertRaw('<h1', "Menu link $path has a heading.");
+        $visited++;
+      }
+    }
+    $this->assertTrue($visited > 35, "Visited $visited menu links.");
+  }
+
+  /**
+   * The install hook changed the content model and anonymous users see no chrome.
+   */
+  function testInstallAndAnonymous() {
+    $this->backdropGet('node/add/post');
+    $this->assertText('Categories', 'The Categories field is on the Post form.');
+    $this->assertNotNull(taxonomy_vocabulary_load('category'), 'The Categories vocabulary exists.');
+    $this->assertEqual(db_query("SELECT COUNT(*) FROM {menu_links} WHERE menu_name = 'wp-admin'")->fetchField(), 53, 'All 53 wp-admin menu links were created.');
+
+    $this->backdropLogout();
+    $this->backdropGet('<front>');
+    $this->assertNoRaw('id="wp-admin-bar"', 'Anonymous visitors see no top bar.');
+    $this->assertNoRaw('id="wp-admin-sidebar"', 'Anonymous visitors see no sidebar.');
+  }
+
+}

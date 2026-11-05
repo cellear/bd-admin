@@ -1,0 +1,5 @@
+[WpAdminMenuTestCase]
+name = WordPress-style admin
+description = Every wp-admin menu link loads, the WordPress chrome replaces the admin bar, and Post gains a Categories field.
+group = WordPress-style admin
+file = tests/wp_admin.test
