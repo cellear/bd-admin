@@ -1,0 +1,57 @@
+{
+  "title": "Editor",
+  "intro": "In WordPress the Site Editor (Appearance → Editor) is one full-screen app for editing navigation, styles, pages, templates and patterns of a block theme. Backdrop spreads the same jobs over several administration screens, listed here.",
+  "wordpress": "The Site Editor opens on a preview of the site with a sidebar: Navigation (the menus), Styles (colors, typography), Pages, Templates (the layouts used for single posts, archives, 404…), and Patterns (reusable block arrangements).",
+  "backdrop": "Backdrop’s Layout module is the closest thing to templates: each layout is a template (Moscone, Boxton, …) with regions and blocks, assigned to paths. Menus are entities of their own; theme settings cover logo and colors; reusable blocks are custom blocks.",
+  "sections": [
+    {
+      "heading": "Templates → Layouts",
+      "text": "WordPress templates (Single Posts, Page, Index, 404) correspond to Backdrop layouts: pick a template, place blocks in its regions, assign it to a path or content type.",
+      "links": [
+        {
+          "title": "Layouts",
+          "url": "admin/structure/layouts"
+        },
+        {
+          "title": "Layout templates",
+          "url": "admin/structure/layouts/settings"
+        }
+      ]
+    },
+    {
+      "heading": "Navigation → Menus",
+      "links": [
+        {
+          "title": "Main menu",
+          "url": "admin/structure/menu/manage/main-menu"
+        },
+        {
+          "title": "All menus",
+          "url": "admin/structure/menu"
+        }
+      ]
+    },
+    {
+      "heading": "Styles → Theme settings",
+      "links": [
+        {
+          "title": "Basis theme settings",
+          "url": "admin/appearance/settings/basis"
+        },
+        {
+          "title": "Global theme settings",
+          "url": "admin/appearance/settings"
+        }
+      ]
+    },
+    {
+      "heading": "Patterns → Custom blocks",
+      "links": [
+        {
+          "title": "Custom blocks",
+          "url": "admin/structure/block"
+        }
+      ]
+    }
+  ]
+}

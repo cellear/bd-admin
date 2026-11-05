@@ -1,0 +1,145 @@
+/*
+ * The WordPress look on Backdrop: a 160px dark sidebar and a 32px black top bar,
+ * both fixed, on every page for users of the WordPress-style admin.
+ * Colors: wp-admin "Default" scheme.
+ */
+:root {
+  --wp-bar-height: 32px;
+  --wp-sidebar-width: 160px;
+  --wp-color-bar: #1d2327;
+  --wp-color-bar-hover: #2c3338;
+  --wp-color-text: #f0f0f1;
+  --wp-color-text-muted: #c3c4c7;
+  --wp-color-link-hover: #72aee6;
+  --wp-color-current: #2271b1;
+  --wp-color-badge: #d63638;
+  --wp-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+/* Make room for the chrome. */
+html.wp-admin-chrome body { padding-top: var(--wp-bar-height); }
+@media (min-width: 1024px) {
+  html.wp-admin-chrome body { padding-left: var(--wp-sidebar-width); }
+}
+html.wp-admin-chrome { scroll-padding-top: var(--wp-bar-height); }
+/* Backdrop's own admin bar is suppressed for these users; hide any leftover. */
+html.wp-admin-chrome #admin-bar { display: none !important; }
+
+/* ---------- Top bar ---------- */
+.wp-admin-bar {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 99999;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  height: var(--wp-bar-height);
+  padding: 0 8px;
+  background: var(--wp-color-bar);
+  color: var(--wp-color-text);
+  font: 400 13px/32px var(--wp-font);
+}
+.wp-admin-bar__menu { display: flex; margin: 0; padding: 0; list-style: none; }
+.wp-admin-bar__item { position: relative; margin: 0; padding: 0; list-style: none; }
+.wp-admin-bar__link,
+.wp-admin-bar__submenu a {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  height: var(--wp-bar-height);
+  padding: 0 8px;
+  color: var(--wp-color-text);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.wp-admin-bar__item:hover > .wp-admin-bar__link,
+.wp-admin-bar__item:focus-within > .wp-admin-bar__link,
+.wp-admin-bar__submenu a:hover,
+.wp-admin-bar__submenu a:focus { background: var(--wp-color-bar-hover); color: var(--wp-color-link-hover); }
+.wp-admin-bar__icon { font-size: 18px; line-height: 1; }
+.wp-admin-bar__logo {
+  display: inline-grid; place-items: center;
+  width: 20px; height: 20px;
+  border: 2px solid var(--wp-color-text); border-radius: 50%;
+  font: 700 13px/1 Georgia, serif;
+}
+.wp-admin-bar__item:hover .wp-admin-bar__logo { border-color: var(--wp-color-link-hover); }
+.wp-admin-bar__count {
+  display: inline-block; min-width: 18px; padding: 0 5px; border-radius: 9px;
+  background: #50575e; color: #fff; font-size: 11px; line-height: 18px; text-align: center;
+}
+.wp-admin-bar__count--pending { background: var(--wp-color-badge); }
+.wp-admin-bar__avatar {
+  display: inline-grid; place-items: center; width: 18px; height: 18px; border-radius: 50%;
+  background: #50575e; color: #fff; font-size: 11px; font-weight: 600;
+}
+.wp-admin-bar__submenu {
+  position: absolute; top: 100%; left: 0;
+  display: none; min-width: 160px; margin: 0; padding: 6px 0; list-style: none;
+  background: var(--wp-color-bar-hover); box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+}
+.wp-admin-bar__submenu li { margin: 0; padding: 0; list-style: none; }
+.wp-admin-bar__submenu--right { left: auto; right: 0; }
+.wp-admin-bar__submenu a { height: 26px; line-height: 26px; }
+.wp-admin-bar__item--has-menu:hover > .wp-admin-bar__submenu,
+.wp-admin-bar__item--has-menu:focus-within > .wp-admin-bar__submenu { display: block; }
+.wp-admin-bar__burger {
+  display: none; margin-right: 4px; padding: 0 8px; border: 0; background: transparent;
+  color: var(--wp-color-text); font-size: 20px; line-height: 32px; cursor: pointer;
+}
+
+/* ---------- Sidebar ---------- */
+.wp-admin-sidebar {
+  position: fixed;
+  top: var(--wp-bar-height); bottom: 0; left: 0;
+  z-index: 9999;
+  box-sizing: border-box;
+  width: var(--wp-sidebar-width);
+  overflow-y: auto;
+  padding: 12px 0;
+  background: var(--wp-color-bar);
+  color: var(--wp-color-text);
+  font: 400 13px/1.4 var(--wp-font);
+}
+.wp-admin-menu,
+.wp-admin-submenu { margin: 0; padding: 0; list-style: none; }
+.wp-admin-menu__item,
+.wp-admin-submenu__item { margin: 0; padding: 0; list-style: none; }
+/* WordPress's separators: after Dashboard and after Comments. */
+.wp-admin-menu__item--posts,
+.wp-admin-menu__item--appearance { margin-top: 11px; }
+.wp-admin-menu__link {
+  display: flex; align-items: center; gap: 8px;
+  box-sizing: border-box; min-height: 34px; padding: 5px 8px 5px 10px;
+  color: var(--wp-color-text); font-weight: 400; text-decoration: none;
+}
+.wp-admin-menu__link:hover,
+.wp-admin-menu__link:focus { color: var(--wp-color-link-hover); background: var(--wp-color-bar-hover); outline: 0; }
+.wp-admin-menu__icon { display: inline-flex; width: 20px; height: 20px; flex-shrink: 0; color: #a7aaad; }
+.wp-admin-menu__icon svg { width: 20px; height: 20px; }
+.wp-admin-menu__link:hover .wp-admin-menu__icon,
+.wp-admin-menu__item--current > .wp-admin-menu__link .wp-admin-menu__icon { color: #fff; }
+.wp-admin-menu__item--current > .wp-admin-menu__link { color: #fff; background: var(--wp-color-current); }
+/* Flyout for non-current items (hover), inline block for the current item. */
+.wp-admin-submenu { display: none; background: var(--wp-color-bar-hover); padding: 6px 0; }
+.wp-admin-submenu a { display: block; padding: 6px 12px; color: var(--wp-color-text-muted); text-decoration: none; }
+.wp-admin-submenu a:hover,
+.wp-admin-submenu a:focus { color: var(--wp-color-link-hover); }
+.wp-admin-submenu__item--current a { color: #fff; font-weight: 600; }
+.wp-admin-menu__item--current > .wp-admin-submenu { display: block; }
+@media (min-width: 1024px) {
+  .wp-admin-menu__item { position: relative; }
+  .wp-admin-menu__item--has-children:not(.wp-admin-menu__item--current):hover > .wp-admin-submenu,
+  .wp-admin-menu__item--has-children:not(.wp-admin-menu__item--current):focus-within > .wp-admin-submenu {
+    display: block; position: absolute; top: 0; left: 100%; z-index: 1; min-width: 160px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+  }
+}
+
+/* ---------- Mobile: sidebar hidden behind the burger ---------- */
+@media (max-width: 1023px) {
+  .wp-admin-sidebar { display: none; width: 80vw; max-width: 320px; box-shadow: 4px 0 12px rgba(0, 0, 0, .4); }
+  html.wp-admin-sidebar-open .wp-admin-sidebar { display: block; }
+  .wp-admin-bar__burger { display: inline-block; }
+  .wp-admin-bar__item--site .wp-admin-bar__link { max-width: 40vw; overflow: hidden; text-overflow: ellipsis; }
+}

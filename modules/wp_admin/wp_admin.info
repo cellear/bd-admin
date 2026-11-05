@@ -1,0 +1,16 @@
+name = WordPress-style admin
+description = The WordPress wp-admin experience on Backdrop: menu tree, dashboard, list pages, settings forms and the WordPress look, with explanation pages where Backdrop differs.
+package = WordPress-style admin
+type = module
+backdrop = 1.x
+version = 1.x-1.0.0
+configure = wp-admin/settings/general
+dependencies[] = node
+dependencies[] = views
+dependencies[] = taxonomy
+dependencies[] = comment
+dependencies[] = menu
+dependencies[] = path
+dependencies[] = image
+dependencies[] = options
+dependencies[] = field_ui

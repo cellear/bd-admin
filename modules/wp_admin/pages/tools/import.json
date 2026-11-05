@@ -1,0 +1,42 @@
+{
+  "title": "Import",
+  "intro": "If you have posts or comments in another system, WordPress can import those into this site. WordPress lists importers for Blogger, LiveJournal, Movable Type, RSS, Tumblr and WordPress (WXR files), each installed as a plugin on demand.",
+  "backdrop": "Backdrop’s built-in import path is the Drupal 7 upgrade: a Drupal 7 site’s database can be upgraded in place to Backdrop. Other sources come from contrib modules or from configuration import.",
+  "sections": [
+    {
+      "heading": "Importers available in Backdrop",
+      "links": [
+        {
+          "title": "Upgrading from Drupal 7",
+          "url": "https://docs.backdropcms.org/upgrade-from-drupal",
+          "description": "core: convert a Drupal 7 site to Backdrop"
+        },
+        {
+          "title": "Feeds",
+          "url": "https://backdropcms.org/project/feeds",
+          "description": "contrib: RSS/CSV imports configured in the UI, repeatable on cron"
+        },
+        {
+          "title": "Migrate",
+          "url": "https://backdropcms.org/project/migrate",
+          "description": "contrib: scripted migrations from other databases and files"
+        }
+      ]
+    },
+    {
+      "heading": "Configuration import",
+      "text": "Separately from content, Backdrop’s configuration (content types, views, layouts, settings) can be imported from JSON. This is how sites are deployed between environments.",
+      "links": [
+        {
+          "title": "Configuration management",
+          "url": "admin/config/development/configuration"
+        },
+        {
+          "title": "Import a single configuration item",
+          "url": "admin/config/development/configuration/single/import"
+        }
+      ]
+    }
+  ],
+  "note": "This repository’s content/wordpress-animals.xml is a WXR export of the sample content; there is no WXR importer for Backdrop."
+}

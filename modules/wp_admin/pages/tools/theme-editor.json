@@ -1,0 +1,26 @@
+{
+  "title": "Edit Themes",
+  "intro": "WordPress’s Theme File Editor edits the PHP, CSS and JavaScript files of the active theme in the browser. Backdrop deliberately has no code editor in the admin interface.",
+  "wordpress": "A file tree of the theme on the right, a text area on the left, and an “Update File” button that writes straight to the web server.",
+  "backdrop": "Code is edited on disk, kept in version control and deployed. Nothing in the admin UI writes PHP or template files. Backdrop caches CSS/JS aggregates, so a changed file needs a cache clear to show.",
+  "sections": [
+    {
+      "heading": "Where theme files are",
+      "text": "Core themes: core/themes/<name>; contrib and custom themes: themes/<name>. Templates are *.tpl.php files; styles are declared in the theme’s .info file.",
+      "links": [
+        {
+          "title": "Appearance",
+          "url": "admin/appearance"
+        },
+        {
+          "title": "Performance: clear all caches",
+          "url": "admin/config/development/performance"
+        },
+        {
+          "title": "Theming guide",
+          "url": "https://docs.backdropcms.org/documentation/themes"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Edit Plugins",
+  "intro": "WordPress’s Plugin File Editor edits plugin PHP files in the browser. Backdrop has no equivalent on purpose: module code lives on disk and is never written by the admin interface.",
+  "backdrop": "Modules are directories under modules/ (contrib or custom), each with a .info file. They are installed from the admin UI (Plugins → Add Plugin, which downloads from backdropcms.org) or by copying files, and enabled on the Modules page; their settings are configuration, editable in the UI and exportable as JSON.",
+  "sections": [
+    {
+      "heading": "Related Backdrop screens",
+      "links": [
+        {
+          "title": "Modules (enable / disable)",
+          "url": "admin/modules"
+        },
+        {
+          "title": "Install new modules",
+          "url": "admin/modules/install"
+        },
+        {
+          "title": "Uninstall modules",
+          "url": "admin/modules/uninstall"
+        },
+        {
+          "title": "Module developer guide",
+          "url": "https://docs.backdropcms.org/documentation/modules"
+        }
+      ]
+    }
+  ]
+}

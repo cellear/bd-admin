@@ -1,0 +1,53 @@
+{
+  "title": "Tools",
+  "intro": "WordPress’s Available Tools page is nearly empty: it links to the Categories and Tags Converter importer. This page lists the Backdrop administration tools that have no WordPress counterpart in the menu.",
+  "sections": [
+    {
+      "heading": "Backdrop tools",
+      "links": [
+        {
+          "title": "Configuration",
+          "url": "admin/config",
+          "description": "every setting of core and modules, grouped by topic"
+        },
+        {
+          "title": "Reports",
+          "url": "admin/reports",
+          "description": "status report, available updates, recent log messages"
+        },
+        {
+          "title": "Recent log messages",
+          "url": "admin/reports/dblog"
+        },
+        {
+          "title": "Cron",
+          "url": "admin/config/system/cron",
+          "description": "periodic tasks (WordPress: WP-Cron)"
+        },
+        {
+          "title": "Performance",
+          "url": "admin/config/development/performance",
+          "description": "page cache, CSS/JS aggregation; clear all caches"
+        },
+        {
+          "title": "Maintenance mode",
+          "url": "admin/config/development/maintenance"
+        }
+      ]
+    },
+    {
+      "heading": "Converter",
+      "text": "WordPress’s Categories and Tags Converter swaps terms between the two taxonomies. In Backdrop a term belongs to one vocabulary; move it by editing the term, or re-create it in the other vocabulary.",
+      "links": [
+        {
+          "title": "Categories",
+          "url": "wp-admin/posts/categories"
+        },
+        {
+          "title": "Tags",
+          "url": "wp-admin/posts/tags"
+        }
+      ]
+    }
+  ]
+}

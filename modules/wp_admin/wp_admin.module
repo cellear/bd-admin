@@ -1,0 +1,231 @@
+<?php
+/**
+ * @file
+ * WordPress-style admin for Backdrop: wp-admin menu tree, dashboard, list
+ * pages, settings forms, explanation pages, and the WordPress look (sidebar
+ * and top admin bar).
+ */
+
+/**
+ * Implements hook_permission().
+ */
+function wp_admin_permission() {
+  return array(
+    'access wp admin' => array(
+      'title' => t('Use the WordPress-style admin'),
+      'description' => t('See the wp-admin sidebar and top bar instead of the Backdrop admin bar, and use the /wp-admin pages.'),
+    ),
+  );
+}
+
+/**
+ * Implements hook_config_info().
+ */
+function wp_admin_config_info() {
+  return array(
+    'wp_admin.settings' => array(
+      'label' => t('WordPress-style admin settings'),
+      'group' => t('Configuration'),
+    ),
+  );
+}
+
+/**
+ * Implements hook_admin_paths().
+ *
+ * /wp-admin pages use the admin theme and the admin layout.
+ */
+function wp_admin_admin_paths() {
+  return array(
+    'wp-admin' => TRUE,
+    'wp-admin/*' => TRUE,
+  );
+}
+
+/**
+ * Implements hook_menu().
+ */
+function wp_admin_menu() {
+  $items = array();
+  $page = array(
+    'access arguments' => array('access wp admin'),
+    'file' => 'wp_admin.pages.inc',
+    'type' => MENU_CALLBACK,
+  );
+  $form = array(
+    'access arguments' => array('administer site configuration'),
+    'file' => 'wp_admin.forms.inc',
+    'type' => MENU_CALLBACK,
+    'page callback' => 'backdrop_get_form',
+  );
+
+  $items['wp-admin'] = $page + array('title' => 'Dashboard', 'page callback' => 'wp_admin_dashboard_page');
+
+  // Categories / Tags / Classes / Habitat Types: WordPress-style term pages.
+  foreach (array(
+    'wp-admin/posts/categories' => array('Categories', 'category'),
+    'wp-admin/posts/tags' => array('Tags', 'tags'),
+    'wp-admin/animals/classes' => array('Classes', 'animal_class'),
+    'wp-admin/habitats/types' => array('Habitat Types', 'habitat_type'),
+  ) as $path => $def) {
+    $items[$path] = $page + array('title' => $def[0], 'page callback' => 'wp_admin_terms_page', 'page arguments' => array($def[1]));
+  }
+
+  // "Add …" buttons on the list pages (local actions on the View pages).
+  foreach (array('posts' => 'post', 'pages' => 'page', 'animals' => 'animal', 'habitats' => 'habitat') as $list => $type) {
+    $items["wp-admin/$list/add"] = array(
+      'title' => 'Add ' . ucfirst($type),
+      'page callback' => 'wp_admin_redirect',
+      'page arguments' => array("node/add/$type"),
+      'type' => MENU_LOCAL_ACTION,
+    ) + $page;
+  }
+
+  $items['wp-admin/profile'] = $page + array('title' => 'Profile', 'page callback' => 'wp_admin_profile_redirect');
+
+  // Explained / adapted pages from pages/<section>/<page>.json.
+  foreach (array(
+    'media/new' => 'Add Media File',
+    'appearance/editor' => 'Editor',
+    'appearance/fonts' => 'Fonts',
+    'tools' => 'Tools',
+    'tools/import' => 'Import',
+    'tools/export' => 'Export',
+    'tools/export-personal-data' => 'Export Personal Data',
+    'tools/erase-personal-data' => 'Erase Personal Data',
+    'tools/theme-editor' => 'Edit Themes',
+    'tools/plugin-editor' => 'Edit Plugins',
+    'tools/backdrop' => 'Backdrop Administration',
+    'settings/connectors' => 'Connectors',
+  ) as $path => $title) {
+    $items["wp-admin/$path"] = $page + array('title' => $title, 'page callback' => 'wp_admin_explained_page', 'page arguments' => array(str_replace('/', ':', $path)));
+  }
+
+  // Settings forms (WordPress field names, Backdrop config underneath).
+  foreach (array(
+    'general' => array('General Settings', 'wp_admin_settings_general_form'),
+    'writing' => array('Writing Settings', 'wp_admin_settings_writing_form'),
+    'reading' => array('Reading Settings', 'wp_admin_settings_reading_form'),
+    'discussion' => array('Discussion Settings', 'wp_admin_settings_discussion_form'),
+    'media' => array('Media Settings', 'wp_admin_settings_media_form'),
+    'permalinks' => array('Permalink Settings', 'wp_admin_settings_permalinks_form'),
+    'privacy' => array('Privacy', 'wp_admin_settings_privacy_form'),
+  ) as $path => $def) {
+    $items["wp-admin/settings/$path"] = $form + array('title' => $def[0], 'page arguments' => array($def[1]));
+  }
+
+  return $items;
+}
+
+/**
+ * Implements hook_init().
+ *
+ * Users of the WordPress-style admin do not get Backdrop's admin bar: the
+ * module renders its own sidebar and top bar instead.
+ */
+function wp_admin_init() {
+  if (wp_admin_active() && function_exists('admin_bar_suppress')) {
+    admin_bar_suppress();
+  }
+}
+
+/**
+ * Whether the current user sees the WordPress-style admin chrome.
+ */
+function wp_admin_active() {
+  return user_access('access wp admin') && !path_is_admin_disabled_for_wp_admin();
+}
+
+/**
+ * Paths where the chrome must stay out of the way (installer, maintenance, AJAX).
+ */
+function path_is_admin_disabled_for_wp_admin() {
+  $path = current_path();
+  return strpos($path, 'system/ajax') === 0 || strpos($path, 'core/') === 0 || defined('MAINTENANCE_MODE');
+}
+
+/**
+ * Implements hook_library_info().
+ */
+function wp_admin_library_info() {
+  $path = backdrop_get_path('module', 'wp_admin');
+  return array(
+    'chrome' => array(
+      'title' => 'WordPress-style admin chrome',
+      'version' => '1.0',
+      'css' => array(
+        $path . '/css/wp-admin-chrome.css' => array('group' => CSS_THEME, 'weight' => 100),
+      ),
+      'js' => array(
+        $path . '/js/wp-admin-chrome.js' => array('group' => JS_THEME),
+      ),
+    ),
+    'pages' => array(
+      'title' => 'WordPress-style admin pages',
+      'version' => '1.0',
+      'css' => array(
+        $path . '/css/wp-admin-pages.css' => array('group' => CSS_THEME),
+      ),
+    ),
+  );
+}
+
+/**
+ * Implements hook_theme().
+ */
+function wp_admin_theme() {
+  $path = backdrop_get_path('module', 'wp_admin') . '/templates';
+  return array(
+    'wp_admin_sidebar' => array(
+      'variables' => array('items' => array(), 'site_name' => ''),
+      'template' => 'wp-admin-sidebar',
+      'path' => $path,
+    ),
+    'wp_admin_top_bar' => array(
+      'variables' => array('logo_menu' => array(), 'site' => array(), 'comments' => NULL, 'new' => array(), 'account' => array()),
+      'template' => 'wp-admin-top-bar',
+      'path' => $path,
+    ),
+    'wp_admin_page' => array(
+      'variables' => array('page' => array(), 'extra' => NULL),
+      'template' => 'wp-admin-page',
+      'path' => $path,
+    ),
+    'wp_admin_dashboard' => array(
+      'variables' => array('welcome' => NULL, 'columns' => array()),
+      'template' => 'wp-admin-dashboard',
+      'path' => $path,
+    ),
+  );
+}
+
+/**
+ * Implements hook_preprocess_page().
+ *
+ * Adds the sidebar and the top bar (as fixed-position chrome) to every page
+ * for users of the WordPress-style admin, the same way the core admin bar
+ * adds itself.
+ */
+function wp_admin_preprocess_page(&$variables) {
+  if (!wp_admin_active() || !backdrop_is_html()) {
+    return;
+  }
+  module_load_include('inc', 'wp_admin', 'wp_admin.chrome');
+  backdrop_add_library('wp_admin', 'chrome');
+  $variables['html_attributes']['class'][] = 'wp-admin-chrome';
+  $variables['page_bottom'] .= wp_admin_render_chrome();
+}
+
+/**
+ * Page callback: redirect to a Backdrop path (used for "Add …" actions).
+ */
+function wp_admin_redirect($path) {
+  backdrop_goto($path);
+}
+
+/**
+ * Implements hook_views_api().
+ */
+function wp_admin_views_api() {
+  return array('api' => '3.0');
+}

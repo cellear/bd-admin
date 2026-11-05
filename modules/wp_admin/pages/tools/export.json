@@ -1,0 +1,41 @@
+{
+  "title": "Export",
+  "intro": "When you click the button below WordPress creates an XML file (WXR) for you to save to your computer, containing posts, pages, comments, custom fields, categories and tags. Backdrop separates content from configuration and exports each differently.",
+  "sections": [
+    {
+      "heading": "Configuration export (site structure and settings)",
+      "text": "Everything that is not content: content types, fields, views, layouts, menus, roles, settings. Exported as JSON, one file per configuration item.",
+      "links": [
+        {
+          "title": "Export full configuration (.tar.gz)",
+          "url": "admin/config/development/configuration/full/export"
+        },
+        {
+          "title": "Export a single configuration item",
+          "url": "admin/config/development/configuration/single/export"
+        }
+      ]
+    },
+    {
+      "heading": "Content export",
+      "text": "Backdrop core has no content exporter; use a View with a data export display, or Bee on the command line (bee db-export for a full database dump).",
+      "links": [
+        {
+          "title": "Views Data Export",
+          "url": "https://backdropcms.org/project/views_data_export",
+          "description": "CSV/XML export of any View"
+        },
+        {
+          "title": "Bee CLI",
+          "url": "https://github.com/backdrop-contrib/bee",
+          "description": "bee db-export writes a database dump"
+        },
+        {
+          "title": "RSS feed of this site",
+          "url": "rss.xml",
+          "description": "the simplest machine-readable export"
+        }
+      ]
+    }
+  ]
+}

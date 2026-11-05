@@ -1,0 +1,825 @@
+{
+  "base": "http://127.0.0.1:8082",
+  "tree": [
+    {
+      "label": "Dashboard",
+      "href": "/wp-admin",
+      "children": [
+        {
+          "label": "Home",
+          "href": "/wp-admin"
+        },
+        {
+          "label": "Updates",
+          "href": "/admin/reports/updates"
+        }
+      ]
+    },
+    {
+      "label": "Posts",
+      "href": "/wp-admin/posts",
+      "children": [
+        {
+          "label": "All Posts",
+          "href": "/wp-admin/posts"
+        },
+        {
+          "label": "Add Post",
+          "href": "/node/add/post"
+        },
+        {
+          "label": "Categories",
+          "href": "/wp-admin/posts/categories"
+        },
+        {
+          "label": "Tags",
+          "href": "/wp-admin/posts/tags"
+        }
+      ]
+    },
+    {
+      "label": "Media",
+      "href": "/admin/content/files",
+      "children": [
+        {
+          "label": "Library",
+          "href": "/admin/content/files"
+        },
+        {
+          "label": "Add Media File",
+          "href": "/wp-admin/media/new"
+        }
+      ]
+    },
+    {
+      "label": "Pages",
+      "href": "/wp-admin/pages",
+      "children": [
+        {
+          "label": "All Pages",
+          "href": "/wp-admin/pages"
+        },
+        {
+          "label": "Add Page",
+          "href": "/node/add/page"
+        }
+      ]
+    },
+    {
+      "label": "Animals",
+      "href": "/wp-admin/animals",
+      "children": [
+        {
+          "label": "All Animals",
+          "href": "/wp-admin/animals"
+        },
+        {
+          "label": "Add Animal",
+          "href": "/node/add/animal"
+        },
+        {
+          "label": "Classes",
+          "href": "/wp-admin/animals/classes"
+        }
+      ]
+    },
+    {
+      "label": "Habitats",
+      "href": "/wp-admin/habitats",
+      "children": [
+        {
+          "label": "All Habitats",
+          "href": "/wp-admin/habitats"
+        },
+        {
+          "label": "Add Habitat",
+          "href": "/node/add/habitat"
+        },
+        {
+          "label": "Habitat Types",
+          "href": "/wp-admin/habitats/types"
+        }
+      ]
+    },
+    {
+      "label": "Comments",
+      "href": "/admin/content/comment",
+      "children": []
+    },
+    {
+      "label": "Appearance",
+      "href": "/admin/appearance",
+      "children": [
+        {
+          "label": "Themes",
+          "href": "/admin/appearance"
+        },
+        {
+          "label": "Editor",
+          "href": "/wp-admin/appearance/editor"
+        },
+        {
+          "label": "Fonts",
+          "href": "/wp-admin/appearance/fonts"
+        }
+      ]
+    },
+    {
+      "label": "Plugins",
+      "href": "/admin/modules",
+      "children": [
+        {
+          "label": "Installed Plugins",
+          "href": "/admin/modules"
+        },
+        {
+          "label": "Add Plugin",
+          "href": "/admin/modules/install"
+        }
+      ]
+    },
+    {
+      "label": "Users",
+      "href": "/admin/people",
+      "children": [
+        {
+          "label": "All Users",
+          "href": "/admin/people"
+        },
+        {
+          "label": "Add User",
+          "href": "/admin/people/create"
+        },
+        {
+          "label": "Profile",
+          "href": "/wp-admin/profile"
+        }
+      ]
+    },
+    {
+      "label": "Tools",
+      "href": "/wp-admin/tools",
+      "children": [
+        {
+          "label": "Available Tools",
+          "href": "/wp-admin/tools"
+        },
+        {
+          "label": "Import",
+          "href": "/wp-admin/tools/import"
+        },
+        {
+          "label": "Export",
+          "href": "/wp-admin/tools/export"
+        },
+        {
+          "label": "Site Health",
+          "href": "/admin/reports/status"
+        },
+        {
+          "label": "Export Personal Data",
+          "href": "/wp-admin/tools/export-personal-data"
+        },
+        {
+          "label": "Erase Personal Data",
+          "href": "/wp-admin/tools/erase-personal-data"
+        },
+        {
+          "label": "Theme File Editor",
+          "href": "/wp-admin/tools/theme-editor"
+        },
+        {
+          "label": "Plugin File Editor",
+          "href": "/wp-admin/tools/plugin-editor"
+        },
+        {
+          "label": "Backdrop Administration",
+          "href": "/wp-admin/tools/backdrop"
+        }
+      ]
+    },
+    {
+      "label": "Settings",
+      "href": "/wp-admin/settings/general",
+      "children": [
+        {
+          "label": "General",
+          "href": "/wp-admin/settings/general"
+        },
+        {
+          "label": "Connectors",
+          "href": "/wp-admin/settings/connectors"
+        },
+        {
+          "label": "Writing",
+          "href": "/wp-admin/settings/writing"
+        },
+        {
+          "label": "Reading",
+          "href": "/wp-admin/settings/reading"
+        },
+        {
+          "label": "Discussion",
+          "href": "/wp-admin/settings/discussion"
+        },
+        {
+          "label": "Media",
+          "href": "/wp-admin/settings/media"
+        },
+        {
+          "label": "Permalinks",
+          "href": "/wp-admin/settings/permalinks"
+        },
+        {
+          "label": "Privacy",
+          "href": "/wp-admin/settings/privacy"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "n": 1,
+      "top": "Dashboard",
+      "label": "Dashboard",
+      "href": "/wp-admin",
+      "screenshot": "screenshots/01-dashboard.jpg",
+      "status": 200,
+      "finalUrl": "/wp-admin",
+      "h1": "Dashboard",
+      "hasBackdropAdminBar": false
+    },
+    {
+      "n": 2,
+      "top": "Dashboard",
+      "label": "Home",
+      "href": "/wp-admin",
+      "screenshot": "screenshots/02-dashboard-home.jpg",
+      "status": 200,
+      "finalUrl": "/wp-admin",
+      "h1": "Dashboard",
+      "hasBackdropAdminBar": false
+    },
+    {
+      "n": 3,
+      "top": "Dashboard",
+      "label": "Updates",
+      "href": "/admin/reports/updates",
+      "screenshot": "screenshots/03-dashboard-updates.jpg",
+      "status": 200,
+      "finalUrl": "/admin/reports/updates",
+      "h1": "Available updates",
+      "hasBackdropAdminBar": false
+    },
+    {
+      "n": 4,
+      "top": "Posts",
+      "label": "Posts",
+      "href": "/wp-admin/posts",
+      "screenshot": "screenshots/04-posts.jpg",
+      "status": 200,
+      "finalUrl": "/wp-admin/posts",
+      "h1": "Posts",
+      "hasBackdropAdminBar": false
+    },
+    {
+      "n": 5,
+      "top": "Posts",
+      "label": "All Posts",
+      "href": "/wp-admin/posts",
+      "screenshot": "screenshots/05-posts-all-posts.jpg",
+      "status": 200,
+      "finalUrl": "/wp-admin/posts",
+      "h1": "Posts",
+      "hasBackdropAdminBar": false
+    },
+    {
+      "n": 6,
+      "top": "Posts",
+      "label": "Add Post",
+      "href": "/node/add/post",
+      "screenshot": "screenshots/06-posts-add-post.jpg",
+      "status": 200,
+      "finalUrl": "/node/add/post",
+      "h1": "Create Post",
+      "hasBackdropAdminBar": false
+    },
+    {
+      "n": 7,
+      "top": "Posts",
+      "label": "Categories",
+      "href": "/wp-admin/posts/categories",
+      "screenshot": "screenshots/07-posts-categories.jpg",
+      "status": 200,
+      "finalUrl": "/wp-admin/posts/categories",
+      "h1": "Categories",
+      "hasBackdropAdminBar": false
+    },
+    {
+      "n": 8,
+      "top": "Posts",
+      "label": "Tags",
+      "href": "/wp-admin/posts/tags",
+      "screenshot": "screenshots/08-posts-tags.jpg",
+      "status": 200,
+      "finalUrl": "/wp-admin/posts/tags",
+      "h1": "Tags",
+      "hasBackdropAdminBar": false
+    },
+    {
+      "n": 9,
+      "top": "Media",
+      "label": "Media",
+      "href": "/admin/content/files",
+      "screenshot": "screenshots/09-media.jpg",
+      "status": 200,
+      "finalUrl": "/admin/content/files",
+      "h1": "Content",
+      "hasBackdropAdminBar": false
+    },
+    {
+      "n": 10,
+      "top": "Media",
+      "label": "Library",
+      "href": "/admin/content/files",
+      "screenshot": "screenshots/10-media-library.jpg",
+      "status": 200,
+      "finalUrl": "/admin/content/files",
+      "h1": "Content",
+      "hasBackdropAdminBar": false
+    },
+    {
+      "n": 11,
+      "top": "Media",
+      "label": "Add Media File",
+      "href": "/wp-admin/media/new",
+      "screenshot": "screenshots/11-media-add-media-file.jpg",
+      "status": 200,
+      "finalUrl": "/wp-admin/media/new",
+      "h1": "Add Media File",
+      "hasBackdropAdminBar": false
+    },
+    {
+      "n": 12,
+      "top": "Pages",
+      "label": "Pages",
+      "href": "/wp-admin/pages",
+      "screenshot": "screenshots/12-pages.jpg",
+      "status": 200,
+      "finalUrl": "/wp-admin/pages",
+      "h1": "Pages",
+      "hasBackdropAdminBar": false
+    },
+    {
+      "n": 13,
+      "top": "Pages",
+      "label": "All Pages",
+      "href": "/wp-admin/pages",
+      "screenshot": "screenshots/13-pages-all-pages.jpg",
+      "status": 200,
+      "finalUrl": "/wp-admin/pages",
+      "h1": "Pages",
+      "hasBackdropAdminBar": false
+    },
+    {
+      "n": 14,
+      "top": "Pages",
+      "label": "Add Page",
+      "href": "/node/add/page",
+      "screenshot": "screenshots/14-pages-add-page.jpg",
+      "status": 200,
+      "finalUrl": "/node/add/page",
+      "h1": "Create Page",
+      "hasBackdropAdminBar": false
+    },
+    {
+      "n": 15,
+      "top": "Animals",
+      "label": "Animals",
+      "href": "/wp-admin/animals",
+      "screenshot": "screenshots/15-animals.jpg",
+      "status": 200,
+      "finalUrl": "/wp-admin/animals",
+      "h1": "Animals",
+      "hasBackdropAdminBar": false
+    },
+    {
+      "n": 16,
+      "top": "Animals",
+      "label": "All Animals",
+      "href": "/wp-admin/animals",
+      "screenshot": "screenshots/16-animals-all-animals.jpg",
+      "status": 200,
+      "finalUrl": "/wp-admin/animals",
+      "h1": "Animals",
+      "hasBackdropAdminBar": false
+    },
+    {
+      "n": 17,
+      "top": "Animals",
+      "label": "Add Animal",
+      "href": "/node/add/animal",
+      "screenshot": "screenshots/17-animals-add-animal.jpg",
+      "status": 200,
+      "finalUrl": "/node/add/animal",
+      "h1": "Create Animal",
+      "hasBackdropAdminBar": false
+    },
+    {
+      "n": 18,
+      "top": "Animals",
+      "label": "Classes",
+      "href": "/wp-admin/animals/classes",
+      "screenshot": "screenshots/18-animals-classes.jpg",
+      "status": 200,
+      "finalUrl": "/wp-admin/animals/classes",
+      "h1": "Classes",
+      "hasBackdropAdminBar": false
+    },
+    {
+      "n": 19,
+      "top": "Habitats",
+      "label": "Habitats",
+      "href": "/wp-admin/habitats",
+      "screenshot": "screenshots/19-habitats.jpg",
+      "status": 200,
+      "finalUrl": "/wp-admin/habitats",
+      "h1": "Habitats",
+      "hasBackdropAdminBar": false
+    },
+    {
+      "n": 20,
+      "top": "Habitats",
+      "label": "All Habitats",
+      "href": "/wp-admin/habitats",
+      "screenshot": "screenshots/20-habitats-all-habitats.jpg",
+      "status": 200,
+      "finalUrl": "/wp-admin/habitats",
+      "h1": "Habitats",
+      "hasBackdropAdminBar": false
+    },
+    {
+      "n": 21,
+      "top": "Habitats",
+      "label": "Add Habitat",
+      "href": "/node/add/habitat",
+      "screenshot": "screenshots/21-habitats-add-habitat.jpg",
+      "status": 200,
+      "finalUrl": "/node/add/habitat",
+      "h1": "Create Habitat",
+      "hasBackdropAdminBar": false
+    },
+    {
+      "n": 22,
+      "top": "Habitats",
+      "label": "Habitat Types",
+      "href": "/wp-admin/habitats/types",
+      "screenshot": "screenshots/22-habitats-habitat-types.jpg",
+      "status": 200,
+      "finalUrl": "/wp-admin/habitats/types",
+      "h1": "Habitat Types",
+      "hasBackdropAdminBar": false
+    },
+    {
+      "n": 23,
+      "top": "Comments",
+      "label": "Comments",
+      "href": "/admin/content/comment",
+      "screenshot": "screenshots/23-comments.jpg",
+      "status": 200,
+      "finalUrl": "/admin/content/comment",
+      "h1": "Content",
+      "hasBackdropAdminBar": false
+    },
+    {
+      "n": 24,
+      "top": "Appearance",
+      "label": "Appearance",
+      "href": "/admin/appearance",
+      "screenshot": "screenshots/24-appearance.jpg",
+      "status": 200,
+      "finalUrl": "/admin/appearance",
+      "h1": "Appearance",
+      "hasBackdropAdminBar": false
+    },
+    {
+      "n": 25,
+      "top": "Appearance",
+      "label": "Themes",
+      "href": "/admin/appearance",
+      "screenshot": "screenshots/25-appearance-themes.jpg",
+      "status": 200,
+      "finalUrl": "/admin/appearance",
+      "h1": "Appearance",
+      "hasBackdropAdminBar": false
+    },
+    {
+      "n": 26,
+      "top": "Appearance",
+      "label": "Editor",
+      "href": "/wp-admin/appearance/editor",
+      "screenshot": "screenshots/26-appearance-editor.jpg",
+      "status": 200,
+      "finalUrl": "/wp-admin/appearance/editor",
+      "h1": "Editor",
+      "hasBackdropAdminBar": false
+    },
+    {
+      "n": 27,
+      "top": "Appearance",
+      "label": "Fonts",
+      "href": "/wp-admin/appearance/fonts",
+      "screenshot": "screenshots/27-appearance-fonts.jpg",
+      "status": 200,
+      "finalUrl": "/wp-admin/appearance/fonts",
+      "h1": "Fonts",
+      "hasBackdropAdminBar": false
+    },
+    {
+      "n": 28,
+      "top": "Plugins",
+      "label": "Plugins",
+      "href": "/admin/modules",
+      "screenshot": "screenshots/28-plugins.jpg",
+      "status": 200,
+      "finalUrl": "/admin/modules",
+      "h1": "Modules",
+      "hasBackdropAdminBar": false
+    },
+    {
+      "n": 29,
+      "top": "Plugins",
+      "label": "Installed Plugins",
+      "href": "/admin/modules",
+      "screenshot": "screenshots/29-plugins-installed-plugins.jpg",
+      "status": 200,
+      "finalUrl": "/admin/modules",
+      "h1": "Modules",
+      "hasBackdropAdminBar": false
+    },
+    {
+      "n": 30,
+      "top": "Plugins",
+      "label": "Add Plugin",
+      "href": "/admin/modules/install",
+      "screenshot": "screenshots/30-plugins-add-plugin.jpg",
+      "status": 200,
+      "finalUrl": "/admin/modules/install",
+      "h1": "Install modules",
+      "hasBackdropAdminBar": false
+    },
+    {
+      "n": 31,
+      "top": "Users",
+      "label": "Users",
+      "href": "/admin/people",
+      "screenshot": "screenshots/31-users.jpg",
+      "status": 200,
+      "finalUrl": "/admin/people",
+      "h1": "Manage user accounts",
+      "hasBackdropAdminBar": false
+    },
+    {
+      "n": 32,
+      "top": "Users",
+      "label": "All Users",
+      "href": "/admin/people",
+      "screenshot": "screenshots/32-users-all-users.jpg",
+      "status": 200,
+      "finalUrl": "/admin/people",
+      "h1": "Manage user accounts",
+      "hasBackdropAdminBar": false
+    },
+    {
+      "n": 33,
+      "top": "Users",
+      "label": "Add User",
+      "href": "/admin/people/create",
+      "screenshot": "screenshots/33-users-add-user.jpg",
+      "status": 200,
+      "finalUrl": "/admin/people/create",
+      "h1": "User accounts",
+      "hasBackdropAdminBar": false
+    },
+    {
+      "n": 34,
+      "top": "Users",
+      "label": "Profile",
+      "href": "/wp-admin/profile",
+      "screenshot": "screenshots/34-users-profile.jpg",
+      "status": 200,
+      "finalUrl": "/user/1/edit",
+      "h1": "admin",
+      "hasBackdropAdminBar": false
+    },
+    {
+      "n": 35,
+      "top": "Tools",
+      "label": "Tools",
+      "href": "/wp-admin/tools",
+      "screenshot": "screenshots/35-tools.jpg",
+      "status": 200,
+      "finalUrl": "/wp-admin/tools",
+      "h1": "Tools",
+      "hasBackdropAdminBar": false
+    },
+    {
+      "n": 36,
+      "top": "Tools",
+      "label": "Available Tools",
+      "href": "/wp-admin/tools",
+      "screenshot": "screenshots/36-tools-available-tools.jpg",
+      "status": 200,
+      "finalUrl": "/wp-admin/tools",
+      "h1": "Tools",
+      "hasBackdropAdminBar": false
+    },
+    {
+      "n": 37,
+      "top": "Tools",
+      "label": "Import",
+      "href": "/wp-admin/tools/import",
+      "screenshot": "screenshots/37-tools-import.jpg",
+      "status": 200,
+      "finalUrl": "/wp-admin/tools/import",
+      "h1": "Import",
+      "hasBackdropAdminBar": false
+    },
+    {
+      "n": 38,
+      "top": "Tools",
+      "label": "Export",
+      "href": "/wp-admin/tools/export",
+      "screenshot": "screenshots/38-tools-export.jpg",
+      "status": 200,
+      "finalUrl": "/wp-admin/tools/export",
+      "h1": "Export",
+      "hasBackdropAdminBar": false
+    },
+    {
+      "n": 39,
+      "top": "Tools",
+      "label": "Site Health",
+      "href": "/admin/reports/status",
+      "screenshot": "screenshots/39-tools-site-health.jpg",
+      "status": 200,
+      "finalUrl": "/admin/reports/status",
+      "h1": "Status report",
+      "hasBackdropAdminBar": false
+    },
+    {
+      "n": 40,
+      "top": "Tools",
+      "label": "Export Personal Data",
+      "href": "/wp-admin/tools/export-personal-data",
+      "screenshot": "screenshots/40-tools-export-personal-data.jpg",
+      "status": 200,
+      "finalUrl": "/wp-admin/tools/export-personal-data",
+      "h1": "Export Personal Data",
+      "hasBackdropAdminBar": false
+    },
+    {
+      "n": 41,
+      "top": "Tools",
+      "label": "Erase Personal Data",
+      "href": "/wp-admin/tools/erase-personal-data",
+      "screenshot": "screenshots/41-tools-erase-personal-data.jpg",
+      "status": 200,
+      "finalUrl": "/wp-admin/tools/erase-personal-data",
+      "h1": "Erase Personal Data",
+      "hasBackdropAdminBar": false
+    },
+    {
+      "n": 42,
+      "top": "Tools",
+      "label": "Theme File Editor",
+      "href": "/wp-admin/tools/theme-editor",
+      "screenshot": "screenshots/42-tools-theme-file-editor.jpg",
+      "status": 200,
+      "finalUrl": "/wp-admin/tools/theme-editor",
+      "h1": "Edit Themes",
+      "hasBackdropAdminBar": false
+    },
+    {
+      "n": 43,
+      "top": "Tools",
+      "label": "Plugin File Editor",
+      "href": "/wp-admin/tools/plugin-editor",
+      "screenshot": "screenshots/43-tools-plugin-file-editor.jpg",
+      "status": 200,
+      "finalUrl": "/wp-admin/tools/plugin-editor",
+      "h1": "Edit Plugins",
+      "hasBackdropAdminBar": false
+    },
+    {
+      "n": 44,
+      "top": "Tools",
+      "label": "Backdrop Administration",
+      "href": "/wp-admin/tools/backdrop",
+      "screenshot": "screenshots/44-tools-backdrop-administration.jpg",
+      "status": 200,
+      "finalUrl": "/wp-admin/tools/backdrop",
+      "h1": "Backdrop Administration",
+      "hasBackdropAdminBar": false
+    },
+    {
+      "n": 45,
+      "top": "Settings",
+      "label": "Settings",
+      "href": "/wp-admin/settings/general",
+      "screenshot": "screenshots/45-settings.jpg",
+      "status": 200,
+      "finalUrl": "/wp-admin/settings/general",
+      "h1": "General Settings",
+      "hasBackdropAdminBar": false
+    },
+    {
+      "n": 46,
+      "top": "Settings",
+      "label": "General",
+      "href": "/wp-admin/settings/general",
+      "screenshot": "screenshots/46-settings-general.jpg",
+      "status": 200,
+      "finalUrl": "/wp-admin/settings/general",
+      "h1": "General Settings",
+      "hasBackdropAdminBar": false
+    },
+    {
+      "n": 47,
+      "top": "Settings",
+      "label": "Connectors",
+      "href": "/wp-admin/settings/connectors",
+      "screenshot": "screenshots/47-settings-connectors.jpg",
+      "status": 200,
+      "finalUrl": "/wp-admin/settings/connectors",
+      "h1": "Connectors",
+      "hasBackdropAdminBar": false
+    },
+    {
+      "n": 48,
+      "top": "Settings",
+      "label": "Writing",
+      "href": "/wp-admin/settings/writing",
+      "screenshot": "screenshots/48-settings-writing.jpg",
+      "status": 200,
+      "finalUrl": "/wp-admin/settings/writing",
+      "h1": "Writing Settings",
+      "hasBackdropAdminBar": false
+    },
+    {
+      "n": 49,
+      "top": "Settings",
+      "label": "Reading",
+      "href": "/wp-admin/settings/reading",
+      "screenshot": "screenshots/49-settings-reading.jpg",
+      "status": 200,
+      "finalUrl": "/wp-admin/settings/reading",
+      "h1": "Reading Settings",
+      "hasBackdropAdminBar": false
+    },
+    {
+      "n": 50,
+      "top": "Settings",
+      "label": "Discussion",
+      "href": "/wp-admin/settings/discussion",
+      "screenshot": "screenshots/50-settings-discussion.jpg",
+      "status": 200,
+      "finalUrl": "/wp-admin/settings/discussion",
+      "h1": "Discussion Settings",
+      "hasBackdropAdminBar": false
+    },
+    {
+      "n": 51,
+      "top": "Settings",
+      "label": "Media",
+      "href": "/wp-admin/settings/media",
+      "screenshot": "screenshots/51-settings-media.jpg",
+      "status": 200,
+      "finalUrl": "/wp-admin/settings/media",
+      "h1": "Media Settings",
+      "hasBackdropAdminBar": false
+    },
+    {
+      "n": 52,
+      "top": "Settings",
+      "label": "Permalinks",
+      "href": "/wp-admin/settings/permalinks",
+      "screenshot": "screenshots/52-settings-permalinks.jpg",
+      "status": 200,
+      "finalUrl": "/wp-admin/settings/permalinks",
+      "h1": "Permalink Settings",
+      "hasBackdropAdminBar": false
+    },
+    {
+      "n": 53,
+      "top": "Settings",
+      "label": "Privacy",
+      "href": "/wp-admin/settings/privacy",
+      "screenshot": "screenshots/53-settings-privacy.jpg",
+      "status": 200,
+      "finalUrl": "/wp-admin/settings/privacy",
+      "h1": "Privacy",
+      "hasBackdropAdminBar": false
+    }
+  ]
+}

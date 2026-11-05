@@ -1,0 +1,35 @@
+{
+  "title": "Fonts",
+  "intro": "WordPress 6.5 added a Font Library (Appearance → Fonts) to upload font files or install Google Fonts and make them available to the Site Editor’s typography settings.",
+  "wordpress": "The Font Library lists the fonts the active theme provides, lets you upload .woff2/.ttf files, and installs fonts from Google Fonts.",
+  "backdrop": "Backdrop core has no font library. Fonts are part of the theme: Basis uses system fonts; changing them means editing the theme (or a sub-theme) or installing a contrib module.",
+  "sections": [
+    {
+      "heading": "Where fonts are defined on this site",
+      "links": [
+        {
+          "title": "Basis theme settings",
+          "url": "admin/appearance/settings/basis"
+        },
+        {
+          "title": "Appearance (themes)",
+          "url": "admin/appearance"
+        }
+      ]
+    },
+    {
+      "heading": "Nearest contrib options",
+      "links": [
+        {
+          "title": "Font Your Face",
+          "url": "https://backdropcms.org/project/fontyourface",
+          "description": "browse and enable web fonts from the admin UI"
+        },
+        {
+          "title": "Creating a sub-theme",
+          "url": "https://docs.backdropcms.org/documentation/creating-a-sub-theme"
+        }
+      ]
+    }
+  ]
+}

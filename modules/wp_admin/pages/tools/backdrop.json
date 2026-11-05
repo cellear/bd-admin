@@ -1,0 +1,89 @@
+{
+  "title": "Backdrop Administration",
+  "intro": "Everything Backdrop has that WordPress does not, tucked away in one place. The stock Backdrop administration is still available at /admin.",
+  "sections": [
+    {
+      "heading": "Content model",
+      "links": [
+        {
+          "title": "Content types",
+          "url": "admin/structure/types",
+          "description": "Post, Page, Animal, Habitat, Card: each with its own fields and settings"
+        },
+        {
+          "title": "Taxonomy",
+          "url": "admin/structure/taxonomy",
+          "description": "all vocabularies: Categories, Tags, Class, Habitat Type"
+        },
+        {
+          "title": "Custom blocks",
+          "url": "admin/structure/block"
+        }
+      ]
+    },
+    {
+      "heading": "Site building",
+      "links": [
+        {
+          "title": "Views",
+          "url": "admin/structure/views",
+          "description": "the query builder behind every list on the site, including Posts/Pages/Animals/Habitats here"
+        },
+        {
+          "title": "Layouts",
+          "url": "admin/structure/layouts",
+          "description": "which template and blocks each path uses"
+        },
+        {
+          "title": "Menus",
+          "url": "admin/structure/menu"
+        }
+      ]
+    },
+    {
+      "heading": "People",
+      "links": [
+        {
+          "title": "Roles",
+          "url": "admin/config/people/roles"
+        },
+        {
+          "title": "Permissions",
+          "url": "admin/config/people/permissions",
+          "description": "fine-grained: WordPress has fixed capabilities per role"
+        },
+        {
+          "title": "Account settings",
+          "url": "admin/config/people/settings"
+        }
+      ]
+    },
+    {
+      "heading": "System",
+      "links": [
+        {
+          "title": "Configuration",
+          "url": "admin/config"
+        },
+        {
+          "title": "Reports",
+          "url": "admin/reports"
+        },
+        {
+          "title": "Configuration management",
+          "url": "admin/config/development/configuration",
+          "description": "deploy settings between environments as JSON"
+        },
+        {
+          "title": "Full Backdrop administration",
+          "url": "admin"
+        },
+        {
+          "title": "Backdrop dashboard",
+          "url": "admin/dashboard",
+          "description": "Backdrop’s own dashboard"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Connectors",
+  "intro": "New in WordPress 7.1: Connectors is a shared store of API keys and credentials (Akismet, Anthropic, Google, OpenAI…) that plugins such as the AI plugin use, so a key is configured once and used everywhere.",
+  "backdrop": "Backdrop core has no shared credential store or AI integration. Contrib modules add provider-specific settings pages.",
+  "sections": [
+    {
+      "heading": "Backdrop equivalents (contrib)",
+      "links": [
+        {
+          "title": "Backdrop contrib modules",
+          "url": "https://backdropcms.org/modules",
+          "description": "search for AI, spam protection and API integrations"
+        },
+        {
+          "title": "Antispam",
+          "url": "https://backdropcms.org/project/antispam",
+          "description": "for the Akismet use case"
+        },
+        {
+          "title": "Honeypot",
+          "url": "https://backdropcms.org/project/honeypot"
+        }
+      ]
+    }
+  ]
+}

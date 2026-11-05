@@ -1,0 +1,30 @@
+{
+  "title": "Erase Personal Data",
+  "intro": "WordPress erases or anonymizes the personal data for an email address after the person confirms a request. In Backdrop the equivalent is cancelling the user account, which offers to delete or anonymize the account’s content.",
+  "backdrop": "Open the account on the People page, choose Cancel account, then pick one of: disable the account and keep its content; disable and unpublish its content; delete the account and make its content belong to “Anonymous”; delete the account and its content.",
+  "sections": [
+    {
+      "heading": "Cancel an account",
+      "links": [
+        {
+          "title": "People: find the user, then Edit → Cancel account",
+          "url": "admin/people"
+        },
+        {
+          "title": "Account settings: what happens by default when an account is cancelled",
+          "url": "admin/config/people/settings"
+        }
+      ]
+    },
+    {
+      "heading": "Comments by anonymous visitors",
+      "text": "Comments posted without an account keep the name and email entered; delete them under Comments, or edit them to remove the details.",
+      "links": [
+        {
+          "title": "Comments",
+          "url": "admin/content/comment"
+        }
+      ]
+    }
+  ]
+}

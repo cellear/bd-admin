@@ -1,0 +1,27 @@
+{
+  "title": "Add Media File",
+  "intro": "WordPress’s Media → Add New is a drag-and-drop uploader that puts files into the Media Library independent of any post. Backdrop stores files as entities too, with an upload form of its own.",
+  "wordpress": "A full-page drop zone; uploaded files land in the Media Library and can be attached to posts later.",
+  "backdrop": "Files are managed by the File module: upload one at a time at file/add, or let an image or file field on a content type upload while you write. All files are listed under Manage files.",
+  "sections": [
+    {
+      "heading": "Add files",
+      "links": [
+        {
+          "title": "Add a file",
+          "url": "file/add",
+          "description": "upload to the file library"
+        },
+        {
+          "title": "Manage files",
+          "url": "admin/content/files",
+          "description": "the library: filter, edit, delete"
+        },
+        {
+          "title": "Add a post with an image",
+          "url": "node/add/post"
+        }
+      ]
+    }
+  ]
+}

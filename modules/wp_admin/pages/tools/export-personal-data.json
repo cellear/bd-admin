@@ -1,0 +1,27 @@
+{
+  "title": "Export Personal Data",
+  "intro": "WordPress lets an administrator generate a .zip of all personal data stored for an email address and send the download link to that person, as required by privacy regulations such as the GDPR.",
+  "backdrop": "Backdrop core has no personal-data export. The data an account holds can be read on its profile and in its content and comments, but packaging it is left to site builders.",
+  "sections": [
+    {
+      "heading": "Where a user’s data lives in Backdrop",
+      "links": [
+        {
+          "title": "People",
+          "url": "admin/people",
+          "description": "account name, email, roles, last access"
+        },
+        {
+          "title": "Comments",
+          "url": "admin/content/comment",
+          "description": "comment author name, email, hostname"
+        },
+        {
+          "title": "Recent log messages",
+          "url": "admin/reports/dblog",
+          "description": "request logs with IP addresses"
+        }
+      ]
+    }
+  ]
+}

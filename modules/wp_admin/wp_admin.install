@@ -1,0 +1,179 @@
+<?php
+/**
+ * @file
+ * Install, update and uninstall functions for the WordPress-style admin module.
+ */
+
+/**
+ * The wp-admin menu tree: exact WordPress labels, Backdrop targets.
+ *
+ * Each entry: label, path, optional children (same shape). Paths starting with
+ * "wp-admin" are provided by this module; the rest are core Backdrop pages.
+ */
+function wp_admin_menu_tree() {
+  return array(
+    array('Dashboard', 'wp-admin', array(
+      array('Home', 'wp-admin'),
+      array('Updates', 'admin/reports/updates'),
+    )),
+    array('Posts', 'wp-admin/posts', array(
+      array('All Posts', 'wp-admin/posts'),
+      array('Add Post', 'node/add/post'),
+      array('Categories', 'wp-admin/posts/categories'),
+      array('Tags', 'wp-admin/posts/tags'),
+    )),
+    array('Media', 'admin/content/files', array(
+      array('Library', 'admin/content/files'),
+      array('Add Media File', 'wp-admin/media/new'),
+    )),
+    array('Pages', 'wp-admin/pages', array(
+      array('All Pages', 'wp-admin/pages'),
+      array('Add Page', 'node/add/page'),
+    )),
+    array('Animals', 'wp-admin/animals', array(
+      array('All Animals', 'wp-admin/animals'),
+      array('Add Animal', 'node/add/animal'),
+      array('Classes', 'wp-admin/animals/classes'),
+    )),
+    array('Habitats', 'wp-admin/habitats', array(
+      array('All Habitats', 'wp-admin/habitats'),
+      array('Add Habitat', 'node/add/habitat'),
+      array('Habitat Types', 'wp-admin/habitats/types'),
+    )),
+    array('Comments', 'admin/content/comment'),
+    array('Appearance', 'admin/appearance', array(
+      array('Themes', 'admin/appearance'),
+      array('Editor', 'wp-admin/appearance/editor'),
+      array('Fonts', 'wp-admin/appearance/fonts'),
+    )),
+    array('Plugins', 'admin/modules', array(
+      array('Installed Plugins', 'admin/modules'),
+      array('Add Plugin', 'admin/modules/install'),
+    )),
+    array('Users', 'admin/people', array(
+      array('All Users', 'admin/people'),
+      array('Add User', 'admin/people/create'),
+      array('Profile', 'wp-admin/profile'),
+    )),
+    array('Tools', 'wp-admin/tools', array(
+      array('Available Tools', 'wp-admin/tools'),
+      array('Import', 'wp-admin/tools/import'),
+      array('Export', 'wp-admin/tools/export'),
+      array('Site Health', 'admin/reports/status'),
+      array('Export Personal Data', 'wp-admin/tools/export-personal-data'),
+      array('Erase Personal Data', 'wp-admin/tools/erase-personal-data'),
+      array('Theme File Editor', 'wp-admin/tools/theme-editor'),
+      array('Plugin File Editor', 'wp-admin/tools/plugin-editor'),
+      array('Backdrop Administration', 'wp-admin/tools/backdrop'),
+    )),
+    array('Settings', 'wp-admin/settings/general', array(
+      array('General', 'wp-admin/settings/general'),
+      array('Connectors', 'wp-admin/settings/connectors'),
+      array('Writing', 'wp-admin/settings/writing'),
+      array('Reading', 'wp-admin/settings/reading'),
+      array('Discussion', 'wp-admin/settings/discussion'),
+      array('Media', 'wp-admin/settings/media'),
+      array('Permalinks', 'wp-admin/settings/permalinks'),
+      array('Privacy', 'wp-admin/settings/privacy'),
+    )),
+  );
+}
+
+/**
+ * Implements hook_install().
+ */
+function wp_admin_install() {
+  // 1. The wp-admin menu and its links. The router must already know this
+  // module's paths (and the View's pages), or links to them are dropped.
+  if (module_exists('views')) {
+    views_invalidate_cache();
+  }
+  menu_rebuild();
+  menu_save(array(
+    'menu_name' => 'wp-admin',
+    'title' => 'WordPress admin',
+    'description' => 'The WordPress wp-admin menu tree, rendered as the sidebar by the WordPress-style admin module.',
+  ));
+  wp_admin_rebuild_menu_links();
+
+  // 2. A hierarchical Categories vocabulary on Post, like WordPress categories.
+  if (!taxonomy_vocabulary_load('category')) {
+    $vocabulary = new TaxonomyVocabulary(array(
+      'name' => 'Categories',
+      'machine_name' => 'category',
+      'description' => 'Hierarchical categories for posts, like WordPress categories.',
+      'hierarchy' => 1,
+    ));
+    taxonomy_vocabulary_save($vocabulary);
+  }
+  if (!field_info_field('field_category')) {
+    field_create_field(array(
+      'field_name' => 'field_category',
+      'type' => 'taxonomy_term_reference',
+      'cardinality' => FIELD_CARDINALITY_UNLIMITED,
+      'settings' => array('allowed_values' => array(array('vocabulary' => 'category', 'parent' => 0))),
+    ));
+  }
+  if (node_type_load('post') && !field_info_instance('node', 'field_category', 'post')) {
+    field_create_instance(array(
+      'field_name' => 'field_category',
+      'entity_type' => 'node',
+      'bundle' => 'post',
+      'label' => 'Categories',
+      'description' => 'Choose one or more categories. Categories are hierarchical; tags are not.',
+      'widget' => array('type' => 'options_buttons', 'weight' => -3),
+      'display' => array(
+        'default' => array('type' => 'taxonomy_term_reference_link', 'weight' => 10),
+        'teaser' => array('type' => 'taxonomy_term_reference_link', 'weight' => 10),
+      ),
+    ));
+  }
+
+  // 3. Who gets the WordPress-style admin.
+  foreach (array('administrator', 'editor') as $role) {
+    if (user_role_load($role)) {
+      user_role_grant_permissions($role, array('access wp admin'));
+    }
+  }
+
+  menu_cache_clear_all();
+}
+
+/**
+ * (Re)creates the wp-admin menu links from wp_admin_menu_tree().
+ */
+function wp_admin_rebuild_menu_links() {
+  menu_delete_links('wp-admin');
+  $weight = 0;
+  // 'customized' + module 'menu' mark these as site-built links, which the
+  // router rebuild keeps; links without it are deleted when their path is not
+  // a core menu item.
+  $defaults = array('menu_name' => 'wp-admin', 'module' => 'menu', 'customized' => 1);
+  foreach (wp_admin_menu_tree() as $top) {
+    list($label, $path) = $top;
+    $parent = $defaults + array('link_path' => $path, 'link_title' => $label, 'weight' => $weight++, 'expanded' => 1);
+    menu_link_save($parent);
+    $child_weight = 0;
+    foreach (isset($top[2]) ? $top[2] : array() as $child) {
+      $item = $defaults + array('link_path' => $child[1], 'link_title' => $child[0], 'plid' => $parent['mlid'], 'weight' => $child_weight++);
+      menu_link_save($item);
+    }
+  }
+}
+
+/**
+ * Implements hook_uninstall().
+ */
+function wp_admin_uninstall() {
+  menu_delete_links('wp-admin');
+  if ($menu = menu_load('wp-admin')) {
+    menu_delete($menu);
+  }
+  if ($instance = field_info_instance('node', 'field_category', 'post')) {
+    field_delete_instance($instance);
+  }
+  if (field_info_field('field_category')) {
+    field_delete_field('field_category');
+  }
+  // The Categories vocabulary is kept: it may hold terms the site still uses.
+}

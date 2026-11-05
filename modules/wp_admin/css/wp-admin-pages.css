@@ -1,0 +1,42 @@
+/* Layout helpers for the /wp-admin pages, inside the Seven admin theme. */
+.wp-admin-page__intro { font-size: 1.05em; max-width: 60em; }
+.wp-admin-section { margin: 1.5em 0; }
+.wp-admin-section h2 { margin-bottom: .4em; }
+.wp-admin-links { list-style: none; padding: 0; margin: .5em 0; }
+.wp-admin-links li { margin: .35em 0; }
+.wp-admin-links__desc { color: #545560; margin-left: .5em; }
+.wp-admin-note { border-left: 4px solid #2271b1; background: #f3f4f9; padding: .75em 1em; margin: 1em 0; max-width: 60em; }
+
+/* Dashboard. */
+.wp-admin-dashboard { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; align-items: start; }
+.wp-admin-dashboard__welcome { grid-column: 1 / -1; }
+.wp-admin-dashboard__col { display: flex; flex-direction: column; gap: 1.25rem; min-width: 0; }
+.wp-admin-card { background: #fff; border: 1px solid #c3c4c7; border-radius: 4px; }
+.wp-admin-card__title { margin: 0; padding: .6em 1em; border-bottom: 1px solid #c3c4c7; background: #f6f7f7; font-size: 1em; border-radius: 4px 4px 0 0; }
+.wp-admin-card__body { padding: .75em 1em; }
+.wp-admin-card__body h3 { margin: .8em 0 .4em; font-size: 1.1em; }
+.wp-admin-card__body table { width: 100%; }
+.wp-admin-glance { list-style: none; padding: 0; margin: 0; }
+.wp-admin-glance li { margin: .3em 0; }
+.wp-admin-welcome { border: 1px solid #c3c4c7; border-radius: 4px; background: #fff; overflow: hidden; }
+.wp-admin-welcome > summary { list-style: none; cursor: pointer; padding: 32px 32px 24px; background: #1d2327; color: #f0f0f1; }
+.wp-admin-welcome > summary::-webkit-details-marker { display: none; }
+.wp-admin-welcome > summary h2 { margin: 0 0 8px; font-size: 32px; line-height: 1.2; color: #fff; }
+.wp-admin-welcome > summary p { margin: 0; font-size: 15px; color: #f0f0f1; }
+.wp-admin-welcome > summary p a { color: #f0f0f1; }
+.wp-admin-welcome__dismiss { float: right; font-size: 13px; color: #f0f0f1; }
+.wp-admin-welcome[open] > summary .wp-admin-welcome__dismiss::before { content: "✕ "; }
+.wp-admin-welcome:not([open]) > summary .wp-admin-welcome__dismiss::before { content: "▸ "; }
+.wp-admin-welcome__cols { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; padding: 24px 32px; }
+.wp-admin-welcome__cols h3 { margin: 0 0 6px; font-size: 20px; font-weight: 400; }
+
+/* Terms pages: add form beside the table. */
+.wp-admin-terms { display: grid; grid-template-columns: minmax(18em, 1fr) 2fr; gap: 2rem; align-items: start; }
+.wp-admin-terms .form-item { margin-top: .5em; }
+
+/* Settings forms: disabled fields are explanations, not errors. */
+.wp-admin-unavailable .form-item { opacity: .75; }
+
+@media (max-width: 60em) {
+  .wp-admin-dashboard, .wp-admin-welcome__cols, .wp-admin-terms { grid-template-columns: 1fr; }
+}
