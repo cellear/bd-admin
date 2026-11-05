@@ -1,0 +1,10 @@
+name: bd-admin
+type: backdrop
+docroot: backdrop
+php_version: "8.3"
+webserver_type: nginx-fpm
+database:
+  type: mariadb
+  version: "10.11"
+# Backdrop and the contrib modules are downloaded into backdrop/ by
+# scripts/ddev-setup.sh (the directory is gitignored).

@@ -39,7 +39,20 @@ vocabulary is kept because it may hold terms.
 - `scripts/` — reproduce everything: local MariaDB, both installs, content migration,
   captures, checks.
 
-## Reproducing the environment
+## Running it with ddev
+
+```bash
+scripts/ddev-setup.sh
+```
+
+That downloads Backdrop 1.35.2, the Sample Animal Content module and the Bee CLI into
+`backdrop/` and `downloads/` (both gitignored), starts the ddev project defined in
+`.ddev/config.yaml` (type `backdrop`, docroot `backdrop`, PHP 8.3, MariaDB 10.11), installs
+the Standard profile with Bee, enables the sample content with all its extras and the
+`wp_admin` module, and opens `/wp-admin`. Log in as admin / admin. Run it again to
+reinstall from scratch.
+
+## Reproducing the environment without ddev
 
 Requirements: PHP 8.3, Node 22, MariaDB server + client packages
 (`apt-get install mariadb-server mariadb-client`), `unzip`, `git`.
