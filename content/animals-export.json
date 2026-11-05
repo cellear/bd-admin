@@ -1,0 +1,1362 @@
+{
+    "site": {
+        "name": "Backdrop Zoo",
+        "slogan": ""
+    },
+    "users": {
+        "1": {
+            "uid": 1,
+            "name": "admin",
+            "mail": "admin@example.com",
+            "roles": [
+                "authenticated",
+                "administrator"
+            ]
+        }
+    },
+    "terms": {
+        "4": {
+            "tid": 4,
+            "vid": "animal_class",
+            "vocabulary": "Class",
+            "name": "Amphibia",
+            "description": "",
+            "parent": 0
+        },
+        "2": {
+            "tid": 2,
+            "vid": "animal_class",
+            "vocabulary": "Class",
+            "name": "Aves",
+            "description": "",
+            "parent": 0
+        },
+        "6": {
+            "tid": 6,
+            "vid": "animal_class",
+            "vocabulary": "Class",
+            "name": "Cephalopoda",
+            "description": "",
+            "parent": 0
+        },
+        "5": {
+            "tid": 5,
+            "vid": "animal_class",
+            "vocabulary": "Class",
+            "name": "Chondrichthyes",
+            "description": "",
+            "parent": 0
+        },
+        "3": {
+            "tid": 3,
+            "vid": "animal_class",
+            "vocabulary": "Class",
+            "name": "Mammalia",
+            "description": "",
+            "parent": 0
+        },
+        "1": {
+            "tid": 1,
+            "vid": "animal_class",
+            "vocabulary": "Class",
+            "name": "Reptilia",
+            "description": "",
+            "parent": 0
+        },
+        "8": {
+            "tid": 8,
+            "vid": "habitat_type",
+            "vocabulary": "Habitat Type",
+            "name": "Aquatic",
+            "description": "",
+            "parent": 0
+        },
+        "13": {
+            "tid": 13,
+            "vid": "habitat_type",
+            "vocabulary": "Habitat Type",
+            "name": "Freshwater",
+            "description": "",
+            "parent": 8
+        },
+        "14": {
+            "tid": 14,
+            "vid": "habitat_type",
+            "vocabulary": "Habitat Type",
+            "name": "Wetland",
+            "description": "",
+            "parent": 8
+        },
+        "7": {
+            "tid": 7,
+            "vid": "habitat_type",
+            "vocabulary": "Habitat Type",
+            "name": "Terrestrial",
+            "description": "",
+            "parent": 0
+        },
+        "11": {
+            "tid": 11,
+            "vid": "habitat_type",
+            "vocabulary": "Habitat Type",
+            "name": "Desert",
+            "description": "",
+            "parent": 7
+        },
+        "10": {
+            "tid": 10,
+            "vid": "habitat_type",
+            "vocabulary": "Habitat Type",
+            "name": "Forest",
+            "description": "",
+            "parent": 7
+        },
+        "9": {
+            "tid": 9,
+            "vid": "habitat_type",
+            "vocabulary": "Habitat Type",
+            "name": "Grassland",
+            "description": "",
+            "parent": 7
+        },
+        "12": {
+            "tid": 12,
+            "vid": "habitat_type",
+            "vocabulary": "Habitat Type",
+            "name": "Tundra",
+            "description": "",
+            "parent": 7
+        }
+    },
+    "files": {
+        "1": {
+            "fid": 1,
+            "path": "/home/user/bd-admin/backdrop/files/field/image/card1-layout.png",
+            "alt": "",
+            "title": ""
+        },
+        "2": {
+            "fid": 2,
+            "path": "/home/user/bd-admin/backdrop/files/field/image/card2-card.png",
+            "alt": "",
+            "title": ""
+        },
+        "3": {
+            "fid": 3,
+            "path": "/home/user/bd-admin/backdrop/files/field/image/card3-organize.png",
+            "alt": "",
+            "title": ""
+        },
+        "4": {
+            "fid": 4,
+            "path": "/home/user/bd-admin/backdrop/files/sample_animal_images/crocodile.jpg",
+            "alt": "",
+            "title": ""
+        },
+        "5": {
+            "fid": 5,
+            "path": "/home/user/bd-admin/backdrop/files/sample_animal_images/eagle.jpg",
+            "alt": "",
+            "title": ""
+        },
+        "6": {
+            "fid": 6,
+            "path": "/home/user/bd-admin/backdrop/files/sample_animal_images/elephant.jpg",
+            "alt": "",
+            "title": ""
+        },
+        "7": {
+            "fid": 7,
+            "path": "/home/user/bd-admin/backdrop/files/sample_animal_images/fox.jpg",
+            "alt": "",
+            "title": ""
+        },
+        "8": {
+            "fid": 8,
+            "path": "/home/user/bd-admin/backdrop/files/sample_animal_images/giraffe.jpg",
+            "alt": "",
+            "title": ""
+        },
+        "9": {
+            "fid": 9,
+            "path": "/home/user/bd-admin/backdrop/files/sample_animal_images/lion.jpg",
+            "alt": "",
+            "title": ""
+        },
+        "10": {
+            "fid": 10,
+            "path": "/home/user/bd-admin/backdrop/files/sample_animal_images/llama.jpg",
+            "alt": "",
+            "title": ""
+        },
+        "11": {
+            "fid": 11,
+            "path": "/home/user/bd-admin/backdrop/files/sample_animal_images/panda.jpg",
+            "alt": "",
+            "title": ""
+        },
+        "12": {
+            "fid": 12,
+            "path": "/home/user/bd-admin/backdrop/files/sample_animal_images/sea_turtle.jpg",
+            "alt": "",
+            "title": ""
+        },
+        "13": {
+            "fid": 13,
+            "path": "/home/user/bd-admin/backdrop/files/sample_animal_images/penguin.jpg",
+            "alt": "",
+            "title": ""
+        },
+        "14": {
+            "fid": 14,
+            "path": "/home/user/bd-admin/backdrop/files/sample_animal_images/dolphin.jpg",
+            "alt": "",
+            "title": ""
+        },
+        "15": {
+            "fid": 15,
+            "path": "/home/user/bd-admin/backdrop/files/sample_animal_images/frog.jpg",
+            "alt": "",
+            "title": ""
+        },
+        "16": {
+            "fid": 16,
+            "path": "/home/user/bd-admin/backdrop/files/sample_animal_images/shark.jpg",
+            "alt": "",
+            "title": ""
+        },
+        "17": {
+            "fid": 17,
+            "path": "/home/user/bd-admin/backdrop/files/sample_animal_images/owl.jpg",
+            "alt": "",
+            "title": ""
+        },
+        "18": {
+            "fid": 18,
+            "path": "/home/user/bd-admin/backdrop/files/sample_animal_images/wolf.jpg",
+            "alt": "",
+            "title": ""
+        },
+        "19": {
+            "fid": 19,
+            "path": "/home/user/bd-admin/backdrop/files/sample_animal_images/chameleon.jpg",
+            "alt": "",
+            "title": ""
+        },
+        "20": {
+            "fid": 20,
+            "path": "/home/user/bd-admin/backdrop/files/sample_animal_images/octopus.jpg",
+            "alt": "",
+            "title": ""
+        },
+        "21": {
+            "fid": 21,
+            "path": "/home/user/bd-admin/backdrop/files/sample_animal_images/bear.jpg",
+            "alt": "",
+            "title": ""
+        }
+    },
+    "nodes": [
+        {
+            "nid": 1,
+            "type": "post",
+            "title": "Your first post!",
+            "alias": "posts/your-first-post",
+            "uid": 1,
+            "status": 1,
+            "promote": 1,
+            "sticky": 0,
+            "created": "2026-11-05T19:55:42+00:00",
+            "changed": "2026-11-05T19:55:42+00:00",
+            "body": "<p>This is your first post! You may edit or delete it.</p>",
+            "summary": "",
+            "image": null,
+            "tags": [],
+            "comment": 0
+        },
+        {
+            "nid": 2,
+            "type": "page",
+            "title": "About",
+            "alias": "about",
+            "uid": 1,
+            "status": 1,
+            "promote": 0,
+            "sticky": 0,
+            "created": "2026-11-05T19:55:42+00:00",
+            "changed": "2026-11-05T19:55:42+00:00",
+            "body": "<p>This is a page with static content. You may edit or delete it.</p>",
+            "summary": "",
+            "image": null,
+            "tags": [],
+            "comment": 0
+        },
+        {
+            "nid": 3,
+            "type": "card",
+            "title": "The Home page layout",
+            "alias": "node/3",
+            "uid": 1,
+            "status": 1,
+            "promote": 1,
+            "sticky": 0,
+            "created": "2026-11-05T19:55:42+00:00",
+            "changed": "2026-11-05T19:55:42+00:00",
+            "body": "<p>Use the home page layout to specifically customize this page. These Cards only appear on this layout.</p><p><a href=\"https://docs.backdropcms.org/documentation/the-home-page\">Learn more about the Home page</a></p>",
+            "summary": "",
+            "image": 1,
+            "tags": [],
+            "comment": 0
+        },
+        {
+            "nid": 4,
+            "type": "card",
+            "title": "What is a Card?",
+            "alias": "node/4",
+            "uid": 1,
+            "status": 1,
+            "promote": 1,
+            "sticky": 0,
+            "created": "2026-11-05T19:55:42+00:00",
+            "changed": "2026-11-05T19:55:42+00:00",
+            "body": "<p>A Card can only be seen as part of another page. Place them individually as \"Existing content\" Blocks, or grouped as in a View.</p><p><a href=\"https://docs.backdropcms.org/documentation/creating-and-editing-content\">Learn more about Cards</a></p>",
+            "summary": "",
+            "image": 2,
+            "tags": [],
+            "comment": 0
+        },
+        {
+            "nid": 5,
+            "type": "card",
+            "title": "Organize your content",
+            "alias": "node/5",
+            "uid": 1,
+            "status": 1,
+            "promote": 1,
+            "sticky": 0,
+            "created": "2026-11-05T19:55:42+00:00",
+            "changed": "2026-11-05T19:55:42+00:00",
+            "body": "<p>Backdrop CMS includes three pre-defined types of content: Pages, Posts, and Cards. Custom content types can also be added.</p><p><a href=\"https://docs.backdropcms.org/documentation/content-types\">Learn more about content types</a></p>",
+            "summary": "",
+            "image": 3,
+            "tags": [],
+            "comment": 0
+        },
+        {
+            "nid": 6,
+            "type": "animal",
+            "title": "Saltwater Crocodile",
+            "alias": "animals/saltwater-crocodile",
+            "uid": 1,
+            "status": 1,
+            "promote": 1,
+            "sticky": 0,
+            "created": "2026-11-05T19:55:55+00:00",
+            "changed": "2026-11-05T19:55:56+00:00",
+            "body": "<p>The saltwater crocodile (Crocodylus porosus) is a crocodilian native to saltwater habitats and brackish wetlands from India's east coast across Southeast Asia and the Sundaic region to northern Australia and Micronesia. It has been listed as Least Concern on the IUCN Red List since 1996. It was hunted for its skin throughout its range up to the 1970s, and is threatened by illegal killing and habitat loss. It is regarded as dangerous to humans.</p>\n\n<p>The saltwater crocodile is the largest living reptile and crocodilian known. Males grow to a length of up to 6 m (20 ft), rarely exceeding 6.3 m (21 ft) or a weight of 1,000–1,300 kg (2,200–2,900 lb). Females are much smaller and rarely surpass 3 m (10 ft). It is also known as the estuarine crocodile, Indo-Pacific crocodile, marine crocodile, sea crocodile or informally as saltie.</p>\n\n<p>The saltwater crocodile is a large and opportunistic hypercarnivorous apex predator. It ambushes most of its prey and then drowns or swallows it whole. It is capable of prevailing over almost any animal that enters its territory, including other apex predators such as sharks, varieties of freshwater and saltwater fish including pelagic species, invertebrates such as crustaceans, various reptiles, birds, and mammals, including humans.</p>",
+            "summary": "",
+            "image": 4,
+            "tags": [],
+            "comment": 2,
+            "class": [
+                1
+            ],
+            "habitats": [
+                28
+            ],
+            "link": "https://en.wikipedia.org/wiki/Saltwater_crocodile"
+        },
+        {
+            "nid": 7,
+            "type": "animal",
+            "title": "Bald Eagle",
+            "alias": "animals/bald-eagle",
+            "uid": 1,
+            "status": 1,
+            "promote": 1,
+            "sticky": 0,
+            "created": "2026-11-05T19:55:56+00:00",
+            "changed": "2026-11-05T19:55:56+00:00",
+            "body": "<p>Eagles are large, powerfully built birds of prey, with heavy heads and beaks. Even the smallest eagles, such as the booted eagle (Aquila pennata), which is comparable in size to a common buzzard (Buteo buteo) or red-tailed hawk (B. jamaicensis), have relatively longer and more evenly broad wings, and more direct, faster flight – despite the reduced size of aerodynamic feathers. Most eagles are larger than any other raptors apart from some vultures. The smallest species of eagle is the South Nicobar serpent eagle (Spilornis klossi), at 450 g (0.99 lb) and 40 cm (16 in). The largest species are discussed below. Like all birds of prey, eagles have very large, hooked beaks for ripping flesh from their prey, strong, muscular legs, and powerful talons. The beak is typically heavier than that of most other birds of prey. Eagles' eyes are extremely powerful. It is estimated that the martial eagle, whose eye is more than twice as long as a human eye, has a visual acuity 3.0 to 3.6 times that of humans. This acuity enables eagles to spot potential prey from a very long distance. This keen eyesight is primarily attributed to their extremely large pupils which ensure minimal diffraction (scattering) of the incoming light. The female of all known species of eagles is larger than the male.</p>",
+            "summary": "",
+            "image": 5,
+            "tags": [],
+            "comment": 2,
+            "class": [
+                2
+            ],
+            "habitats": [
+                27
+            ],
+            "link": "https://en.wikipedia.org/wiki/Bald_eagle"
+        },
+        {
+            "nid": 8,
+            "type": "animal",
+            "title": "Elephant",
+            "alias": "animals/elephant",
+            "uid": 1,
+            "status": 1,
+            "promote": 1,
+            "sticky": 0,
+            "created": "2026-11-05T19:55:56+00:00",
+            "changed": "2026-11-05T19:55:56+00:00",
+            "body": "<p>Elephants, the largest existing land animals, are mammals of the family Elephantidae. Three species are currently recognised: the African bush elephant, the African forest elephant, and the Asian elephant. Elephantidae is the only surviving family of the order Proboscidea; extinct members include the mastodons. The family Elephantidae also contains several now-extinct groups, including the mammoths and straight-tusked elephants. African elephants have larger ears and concave backs, whereas Asian elephants have smaller ears, and convex or level backs. Distinctive features of all elephants include a long trunk, tusks, large ear flaps, massive legs, and tough but sensitive skin. The trunk, also called a proboscis, is used for breathing, bringing food and water to the mouth, and grasping objects. Tusks, which are derived from the incisor teeth, serve both as weapons and as tools for moving objects and digging. The large ear flaps assist in maintaining a constant body temperature as well as in communication. The pillar-like legs carry their great weight.</p>\n\n<p>Elephants are scattered throughout sub-Saharan Africa, South Asia, and Southeast Asia and are found in different habitats, including savannahs, forests, deserts, and marshes. They are herbivorous, and they stay near water when it is accessible. They are considered to be keystone species, due to their impact on their environments. Other animals tend to keep their distance from elephants; the exception is their predators such as lions, tigers, hyenas, and wild dogs, which usually target only young elephants (calves). Elephants have a fission–fusion society, in which multiple family groups come together to socialise. Females (cows) tend to live in family groups, which can consist of one female with her calves or several related females with offspring. The groups, which do not include bulls, are led by the (usually) oldest cow, known as the matriarch.</p>\n\n<p>Males (bulls) leave their family groups when they reach puberty, and may live alone or with other males. Adult bulls mostly interact with family groups when looking for a mate. They enter a state of increased testosterone and aggression known as musth, which helps them gain dominance over other males as well as reproductive success. Calves are the centre of attention in their family groups and rely on their mothers for as long as three years. Elephants can live up to 70 years in the wild. They communicate by touch, sight, smell, and sound; elephants use infrasound, and seismic communication over long distances. Elephant intelligence has been compared with that of primates and cetaceans. They appear to have self-awareness, as well as appearing to show empathy for dying and dead family members.</p>",
+            "summary": "",
+            "image": 6,
+            "tags": [],
+            "comment": 2,
+            "class": [
+                3
+            ],
+            "habitats": [
+                24
+            ],
+            "link": "https://en.wikipedia.org/wiki/Elephant"
+        },
+        {
+            "nid": 9,
+            "type": "animal",
+            "title": "Fox",
+            "alias": "animals/fox",
+            "uid": 1,
+            "status": 1,
+            "promote": 1,
+            "sticky": 0,
+            "created": "2026-11-05T19:55:56+00:00",
+            "changed": "2026-11-05T19:55:56+00:00",
+            "body": "<p>Foxes are small-to-medium-sized, omnivorous mammals belonging to several genera of the family Canidae. Foxes have a flattened skull, upright triangular ears, a pointed, slightly upturned snout, and a long bushy tail (or brush).</p>\n\n<p>Twelve species belong to the monophyletic \"true foxes\" group of genus Vulpes. Approximately another 25 current or extinct species are always or sometimes called foxes; these foxes are either part of the paraphyletic group of the South American foxes, or of the outlying group, which consists of bat-eared fox, gray fox, and island fox. Foxes live on every continent except Antarctica. By far the most common and widespread species of fox is the red fox (Vulpes vulpes) with about 47 recognized subspecies. The global distribution of foxes, together with their widespread reputation for cunning, has contributed to their prominence in popular culture and folklore in many societies around the world. The hunting of foxes with packs of hounds, long an established pursuit in Europe, especially in the British Isles, was exported by European settlers to various parts of the New World.</p>",
+            "summary": "",
+            "image": 7,
+            "tags": [],
+            "comment": 2,
+            "class": [
+                3
+            ],
+            "habitats": [
+                29
+            ],
+            "link": "https://en.wikipedia.org/wiki/Fox"
+        },
+        {
+            "nid": 10,
+            "type": "animal",
+            "title": "Giraffe",
+            "alias": "animals/giraffe",
+            "uid": 1,
+            "status": 1,
+            "promote": 1,
+            "sticky": 0,
+            "created": "2026-11-05T19:55:56+00:00",
+            "changed": "2026-11-05T19:55:56+00:00",
+            "body": "<p>The giraffe (Giraffa) is an African even-toed ungulate mammal, the tallest living terrestrial animal and the largest ruminant. It is traditionally considered to be one species, Giraffa camelopardalis, with nine subspecies. However the existence of up to eight extant giraffe species have been described, based upon research into the mitochondrial and nuclear DNA, as well as morphological measurements of Giraffa. Seven other species are extinct, prehistoric species known from fossils.</p>\n\n<p>The giraffe's chief distinguishing characteristics are its extremely long neck and legs, its horn-like ossicones, and its distinctive coat patterns. It is classified under the family Giraffidae, along with its closest extant relative, the okapi. Its scattered range extends from Chad in the north to South Africa in the south, and from Niger in the west to Somalia in the east. Giraffes usually inhabit savannahs and woodlands. Their food source is leaves, fruits and flowers of woody plants, primarily acacia species, which they browse at heights most other herbivores cannot reach. They may be preyed on by lions, leopards, spotted hyenas and African wild dogs. Giraffes live in herds of related females and their offspring, or bachelor herds of unrelated adult males, but are gregarious and may gather in large aggregations. Males establish social hierarchies through \"necking\", which are combat bouts where the neck is used as a weapon. Dominant males gain mating access to females, which bear the sole responsibility for raising the young.</p>\n\n<p>The giraffe has intrigued various cultures, both ancient and modern, for its peculiar appearance, and has often been featured in paintings, books, and cartoons. It is classified by the International Union for Conservation of Nature as Vulnerable to extinction, and has been extirpated from many parts of its former range. Giraffes are still found in numerous national parks and game reserves but estimations as of 2016 indicate that there are approximately 97,500 members of Giraffa in the wild. More than 1,600 were kept in zoos in 2010.</p>",
+            "summary": "",
+            "image": 8,
+            "tags": [],
+            "comment": 2,
+            "class": [
+                3
+            ],
+            "habitats": [
+                24
+            ],
+            "link": "https://en.wikipedia.org/wiki/Giraffe"
+        },
+        {
+            "nid": 11,
+            "type": "animal",
+            "title": "Lion",
+            "alias": "animals/lion",
+            "uid": 1,
+            "status": 1,
+            "promote": 1,
+            "sticky": 0,
+            "created": "2026-11-05T19:55:56+00:00",
+            "changed": "2026-11-05T19:55:56+00:00",
+            "body": "<p>The lion (Panthera leo) is a species in the family Felidae; it is a muscular, deep-chested cat with a short, rounded head, a reduced neck and round ears, and a hairy tuft at the end of its tail. It is sexually dimorphic; male lions have a prominent mane, which is the most recognisable feature of the species. With a typical head-to-body length of 184–208 cm (72–82 in) they are larger than females at 160–184 cm (63–72 in). It is a social species, forming groups called prides. A lion pride consists of a few adult males, related females and cubs. Groups of female lions usually hunt together, preying mostly on large ungulates. The lion is an apex and keystone predator, although some lions scavenge when opportunities occur, and have been known to hunt humans, although the species typically does not.</p>\n\n<p>Typically, the lion inhabits grasslands and savannas but is absent in dense forests. It is usually more diurnal than other big cats, but when persecuted it adapts to being active at night and at twilight. In the Pleistocene, the lion ranged throughout Eurasia, Africa and North America but today it has been reduced to fragmented populations in Sub-Saharan Africa and one critically endangered population in western India. It has been listed as Vulnerable on the IUCN Red List since 1996 because populations in African countries have declined by about 43% since the early 1990s. Lion populations are untenable outside designated protected areas. Although the cause of the decline is not fully understood, habitat loss and conflicts with humans are the greatest causes for concern.</p>\n\n<p>One of the most widely recognised animal symbols in human culture, the lion has been extensively depicted in sculptures and paintings, on national flags, and in contemporary films and literature. Lions have been kept in menageries since the time of the Roman Empire and have been a key species sought for exhibition in zoological gardens across the world since the late 18th century. Cultural depictions of lions were prominent in the Upper Paleolithic period; carvings and paintings from the Lascaux and Chauvet Caves in France have been dated to 17,000 years ago, and depictions have occurred in virtually all ancient and medieval cultures that coincided with the lion's former and current ranges.</p>\n",
+            "summary": "",
+            "image": 9,
+            "tags": [],
+            "comment": 2,
+            "class": [
+                3
+            ],
+            "habitats": [
+                24
+            ],
+            "link": "https://en.wikipedia.org/wiki/Lion"
+        },
+        {
+            "nid": 12,
+            "type": "animal",
+            "title": "Llama",
+            "alias": "animals/llama",
+            "uid": 1,
+            "status": 1,
+            "promote": 1,
+            "sticky": 0,
+            "created": "2026-11-05T19:55:56+00:00",
+            "changed": "2026-11-05T19:55:56+00:00",
+            "body": "<p>The llama (Lama glama) is a domesticated South American camelid, widely used as a meat and pack animal by Andean cultures since the Pre-Columbian era. A full-grown llama can reach a height of 1.7 to 1.8 m (5 ft 7 in to 5 ft 11 in) at the top of the head, and can weigh between 130 and 200 kg (290 and 440 lb). At birth, a baby llama (called a cria) can weigh between 9 and 14 kg (20 and 31 lb). Llamas typically live for 15 to 25 years, with some individuals surviving 30 years or more.</p>\n\n<p>They are very social animals and live with other llamas as a herd. The wool produced by a llama is very soft and lanolin-free. Llamas can learn simple tasks after a few repetitions. When using a pack, they can carry about 25 to 30% of their body weight for 8 to 13 km (5–8 miles). The name llama (in the past also spelled 'lama' or 'glama') was adopted by European settlers from native Peruvians.</p>\n\n<p>Llamas appear to have originated from the central plains of North America about 40 million years ago. They migrated to South America about three million years ago during the Great American Interchange. By the end of the last ice age (10,000–12,000 years ago), camelids were extinct in North America. As of 2007, there were over seven million llamas and alpacas in South America, and due to importation from South America in the late 20th century, there are now over 158,000 llamas and 100,000 alpacas in the United States and Canada.</p>",
+            "summary": "",
+            "image": 10,
+            "tags": [],
+            "comment": 2,
+            "class": [
+                3
+            ],
+            "habitats": [
+                26
+            ],
+            "link": "https://en.wikipedia.org/wiki/Llama"
+        },
+        {
+            "nid": 13,
+            "type": "animal",
+            "title": "Giant Panda",
+            "alias": "animals/giant-panda",
+            "uid": 1,
+            "status": 1,
+            "promote": 1,
+            "sticky": 0,
+            "created": "2026-11-05T19:55:56+00:00",
+            "changed": "2026-11-05T19:55:56+00:00",
+            "body": "<p>The giant panda (Ailuropoda melanoleuca; Chinese: 大熊猫; pinyin: dà xióng māo), also known as panda bear or simply panda, is a bear native to south central China. It is easily recognized by the large, distinctive black patches around its eyes, over the ears, and across its round body. The name \"giant panda\" is sometimes used to distinguish it from the red panda. Though it belongs to the order Carnivora, the giant panda is a folivore, with bamboo shoots and leaves making up more than 99% of its diet. Giant pandas in the wild will occasionally eat other grasses, wild tubers, or even meat in the form of birds, rodents, or carrion. In captivity, they may receive honey, eggs, fish, yams, shrub leaves, oranges, or bananas along with specially prepared food.</p>\n\n<p>The giant panda lives in a few mountain ranges in central China, mainly in Sichuan, but also in neighbouring Shaanxi and Gansu. As a result of farming, deforestation, and other development, the giant panda has been driven out of the lowland areas where it once lived.</p>\n\n<p>The giant panda is a conservation-reliant vulnerable species. A 2007 report showed 239 pandas living in captivity inside China and another 27 outside the country. As of December 2014, 49 giant pandas lived in captivity outside China, living in 18 zoos in 13 different countries. Wild population estimates vary; one estimate shows that there are about 1,590 individuals living in the wild, while a 2006 study via DNA analysis estimated that this figure could be as high as 2,000 to 3,000. Some reports also show that the number of giant pandas in the wild is on the rise. In March 2015, conservation news site Mongabay stated that the wild giant panda population had increased by 268, or 16.8%, to 1,864. In 2016, the IUCN reclassified the species from \"endangered\" to \"vulnerable\".</p>\n\n<p>While the dragon has often served as China's national symbol, internationally the giant panda has often filled this role. As such, it is becoming widely used within China in international contexts, for example, appearing since 1982 on gold panda bullion coins and as one of the five Fuwa mascots of the Beijing Olympics.</p>",
+            "summary": "",
+            "image": 11,
+            "tags": [],
+            "comment": 2,
+            "class": [
+                3
+            ],
+            "habitats": [
+                25
+            ],
+            "link": "https://en.wikipedia.org/wiki/Giant_panda"
+        },
+        {
+            "nid": 14,
+            "type": "animal",
+            "title": "Sea Turtle",
+            "alias": "animals/sea-turtle",
+            "uid": 1,
+            "status": 1,
+            "promote": 1,
+            "sticky": 0,
+            "created": "2026-11-05T19:55:57+00:00",
+            "changed": "2026-11-05T19:55:56+00:00",
+            "body": "Sea turtles are among the most ancient creatures on Earth, with a lineage stretching back over 100 million years. These remarkable reptiles spend nearly their entire lives in the ocean, navigating thousands of miles across open water using the Earth's magnetic field.\n\nSeven species of sea turtle exist today, ranging from the small Kemp's ridley to the enormous leatherback, which can reach over 2 meters in length and weigh more than 900 kilograms. Unlike their land-dwelling relatives, sea turtles cannot retract into their shells, relying instead on their powerful flippers and streamlined bodies to escape predators.\n\nFemale sea turtles return to the same beaches where they were born to lay their eggs, a journey that may span entire ocean basins. After hatching, tiny turtles make a perilous dash to the sea, guided by the light of the moon reflecting off the water. Only about one in a thousand hatchlings survives to adulthood.\n\nSea turtles play a vital role in marine ecosystems. Green sea turtles graze on seagrass beds, keeping them healthy and productive. Hawksbills feed on sponges, preventing them from outcompeting corals on tropical reefs. Leatherbacks consume vast quantities of jellyfish, helping to regulate their populations.\n",
+            "summary": "",
+            "image": 12,
+            "tags": [],
+            "comment": 2,
+            "class": [
+                1
+            ],
+            "habitats": [],
+            "link": "https://en.wikipedia.org/wiki/Sea_turtle"
+        },
+        {
+            "nid": 15,
+            "type": "animal",
+            "title": "Emperor Penguin",
+            "alias": "animals/emperor-penguin",
+            "uid": 1,
+            "status": 1,
+            "promote": 1,
+            "sticky": 0,
+            "created": "2026-11-05T19:55:57+00:00",
+            "changed": "2026-11-05T19:55:56+00:00",
+            "body": "Penguins are flightless seabirds found almost exclusively in the Southern Hemisphere. While most people associate them with Antarctica, penguins actually inhabit a wide range of environments, from the icy shores of the subantarctic islands to the tropical Galapagos.\n\nThere are 18 recognized species of penguin, varying dramatically in size. The emperor penguin stands over a meter tall and weighs up to 45 kilograms, while the little blue penguin of Australia and New Zealand barely reaches 30 centimeters. Despite their differences, all penguins share the same basic body plan: a torpedo-shaped body, dense waterproof feathers, and wings modified into powerful flippers.\n\nPenguins are supremely adapted to life in the water. They can dive to remarkable depths — emperor penguins have been recorded at over 500 meters — and hold their breath for more than 20 minutes. Their black and white coloring serves as camouflage: from above, their dark backs blend with the ocean depths, while from below, their white bellies match the bright surface.\n\nMost penguin species are highly social, forming colonies that can number in the hundreds of thousands. Their cooperative breeding behaviors, including the emperor penguin's famous habit of huddling together for warmth during the Antarctic winter, are among the most studied examples of social behavior in the animal kingdom.\n",
+            "summary": "",
+            "image": 13,
+            "tags": [],
+            "comment": 2,
+            "class": [
+                2
+            ],
+            "habitats": [],
+            "link": "https://en.wikipedia.org/wiki/Emperor_penguin"
+        },
+        {
+            "nid": 16,
+            "type": "animal",
+            "title": "Bottlenose Dolphin",
+            "alias": "animals/bottlenose-dolphin",
+            "uid": 1,
+            "status": 1,
+            "promote": 1,
+            "sticky": 0,
+            "created": "2026-11-05T19:55:57+00:00",
+            "changed": "2026-11-05T19:55:56+00:00",
+            "body": "Dolphins are among the most intelligent and charismatic animals in the ocean. Belonging to the family Delphinidae, these toothed whales are found in every ocean and in some of the world's major river systems.\n\nThe bottlenose dolphin is perhaps the best known species, recognized by its perpetual smile and playful nature. But the dolphin family is remarkably diverse, encompassing over 40 species ranging from the tiny Maui's dolphin at 1.2 meters to the orca, or killer whale, which can exceed 9 meters in length.\n\nDolphins navigate and hunt using echolocation, emitting rapid clicks that bounce off objects and return as echoes. This biological sonar is so precise that dolphins can detect the size, shape, speed, and even internal structure of objects in murky water. They also communicate with a rich repertoire of whistles and clicks, and each dolphin develops a unique signature whistle that functions like a name.\n\nSocial bonds are central to dolphin life. They live in groups called pods that cooperate in hunting, childcare, and defense. Dolphins have been observed teaching their young, using tools such as sponges to protect their snouts while foraging on the sea floor, and even playing games with other species. Their capacity for empathy, self-awareness, and cultural learning places them among the most cognitively sophisticated animals on the planet.\n",
+            "summary": "",
+            "image": 14,
+            "tags": [],
+            "comment": 2,
+            "class": [
+                3
+            ],
+            "habitats": [],
+            "link": "https://en.wikipedia.org/wiki/Bottlenose_dolphin"
+        },
+        {
+            "nid": 17,
+            "type": "animal",
+            "title": "Poison Dart Frog",
+            "alias": "animals/poison-dart-frog",
+            "uid": 1,
+            "status": 1,
+            "promote": 1,
+            "sticky": 0,
+            "created": "2026-11-05T19:55:57+00:00",
+            "changed": "2026-11-05T19:55:56+00:00",
+            "body": "Frogs are amphibians belonging to the order Anura, a group that has thrived on Earth for over 200 million years. With more than 7,000 known species, frogs are among the most diverse vertebrates, inhabiting every continent except Antarctica.\n\nFrogs undergo one of nature's most dramatic transformations. Beginning life as aquatic, gill-breathing tadpoles, they gradually develop lungs, grow legs, absorb their tails, and emerge onto land as air-breathing adults. This metamorphosis can take anywhere from a few weeks to several years depending on the species.\n\nThe diversity of frogs is astonishing. The golden poison frog of Colombia carries enough toxin on its skin to kill ten adult humans, while the tiny Paedophryne amauensis of Papua New Guinea measures just 7.7 millimeters — the smallest known vertebrate. The wood frog of North America can survive being frozen solid during winter, its heart stopping and its blood crystallizing before thawing back to life in spring.\n\nFrogs play a critical ecological role as both predator and prey. Adults consume enormous quantities of insects, including many agricultural pests, while tadpoles help control algae in freshwater systems. Unfortunately, frogs are facing a global crisis: a fungal disease called chytridiomycosis, combined with habitat loss and climate change, has driven dozens of species to extinction and threatens hundreds more.\n",
+            "summary": "",
+            "image": 15,
+            "tags": [],
+            "comment": 2,
+            "class": [
+                4
+            ],
+            "habitats": [],
+            "link": "https://en.wikipedia.org/wiki/Poison_dart_frog"
+        },
+        {
+            "nid": 18,
+            "type": "animal",
+            "title": "Great White Shark",
+            "alias": "animals/great-white-shark",
+            "uid": 1,
+            "status": 1,
+            "promote": 1,
+            "sticky": 0,
+            "created": "2026-11-05T19:55:57+00:00",
+            "changed": "2026-11-05T19:55:56+00:00",
+            "body": "Sharks have patrolled the world's oceans for over 400 million years, predating dinosaurs by roughly 200 million years. These cartilaginous fish have survived five mass extinction events, evolving into one of the most successful and diverse groups of predators on the planet.\n\nMore than 500 species of shark exist today, ranging from the dwarf lanternshark at just 20 centimeters to the whale shark, which can grow to over 12 meters and is the largest fish in the sea. Despite their fearsome reputation, the vast majority of shark species are harmless to humans, and many feed on plankton or small fish.\n\nSharks possess an extraordinary array of senses. They can detect electrical fields generated by the muscles and nerves of other animals using specialized organs called ampullae of Lorenzini. Their sense of smell is legendary — some species can detect a single drop of blood in an Olympic swimming pool. They also have excellent low-light vision and can sense vibrations in the water from kilometers away.\n\nAs apex predators, sharks are essential to ocean health. They regulate prey populations, remove sick and weak individuals, and maintain the balance of marine food webs. When shark populations decline, the effects cascade through entire ecosystems. Yet sharks face severe threats from overfishing, with an estimated 100 million killed each year, many for their fins alone.\n",
+            "summary": "",
+            "image": 16,
+            "tags": [],
+            "comment": 2,
+            "class": [
+                5
+            ],
+            "habitats": [],
+            "link": "https://en.wikipedia.org/wiki/Great_white_shark"
+        },
+        {
+            "nid": 19,
+            "type": "animal",
+            "title": "Great Horned Owl",
+            "alias": "animals/great-horned-owl",
+            "uid": 1,
+            "status": 1,
+            "promote": 1,
+            "sticky": 0,
+            "created": "2026-11-05T19:55:57+00:00",
+            "changed": "2026-11-05T19:55:56+00:00",
+            "body": "Owls are birds of prey belonging to the order Strigiformes, a group of roughly 250 species found on every continent except Antarctica. Renowned for their nocturnal habits and haunting calls, owls have captivated human imagination for thousands of years, featuring prominently in mythology and folklore around the world.\n\nThe most striking adaptation of owls is their extraordinary vision and hearing. Their enormous forward-facing eyes provide excellent binocular vision and can gather light far more efficiently than human eyes. To compensate for their inability to move their eyes in their sockets, owls can rotate their heads up to 270 degrees. Their hearing is equally remarkable — many species have asymmetrically placed ears that allow them to pinpoint the exact location of prey in complete darkness.\n\nOwl flight is virtually silent, thanks to specialized feathers with comb-like leading edges that break up turbulence and muffle sound. This stealth allows them to approach prey undetected. Most owls hunt small mammals, but the fishing owls of Africa and Asia snatch fish from rivers, and the powerful eagle-owls can take prey as large as young deer.\n\nOwls occupy nearly every terrestrial habitat, from arctic tundra to tropical rainforest, from open desert to dense urban areas. The burrowing owl of the Americas even nests underground in prairie dog burrows. This adaptability, combined with their role as natural pest controllers, makes owls invaluable members of their ecosystems.\n",
+            "summary": "",
+            "image": 17,
+            "tags": [],
+            "comment": 2,
+            "class": [
+                2
+            ],
+            "habitats": [],
+            "link": "https://en.wikipedia.org/wiki/Great_horned_owl"
+        },
+        {
+            "nid": 20,
+            "type": "animal",
+            "title": "Gray Wolf",
+            "alias": "animals/gray-wolf",
+            "uid": 1,
+            "status": 1,
+            "promote": 1,
+            "sticky": 0,
+            "created": "2026-11-05T19:55:57+00:00",
+            "changed": "2026-11-05T19:55:56+00:00",
+            "body": "The gray wolf is the largest wild member of the dog family, with a range that once spanned most of the Northern Hemisphere. Wolves are highly social animals that live in family groups called packs, typically consisting of a breeding pair and their offspring from the current and previous years.\n\nPack structure is the foundation of wolf society. Contrary to popular belief, wolf packs are not led by aggressive alpha males fighting for dominance. Instead, they function much like human families, with the breeding pair guiding the group and older siblings helping to raise younger pups. This cooperative structure allows wolves to hunt prey far larger than themselves, including elk, moose, and bison.\n\nWolves communicate through an elaborate system of vocalizations, body language, and scent marking. Their iconic howl serves multiple purposes: rallying the pack before a hunt, advertising territory to rival packs, and strengthening social bonds. Each wolf's howl is unique, and pack members can identify individuals by voice alone.\n\nThe ecological importance of wolves became dramatically clear when they were reintroduced to Yellowstone National Park in 1995. Their return triggered a trophic cascade that transformed the entire ecosystem — elk changed their grazing patterns, allowing streamside vegetation to recover, which stabilized riverbanks, cooled water temperatures, and brought back species that had declined in the wolves' absence.\n",
+            "summary": "",
+            "image": 18,
+            "tags": [],
+            "comment": 2,
+            "class": [
+                3
+            ],
+            "habitats": [
+                24
+            ],
+            "link": "https://en.wikipedia.org/wiki/Wolf"
+        },
+        {
+            "nid": 21,
+            "type": "animal",
+            "title": "Panther Chameleon",
+            "alias": "animals/panther-chameleon",
+            "uid": 1,
+            "status": 1,
+            "promote": 1,
+            "sticky": 0,
+            "created": "2026-11-05T19:55:57+00:00",
+            "changed": "2026-11-05T19:55:56+00:00",
+            "body": "Chameleons are a distinctive group of lizards belonging to the family Chamaeleonidae, with over 200 known species found primarily in Africa and Madagascar. Famous for their ability to change color, chameleons are among the most visually remarkable reptiles on Earth.\n\nColor change in chameleons is far more sophisticated than simple camouflage. Their skin contains layers of specialized cells called chromatophores, each containing different pigments, along with a layer of nanocrystals that reflect light. By adjusting the spacing of these crystals, chameleons can shift through a stunning range of colors. They use this ability primarily for communication — signaling mood, temperature, and reproductive status to other chameleons — rather than for hiding.\n\nChameleon eyes are perhaps their most extraordinary feature. Each eye moves independently, giving them a full 360-degree field of vision without moving their heads. When prey is spotted, both eyes lock onto the target to provide binocular depth perception, and the chameleon launches its tongue — a ballistic projectile that can extend to twice the body length in a fraction of a second, reaching accelerations of over 40 g.\n\nMost chameleons are arboreal, their zygodactyl feet and prehensile tails perfectly adapted for gripping branches. They move with a characteristic slow, swaying gait that mimics leaves blowing in the wind. This deliberate movement, combined with their laterally compressed bodies and leaf-like profiles, makes them surprisingly difficult to spot in their forest habitats.\n",
+            "summary": "",
+            "image": 19,
+            "tags": [],
+            "comment": 2,
+            "class": [
+                1
+            ],
+            "habitats": [],
+            "link": "https://en.wikipedia.org/wiki/Panther_chameleon"
+        },
+        {
+            "nid": 22,
+            "type": "animal",
+            "title": "Common Octopus",
+            "alias": "animals/common-octopus",
+            "uid": 1,
+            "status": 1,
+            "promote": 1,
+            "sticky": 0,
+            "created": "2026-11-05T19:55:57+00:00",
+            "changed": "2026-11-05T19:55:56+00:00",
+            "body": "Octopuses are soft-bodied mollusks belonging to the order Octopoda, with around 300 recognized species inhabiting every ocean on Earth. Despite being invertebrates — more closely related to snails than to fish — octopuses display a level of intelligence that rivals many vertebrates.\n\nThe octopus brain is remarkably complex, containing about 500 million neurons, roughly two-thirds of which are distributed throughout the arms rather than centralized in the head. This means each arm can taste, touch, and even make basic decisions independently. An octopus can open a jar with one arm, investigate an object with another, and camouflage the rest of its body simultaneously.\n\nCamouflage in octopuses is unmatched in the animal kingdom. Specialized skin cells allow them to change color, pattern, and even texture in milliseconds, perfectly mimicking rocks, coral, sand, or algae. The mimic octopus takes this further, actively impersonating other animals like lionfish, flatfish, and sea snakes to deter predators.\n\nOctopuses are solitary and short-lived, with most species surviving only one to two years. Females of many species make the ultimate sacrifice, guarding their eggs without eating for months until they hatch, then dying of exhaustion. Despite their brief lives, octopuses demonstrate remarkable learning abilities, solving complex puzzles, using tools, and even recognizing individual humans — capabilities that continue to challenge our understanding of how intelligence evolves.\n",
+            "summary": "",
+            "image": 20,
+            "tags": [],
+            "comment": 2,
+            "class": [
+                6
+            ],
+            "habitats": [],
+            "link": "https://en.wikipedia.org/wiki/Common_octopus"
+        },
+        {
+            "nid": 23,
+            "type": "animal",
+            "title": "Brown Bear",
+            "alias": "animals/brown-bear",
+            "uid": 1,
+            "status": 1,
+            "promote": 1,
+            "sticky": 0,
+            "created": "2026-11-05T19:55:57+00:00",
+            "changed": "2026-11-05T19:55:56+00:00",
+            "body": "Bears are large mammals of the family Ursidae, found across North America, South America, Europe, and Asia. With eight living species, bears have adapted to an impressive range of habitats, from arctic ice to tropical forests, from sea level to mountain peaks above 5,000 meters.\n\nThe largest bears are the polar bear and the Kodiak brown bear, both of which can exceed 700 kilograms. At the other end of the scale, the sun bear of Southeast Asia weighs as little as 25 kilograms. Despite their bulk, bears are surprisingly agile — grizzlies can sprint at 55 kilometers per hour, and black bears are accomplished tree climbers.\n\nMost bears are omnivores with remarkably varied diets. Brown bears in Alaska gorge on salmon during spawning runs, but also eat berries, roots, insects, and grasses. The spectacled bear of South America feeds primarily on fruit and bromeliads. The giant panda has famously specialized in bamboo, while the polar bear is almost entirely carnivorous, hunting seals on sea ice.\n\nHibernation is one of the bear's most impressive adaptations. During winter dormancy, a bear's heart rate can drop from 40 beats per minute to as few as 8, and its body temperature decreases only slightly. The bear does not eat, drink, urinate, or defecate for months, surviving entirely on stored fat. Remarkably, female bears give birth during hibernation, nursing their tiny cubs while still in their winter dens.\n",
+            "summary": "",
+            "image": 21,
+            "tags": [],
+            "comment": 2,
+            "class": [
+                3
+            ],
+            "habitats": [],
+            "link": "https://en.wikipedia.org/wiki/Brown_bear"
+        },
+        {
+            "nid": 24,
+            "type": "habitat",
+            "title": "African Savanna",
+            "alias": "habitat/african-savanna",
+            "uid": 1,
+            "status": 1,
+            "promote": 0,
+            "sticky": 0,
+            "created": "2026-11-05T19:55:58+00:00",
+            "changed": "2026-11-05T19:55:56+00:00",
+            "body": "The African savanna is a vast tropical grassland stretching across much of sub-Saharan Africa. Characterized by scattered trees, seasonal rainfall, and warm temperatures year-round, it supports some of the most iconic wildlife on Earth.",
+            "summary": "",
+            "image": null,
+            "tags": [],
+            "comment": 0,
+            "habitat_type": [
+                9
+            ]
+        },
+        {
+            "nid": 25,
+            "type": "habitat",
+            "title": "Bamboo Forest",
+            "alias": "habitat/bamboo-forest",
+            "uid": 1,
+            "status": 1,
+            "promote": 0,
+            "sticky": 0,
+            "created": "2026-11-05T19:55:58+00:00",
+            "changed": "2026-11-05T19:55:56+00:00",
+            "body": "Bamboo forests are dense stands of bamboo found primarily in the mountainous regions of central China. These cool, misty forests provide essential habitat for some of the world's most specialized herbivores.",
+            "summary": "",
+            "image": null,
+            "tags": [],
+            "comment": 0,
+            "habitat_type": [
+                10
+            ]
+        },
+        {
+            "nid": 26,
+            "type": "habitat",
+            "title": "South American Highlands",
+            "alias": "habitat/south-american-highlands",
+            "uid": 1,
+            "status": 1,
+            "promote": 0,
+            "sticky": 0,
+            "created": "2026-11-05T19:55:58+00:00",
+            "changed": "2026-11-05T19:55:56+00:00",
+            "body": "The highlands of South America, particularly the Andes and Altiplano, are home to hardy animals adapted to high altitude, thin air, and dramatic temperature swings between day and night.",
+            "summary": "",
+            "image": null,
+            "tags": [],
+            "comment": 0,
+            "habitat_type": [
+                9
+            ]
+        },
+        {
+            "nid": 27,
+            "type": "habitat",
+            "title": "North American Wetlands",
+            "alias": "habitat/north-american-wetlands",
+            "uid": 1,
+            "status": 1,
+            "promote": 0,
+            "sticky": 0,
+            "created": "2026-11-05T19:55:58+00:00",
+            "changed": "2026-11-05T19:55:56+00:00",
+            "body": "The rivers, lakes, and coastal wetlands of North America support an incredible diversity of wildlife. Old-growth trees along waterways provide nesting sites for large birds of prey.",
+            "summary": "",
+            "image": null,
+            "tags": [],
+            "comment": 0,
+            "habitat_type": [
+                14
+            ]
+        },
+        {
+            "nid": 28,
+            "type": "habitat",
+            "title": "Tropical River Systems",
+            "alias": "habitat/tropical-river-systems",
+            "uid": 1,
+            "status": 1,
+            "promote": 0,
+            "sticky": 0,
+            "created": "2026-11-05T19:55:58+00:00",
+            "changed": "2026-11-05T19:55:56+00:00",
+            "body": "Tropical river systems and their associated estuaries, mangroves, and floodplains are among the most productive ecosystems on the planet. Large predators patrol these warm, murky waters.",
+            "summary": "",
+            "image": null,
+            "tags": [],
+            "comment": 0,
+            "habitat_type": [
+                13
+            ]
+        },
+        {
+            "nid": 29,
+            "type": "habitat",
+            "title": "Temperate Woodlands",
+            "alias": "habitat/temperate-woodlands",
+            "uid": 1,
+            "status": 1,
+            "promote": 0,
+            "sticky": 0,
+            "created": "2026-11-05T19:55:58+00:00",
+            "changed": "2026-11-05T19:55:56+00:00",
+            "body": "Temperate woodlands and mixed forests span much of the Northern Hemisphere. These adaptable ecosystems with their mix of deciduous and coniferous trees support highly versatile predators.",
+            "summary": "",
+            "image": null,
+            "tags": [],
+            "comment": 0,
+            "habitat_type": [
+                10
+            ]
+        }
+    ],
+    "comments": [
+        {
+            "cid": 1,
+            "nid": 6,
+            "pid": 0,
+            "uid": 0,
+            "name": "Animal Lover",
+            "mail": "",
+            "subject": "",
+            "body": "What a fascinating creature! I would love to see one in the wild someday.",
+            "created": "2026-10-26T19:55:56+00:00",
+            "status": 1
+        },
+        {
+            "cid": 2,
+            "nid": 6,
+            "pid": 1,
+            "uid": 0,
+            "name": "Nature Guide",
+            "mail": "",
+            "subject": "",
+            "body": "Eco-tourism is a great way to see animals in their natural habitat while supporting conservation efforts.",
+            "created": "2026-10-27T19:55:56+00:00",
+            "status": 1
+        },
+        {
+            "cid": 3,
+            "nid": 7,
+            "pid": 0,
+            "uid": 0,
+            "name": "Birdwatcher Betty",
+            "mail": "",
+            "subject": "",
+            "body": "Spotted a nesting pair near the river last weekend. The wingspan on these birds is just breathtaking.",
+            "created": "2026-10-22T19:55:56+00:00",
+            "status": 1
+        },
+        {
+            "cid": 4,
+            "nid": 7,
+            "pid": 3,
+            "uid": 0,
+            "name": "Ranger Rick",
+            "mail": "",
+            "subject": "",
+            "body": "Please remember to keep your distance from nesting sites. Federal law protects bald eagles and their nests.",
+            "created": "2026-10-23T19:55:56+00:00",
+            "status": 1
+        },
+        {
+            "cid": 5,
+            "nid": 8,
+            "pid": 0,
+            "uid": 0,
+            "name": "Trunk Enthusiast",
+            "mail": "",
+            "subject": "",
+            "body": "Elephants are incredibly intelligent. They can recognize themselves in mirrors and mourn their dead.",
+            "created": "2026-09-21T19:55:56+00:00",
+            "status": 1
+        },
+        {
+            "cid": 6,
+            "nid": 8,
+            "pid": 5,
+            "uid": 0,
+            "name": "Dr. Jane",
+            "mail": "",
+            "subject": "",
+            "body": "They also have excellent long-term memory. An elephant never forgets is more than just a saying.",
+            "created": "2026-09-23T19:55:56+00:00",
+            "status": 1
+        },
+        {
+            "cid": 7,
+            "nid": 8,
+            "pid": 0,
+            "uid": 0,
+            "name": "Conservation Carl",
+            "mail": "",
+            "subject": "",
+            "body": "The biggest threat to elephants is habitat loss, even more than poaching these days. We need to protect wildlife corridors.",
+            "created": "2026-10-16T19:55:56+00:00",
+            "status": 1
+        },
+        {
+            "cid": 8,
+            "nid": 9,
+            "pid": 0,
+            "uid": 0,
+            "name": "Animal Lover",
+            "mail": "",
+            "subject": "",
+            "body": "What a fascinating creature! I would love to see one in the wild someday.",
+            "created": "2026-10-26T19:55:56+00:00",
+            "status": 1
+        },
+        {
+            "cid": 9,
+            "nid": 9,
+            "pid": 8,
+            "uid": 0,
+            "name": "Nature Guide",
+            "mail": "",
+            "subject": "",
+            "body": "Eco-tourism is a great way to see animals in their natural habitat while supporting conservation efforts.",
+            "created": "2026-10-27T19:55:56+00:00",
+            "status": 1
+        },
+        {
+            "cid": 10,
+            "nid": 10,
+            "pid": 0,
+            "uid": 0,
+            "name": "Animal Lover",
+            "mail": "",
+            "subject": "",
+            "body": "What a fascinating creature! I would love to see one in the wild someday.",
+            "created": "2026-10-26T19:55:56+00:00",
+            "status": 1
+        },
+        {
+            "cid": 11,
+            "nid": 10,
+            "pid": 10,
+            "uid": 0,
+            "name": "Nature Guide",
+            "mail": "",
+            "subject": "",
+            "body": "Eco-tourism is a great way to see animals in their natural habitat while supporting conservation efforts.",
+            "created": "2026-10-27T19:55:56+00:00",
+            "status": 1
+        },
+        {
+            "cid": 12,
+            "nid": 11,
+            "pid": 0,
+            "uid": 0,
+            "name": "Safari Sam",
+            "mail": "",
+            "subject": "",
+            "body": "I saw a pride of lions on my trip to Kenya last year. The male had the most magnificent mane I have ever seen!",
+            "created": "2026-10-06T19:55:56+00:00",
+            "status": 1
+        },
+        {
+            "cid": 13,
+            "nid": 11,
+            "pid": 12,
+            "uid": 0,
+            "name": "Wildlife Watcher",
+            "mail": "",
+            "subject": "",
+            "body": "Which national park were you visiting? I am planning a trip next year.",
+            "created": "2026-10-08T19:55:56+00:00",
+            "status": 1
+        },
+        {
+            "cid": 14,
+            "nid": 11,
+            "pid": 13,
+            "uid": 0,
+            "name": "Safari Sam",
+            "mail": "",
+            "subject": "",
+            "body": "It was the Maasai Mara. Go in August or September for the wildebeest migration - the lions follow the herds.",
+            "created": "2026-10-09T19:55:56+00:00",
+            "status": 1
+        },
+        {
+            "cid": 15,
+            "nid": 11,
+            "pid": 12,
+            "uid": 0,
+            "name": "Dr. Jane",
+            "mail": "",
+            "subject": "",
+            "body": "Male lions actually spend most of their time resting. They can sleep up to 20 hours a day!",
+            "created": "2026-10-11T19:55:56+00:00",
+            "status": 1
+        },
+        {
+            "cid": 16,
+            "nid": 12,
+            "pid": 0,
+            "uid": 0,
+            "name": "Animal Lover",
+            "mail": "",
+            "subject": "",
+            "body": "What a fascinating creature! I would love to see one in the wild someday.",
+            "created": "2026-10-26T19:55:56+00:00",
+            "status": 1
+        },
+        {
+            "cid": 17,
+            "nid": 12,
+            "pid": 16,
+            "uid": 0,
+            "name": "Nature Guide",
+            "mail": "",
+            "subject": "",
+            "body": "Eco-tourism is a great way to see animals in their natural habitat while supporting conservation efforts.",
+            "created": "2026-10-27T19:55:56+00:00",
+            "status": 1
+        },
+        {
+            "cid": 18,
+            "nid": 13,
+            "pid": 0,
+            "uid": 0,
+            "name": "Bamboo Bob",
+            "mail": "",
+            "subject": "",
+            "body": "Did you know pandas spend about 12 hours a day eating? They need to consume around 38 kg of bamboo daily.",
+            "created": "2026-09-06T19:55:56+00:00",
+            "status": 1
+        },
+        {
+            "cid": 19,
+            "nid": 13,
+            "pid": 18,
+            "uid": 0,
+            "name": "Zoo Volunteer",
+            "mail": "",
+            "subject": "",
+            "body": "At our zoo the pandas also get sweet potatoes and special biscuits as supplements. They love the biscuits!",
+            "created": "2026-09-08T19:55:56+00:00",
+            "status": 1
+        },
+        {
+            "cid": 20,
+            "nid": 13,
+            "pid": 19,
+            "uid": 0,
+            "name": "Bamboo Bob",
+            "mail": "",
+            "subject": "",
+            "body": "That makes sense. Bamboo is not very nutritious so they need all the help they can get.",
+            "created": "2026-09-09T19:55:56+00:00",
+            "status": 1
+        },
+        {
+            "cid": 21,
+            "nid": 14,
+            "pid": 0,
+            "uid": 0,
+            "name": "Animal Lover",
+            "mail": "",
+            "subject": "",
+            "body": "What a fascinating creature! I would love to see one in the wild someday.",
+            "created": "2026-10-26T19:55:56+00:00",
+            "status": 1
+        },
+        {
+            "cid": 22,
+            "nid": 14,
+            "pid": 21,
+            "uid": 0,
+            "name": "Nature Guide",
+            "mail": "",
+            "subject": "",
+            "body": "Eco-tourism is a great way to see animals in their natural habitat while supporting conservation efforts.",
+            "created": "2026-10-27T19:55:56+00:00",
+            "status": 1
+        },
+        {
+            "cid": 23,
+            "nid": 15,
+            "pid": 0,
+            "uid": 0,
+            "name": "Animal Lover",
+            "mail": "",
+            "subject": "",
+            "body": "What a fascinating creature! I would love to see one in the wild someday.",
+            "created": "2026-10-26T19:55:56+00:00",
+            "status": 1
+        },
+        {
+            "cid": 24,
+            "nid": 15,
+            "pid": 23,
+            "uid": 0,
+            "name": "Nature Guide",
+            "mail": "",
+            "subject": "",
+            "body": "Eco-tourism is a great way to see animals in their natural habitat while supporting conservation efforts.",
+            "created": "2026-10-27T19:55:56+00:00",
+            "status": 1
+        },
+        {
+            "cid": 25,
+            "nid": 16,
+            "pid": 0,
+            "uid": 0,
+            "name": "Animal Lover",
+            "mail": "",
+            "subject": "",
+            "body": "What a fascinating creature! I would love to see one in the wild someday.",
+            "created": "2026-10-26T19:55:56+00:00",
+            "status": 1
+        },
+        {
+            "cid": 26,
+            "nid": 16,
+            "pid": 25,
+            "uid": 0,
+            "name": "Nature Guide",
+            "mail": "",
+            "subject": "",
+            "body": "Eco-tourism is a great way to see animals in their natural habitat while supporting conservation efforts.",
+            "created": "2026-10-27T19:55:56+00:00",
+            "status": 1
+        },
+        {
+            "cid": 27,
+            "nid": 17,
+            "pid": 0,
+            "uid": 0,
+            "name": "Animal Lover",
+            "mail": "",
+            "subject": "",
+            "body": "What a fascinating creature! I would love to see one in the wild someday.",
+            "created": "2026-10-26T19:55:56+00:00",
+            "status": 1
+        },
+        {
+            "cid": 28,
+            "nid": 17,
+            "pid": 27,
+            "uid": 0,
+            "name": "Nature Guide",
+            "mail": "",
+            "subject": "",
+            "body": "Eco-tourism is a great way to see animals in their natural habitat while supporting conservation efforts.",
+            "created": "2026-10-27T19:55:56+00:00",
+            "status": 1
+        },
+        {
+            "cid": 29,
+            "nid": 18,
+            "pid": 0,
+            "uid": 0,
+            "name": "Animal Lover",
+            "mail": "",
+            "subject": "",
+            "body": "What a fascinating creature! I would love to see one in the wild someday.",
+            "created": "2026-10-26T19:55:56+00:00",
+            "status": 1
+        },
+        {
+            "cid": 30,
+            "nid": 18,
+            "pid": 29,
+            "uid": 0,
+            "name": "Nature Guide",
+            "mail": "",
+            "subject": "",
+            "body": "Eco-tourism is a great way to see animals in their natural habitat while supporting conservation efforts.",
+            "created": "2026-10-27T19:55:56+00:00",
+            "status": 1
+        },
+        {
+            "cid": 31,
+            "nid": 19,
+            "pid": 0,
+            "uid": 0,
+            "name": "Animal Lover",
+            "mail": "",
+            "subject": "",
+            "body": "What a fascinating creature! I would love to see one in the wild someday.",
+            "created": "2026-10-26T19:55:56+00:00",
+            "status": 1
+        },
+        {
+            "cid": 32,
+            "nid": 19,
+            "pid": 31,
+            "uid": 0,
+            "name": "Nature Guide",
+            "mail": "",
+            "subject": "",
+            "body": "Eco-tourism is a great way to see animals in their natural habitat while supporting conservation efforts.",
+            "created": "2026-10-27T19:55:56+00:00",
+            "status": 1
+        },
+        {
+            "cid": 33,
+            "nid": 20,
+            "pid": 0,
+            "uid": 0,
+            "name": "Animal Lover",
+            "mail": "",
+            "subject": "",
+            "body": "What a fascinating creature! I would love to see one in the wild someday.",
+            "created": "2026-10-26T19:55:56+00:00",
+            "status": 1
+        },
+        {
+            "cid": 34,
+            "nid": 20,
+            "pid": 33,
+            "uid": 0,
+            "name": "Nature Guide",
+            "mail": "",
+            "subject": "",
+            "body": "Eco-tourism is a great way to see animals in their natural habitat while supporting conservation efforts.",
+            "created": "2026-10-27T19:55:56+00:00",
+            "status": 1
+        },
+        {
+            "cid": 35,
+            "nid": 21,
+            "pid": 0,
+            "uid": 0,
+            "name": "Animal Lover",
+            "mail": "",
+            "subject": "",
+            "body": "What a fascinating creature! I would love to see one in the wild someday.",
+            "created": "2026-10-26T19:55:56+00:00",
+            "status": 1
+        },
+        {
+            "cid": 36,
+            "nid": 21,
+            "pid": 35,
+            "uid": 0,
+            "name": "Nature Guide",
+            "mail": "",
+            "subject": "",
+            "body": "Eco-tourism is a great way to see animals in their natural habitat while supporting conservation efforts.",
+            "created": "2026-10-27T19:55:56+00:00",
+            "status": 1
+        },
+        {
+            "cid": 37,
+            "nid": 22,
+            "pid": 0,
+            "uid": 0,
+            "name": "Animal Lover",
+            "mail": "",
+            "subject": "",
+            "body": "What a fascinating creature! I would love to see one in the wild someday.",
+            "created": "2026-10-26T19:55:56+00:00",
+            "status": 1
+        },
+        {
+            "cid": 38,
+            "nid": 22,
+            "pid": 37,
+            "uid": 0,
+            "name": "Nature Guide",
+            "mail": "",
+            "subject": "",
+            "body": "Eco-tourism is a great way to see animals in their natural habitat while supporting conservation efforts.",
+            "created": "2026-10-27T19:55:56+00:00",
+            "status": 1
+        },
+        {
+            "cid": 39,
+            "nid": 23,
+            "pid": 0,
+            "uid": 0,
+            "name": "Animal Lover",
+            "mail": "",
+            "subject": "",
+            "body": "What a fascinating creature! I would love to see one in the wild someday.",
+            "created": "2026-10-26T19:55:56+00:00",
+            "status": 1
+        },
+        {
+            "cid": 40,
+            "nid": 23,
+            "pid": 39,
+            "uid": 0,
+            "name": "Nature Guide",
+            "mail": "",
+            "subject": "",
+            "body": "Eco-tourism is a great way to see animals in their natural habitat while supporting conservation efforts.",
+            "created": "2026-10-27T19:55:56+00:00",
+            "status": 1
+        }
+    ]
+}
